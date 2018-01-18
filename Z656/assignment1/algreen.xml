@@ -1,110 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
+?xml version="1.0" encoding="UTF-8"?>
 <album>
-  <albumCover>
-    <side id="left">
-      <title>Al Green's Greatest Hits</title>
-      <logo type="tech"><!-- I do not recognize this logo --></logo>
-       <logo type="tech">DVD-audio</logo>        
-       <logo type="tech">MLP Lossless</logo>
-       <logo type="tech">Dolby Digital</logo>
-       <logo type="tech">DTS Digital Surroundl</logo>
-       <logo type="tech">DVD-video</logo>  
-    </side>
-    <side id="back">
-      <trackList>
-        <track id="01">
-          <title> TIRED OF BEING ALONE</title>
-          <composer>A. Green</composer>
-          <licensing>BMI</licensing>
-        </track>
-        <track id="02" >
-          <title>CALL ME (COME BACK HOME)</title>
-          <composer>A. Green</composer>
-          <composer>W. Mitchell</commposer>
-          <composer>A. Jackson</composer>
-          <licensing>BMI</licensing>
-        </track>
-        <track id="03 >
-           <title>I'M STILL IN LOVE WITH YOU</title>
-           <composer>A. Green</composer>
-           <composer>W. Mitchell</commposer>
-           <composer>A. Jackson</composer>         
-           <licensing>BMI</licensing>
-        </track>
-        <track id="04">
-           <title>HERE I AM (COME AND TAKE ME)</title>
-           <composer>A. Green</composer>
-           <composer>M. Hodges</composer>          
-           <licensing>BMI</licensing>
-        </track>
-        <track id="05">
-           <title>HOW CAN YOU MEND A BROKEN HEART</title>
-           <composer>B. Gibb</composer>
-           <composer>R. Gibb</composer>            
-           <licensing>BMI</licensing>
-        </track>
-        <track id="06">
-           <title> LETS STAY TOGETHER</title>
-           <composer>A. Green</composer>
-           <composer>W. Mitchell</commposer>
-           <composer>A. Jackson</composer>             
-           <licensing>BMI</licensing>
-        </track>
-        <track id="07">
-           <title>I CAN'T GET NEXT TO YOU</title>
-           <composer>Whitfield</composer>
-           <composer>Strong</composer>
-           <licensing>ASCAP</licensing>
-        </track>    
-        <track id="08">
-          <title> YOU OUGHT TO BE WITH ME</title>
-           <composer>A. Green</composer>
-           <composer>W.Mitchell</commposer>
-           <composer>A.Jackson</composer>           
-           <licensing>BMI</licensing>
-        </track>
-        <track id="09">
-           <title>  LOOK WHAT YOU DONE FOR ME</title>
-           <composer>A. Green</composer>
-           <composer>W.Mitchell</commposer>
-           <composer>A.Jackson</composer>             
-           <licensing>BMI</licensing>
-        </track> 
-        <track id="10">
-          <title>LET'S GET MARRIED</title>
-          <composer>A. Green</composer>
-          <licensing>BMI</licensing>
-        </track>
-      </tracklist>
-       <logo type="tech"><!-- I do not recognize this logo --></logo>
-       <logo type="tech">DVD-audio</logo>        
-       <logo type="tech">MLP Lossless</logo>
-       <logo type="tech">Dolby Digital</logo>
-       <logo type="tech">DTS Digital Surroundl</logo>
-       <logo type="tech">DVD-video</logo>                          
-      <personnelList> 
-         <producers>Willie Mitchell and Al Green</producers>  
-         <engineer>Willie Mitchell </engineer>
-         <engineer type="remix">Willie Mitchell</engineer>
-         <vocalBackgrounds>Rhodes, Chalmers and Rhodes</vocalBackgrounds>
-         <stringArrangements>James Mitchell and Charles Chalmers</stringArrangements> 
-         <stringSection>The Memphis Strings</stringSection> 
-         <hornSection>Wayne Jackson-Trumpet; Andrew Love-Tenor, Ed Logan-Tenor; James Mitchell-Baritone Sax; Jack Hole-Trombone   </hornSection>      
-          <rhythmSection>Howard Grimes, Al Jackson-Drums, Congas, & Bongo; Leroy Hodges-Bass; Charles Hodges-Organ and Piano; Teenie Hodges-Guitar, Archie Turner & Michael Allen-Piano </rhythmSection>                     
-      <personnelList>
-      <recordedAt>Royal Recording Studios, Memphis TN</recordedAt>
-      <techNotes>THIS DISC CONTAINS THE ORIGINAL QUADRAPHONIC MIXES FROM A 7.5 I.P.S. QUAD REEL SOURCE</techNotes>
-      <image description="Four photos of Al Green in different poses laughing and dancing"></image>
-      <logo>Hi Records</logo>                                                                                   
-   </side>     
-   <side id="right">
-     <logo type="tech"><!-- I do not recognize this logo --></logo>
-       <logo type="tech">DVD-audio</logo>        
-       <logo type="tech">MLP Lossless</logo>
-       <logo type="tech">Dolby Digital</logo>
-       <logo type="tech">DTS Digital Surroundl</logo>
-       <logo type="tech">DVD-video</logo>
-       <title>Al Green's Greatest Hits</title>            
-   </side>
- </albumCover>
-<album>
+    <albumCover>
+        <side id="left">
+            <title>Al Green's Greatest Hits</title>
+            <logo type="tech"><!-- I do not recognize this logo --></logo>
+            <logo type="tech">DVD-audio</logo>        
+            <logo type="tech">MLP Lossless</logo>
+            <logo type="tech">Dolby Digital</logo>
+            <logo type="tech">DTS Digital Surroundl</logo>
+            <logo type="tech">DVD-video</logo>  
+        </side>
+        <side id="back">
+            <trackList>
+                <track id="01">
+                    <title> TIRED OF BEING ALONE</title>
+                    <composer>A. Green</composer>
+                    <licensing>BMI</licensing>
+                </track>
+                <track id="02">
+                    <title>CALL ME (COME BACK HOME)</title>
+                    <composer>A. Green</composer>
+                    <composer>W. Mitchell</composer>
+                     <composer>A. Jackson</composer>
+                        <licensing>BMI</licensing>
+                </track>
+                <track id="03">
+                    <title>I'M STILL IN LOVE WITH YOU</title>
+                    <composer>A. Green</composer>
+                    <composer>W. Mitchell</composer>
+                        <composer>A. Jackson</composer>         
+                        <licensing>BMI</licensing>
+                </track>
+                <track id="04">
+                    <title>HERE I AM (COME AND TAKE ME)</title>
+                    <composer>A. Green</composer>
+                    <composer>M. Hodges</composer>          
+                    <licensing>BMI</licensing>
+                </track>
+                <track id="05">
+                    <title>HOW CAN YOU MEND A BROKEN HEART</title>
+                    <composer>B. Gibb</composer>
+                    <composer>R. Gibb</composer>            
+                    <licensing>BMI</licensing>
+                </track>
+                <track id="06">
+                    <title> LETS STAY TOGETHER</title>
+                    <composer>A. Green</composer>
+                    <composer>W. Mitchell</composer>
+                        <composer>A. Jackson</composer>             
+                        <licensing>BMI</licensing>
+                </track>
+                <track id="07">
+                    <title>I CAN'T GET NEXT TO YOU</title>
+                    <composer>Whitfield</composer>
+                    <composer>Strong</composer>
+                    <licensing>ASCAP</licensing>
+                </track>    
+                <track id="08">
+                    <title> YOU OUGHT TO BE WITH ME</title>
+                    <composer>A. Green</composer>
+                    <composer>W.Mitchell</composer>
+                        <composer>A.Jackson</composer>           
+                        <licensing>BMI</licensing>
+                </track>
+                <track id="09">
+                    <title>  LOOK WHAT YOU DONE FOR ME</title>
+                    <composer>A. Green</composer>
+                    <composer>W.Mitchell</composer>
+                        <composer>A.Jackson</composer>             
+                        <licensing>BMI</licensing>
+                </track> 
+                <track id="10">
+                    <title>LET'S GET MARRIED</title>
+                    <composer>A. Green</composer>
+                    <licensing>BMI</licensing>
+                </track>
+                </trackList>
+                <logo type="tech"><!-- I do not recognize this logo --></logo>
+                <logo type="tech">DVD-audio</logo>        
+                <logo type="tech">MLP Lossless</logo>
+                <logo type="tech">Dolby Digital</logo>
+                <logo type="tech">DTS Digital Surroundl</logo>
+                <logo type="tech">DVD-video</logo>                          
+                <personnelList> 
+                    <producers>Willie Mitchell and Al Green</producers>  
+                    <engineer>Willie Mitchell </engineer>
+                    <engineer type="remix">Willie Mitchell</engineer>
+                    <vocalBackgrounds>Rhodes, Chalmers and Rhodes</vocalBackgrounds>
+                    <stringArrangements>James Mitchell and Charles Chalmers</stringArrangements> 
+                    <stringSection>The Memphis Strings</stringSection> 
+                    <hornSection>Wayne Jackson-Trumpet; Andrew Love-Tenor, Ed Logan-Tenor; James Mitchell-Baritone Sax; Jack Hole-Trombone   </hornSection>      
+                    <rhythmSection>Howard Grimes, Al Jackson-Drums, Congas, &amp; Bongo; Leroy Hodges-Bass; Charles Hodges-Organ and Piano; Teenie Hodges-Guitar, Archie Turner &amp; Michael Allen-Piano </rhythmSection>                     
+                    </personnelList>
+                        <recordedAt>Royal Recording Studios, Memphis TN</recordedAt>
+                        <techNotes>THIS DISC CONTAINS THE ORIGINAL QUADRAPHONIC MIXES FROM A 7.5 I.P.S. QUAD REEL SOURCE</techNotes>
+                        <image description="Four photos of Al Green in different poses laughing and dancing"></image>
+                        <logo>Hi Records</logo>                                                                                   
+        </side>     
+        <side id="right">
+            <logo type="tech"><!-- I do not recognize this logo --></logo>
+            <logo type="tech">DVD-audio</logo>        
+            <logo type="tech">MLP Lossless</logo>
+            <logo type="tech">Dolby Digital</logo>
+            <logo type="tech">DTS Digital Surroundl</logo>
+            <logo type="tech">DVD-video</logo>
+            <title>Al Green's Greatest Hits</title>            
+        </side>
+    </albumCover>
+ </album>
