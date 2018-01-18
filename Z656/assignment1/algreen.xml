@@ -1,1 +1,105 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<album>
+  <albumCover>
+    <side id="left">
+      <title>Al Green's Greatest Hits</title>
+      <logos>
+        
+      </logos>
+    </side>
+    <side id="back">
+      <trackList>
+        <track id="01">
+          <title> TIRED OF BEING ALONE</title>
+          <composer>A. Green</composer>
+          <licensing>BMI</licensing>
+        </track>
+        <track id="02" >
+          <title>CALL ME (COME BACK HOME)</title>
+          <composer>A. Green</composer>
+          <composer>W. Mitchell</commposer>
+          <composer>A. Jackson</composer>
+          <licensing>BMI</licensing>
+        </track>
+        <track id="03 >
+           <title>I'M STILL IN LOVE WITH YOU</title>
+           <composer>A. Green</composer>
+           <composer>W. Mitchell</commposer>
+           <composer>A. Jackson</composer>         
+           <licensing>BMI</licensing>
+        </track>
+        <track id="04">
+           <title>HERE I AM (COME AND TAKE ME)</title>
+           <composer>A. Green</composer>
+           <composer>M. Hodges</composer>          
+           <licensing>BMI</licensing>
+        </track>
+        <track id="05">
+           <title>HOW CAN YOU MEND A BROKEN HEART</title>
+           <composer>B. Gibb</composer>
+           <composer>R. Gibb</composer>            
+           <licensing>BMI</licensing>
+        </track>
+        <track id="06">
+           <title> LETS STAY TOGETHER</title>
+           <composer>A. Green</composer>
+           <composer>W. Mitchell</commposer>
+           <composer>A. Jackson</composer>             
+           <licensing>BMI</licensing>
+        </track>
+        <track id="07">
+           <title>I CAN'T GET NEXT TO YOU</title>
+           <composer>Whitfield</composer>
+           <composer>Strong</composer>
+           <licensing>ASCAP</licensing>
+        </track>    
+        <track id="08">
+          <title> YOU OUGHT TO BE WITH ME</title>
+           <composer>A. Green</composer>
+           <composer>W.Mitchell</commposer>
+           <composer>A.Jackson</composer>           
+           <licensing>BMI</licensing>
+        </track>
+        <track id="09">
+           <title>  LOOK WHAT YOU DONE FOR ME</title>
+           <composer>A. Green</composer>
+           <composer>W.Mitchell</commposer>
+           <composer>A.Jackson</composer>             
+           <licensing>BMI</licensing>
+        </track> 
+        <track id="10">
+          <title>LET'S GET MARRIED</title>
+          <composer>A. Green</composer>
+          <licensing>BMI</licensing>
+        </track>
+      </tracklist>
+      <personnelList> 
+        <producers>              
+      <personnelList>               
+                      
+  
+                      
+     
+        
+       
+    
+    
+      
+      
+PRODUCERS: Willie Mitchell and Al Green 
+ENGINEER: Willie Mitchell 
+REMIX ENGINEER: Willie Mitchell 
+VOCAL BACKGROUNDS: Rhodes, Chalmers and Rhodes 
+STRING ARRANGEMENTS: James Mitchell and Charles Chalmers 
+STRING SECTION: The Memphis Strings 
+HORN SECTION: Wayne Jackson-Trumpet; Andrew Love-Tenor, Ed Logan-Tenor; James Mitchell-Baritone Sax; Jack Hole-Trombone 
+RHYTHM SECTION: Howard Grimes, Al Jackson-Drums, Congas, & Bongo; Leroy Hodges-Bass; Charles Hodges-Organ and Piano; Teenie Hodges-Guitar, Archie Turner & Michael Allen-Piano 
+RECORDED AT: Royal Recording Studios, Memphis TN 
+THIS DISC CONTAINS THE ORIGINAL QUADRAPHONIC MIXES FROM A 7.5 I.P.S. QUAD REEL SOURCE 
+    </side>
+     
+    <side id="right">
+    </side>
+    
+  </albumCover>
+<album>
