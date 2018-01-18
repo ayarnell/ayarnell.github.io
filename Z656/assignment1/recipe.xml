@@ -11,7 +11,7 @@
          <measurement type="US">1 cup</measurement>
          <item>whole cranberry sauce</item>
        </ingredient>
-       <ingredient="03">
+       <ingredient id="03">
          <measurement>1 package</measurement>
          <item>dry onion soup mix</item>
        </ingredient>
