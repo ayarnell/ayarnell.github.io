@@ -3,9 +3,12 @@
   <albumCover>
     <side id="left">
       <title>Al Green's Greatest Hits</title>
-      <logos>
-        
-      </logos>
+      <logo type="tech"><!-- I do not recognize this logo --></logo>
+       <logo type="tech">DVD-audio</logo>        
+       <logo type="tech">MLP Lossless</logo>
+       <logo type="tech">Dolby Digital</logo>
+       <logo type="tech">DTS Digital Surroundl</logo>
+       <logo type="tech">DVD-video</logo>  
     </side>
     <side id="back">
       <trackList>
@@ -73,33 +76,35 @@
           <licensing>BMI</licensing>
         </track>
       </tracklist>
+       <logo type="tech"><!-- I do not recognize this logo --></logo>
+       <logo type="tech">DVD-audio</logo>        
+       <logo type="tech">MLP Lossless</logo>
+       <logo type="tech">Dolby Digital</logo>
+       <logo type="tech">DTS Digital Surroundl</logo>
+       <logo type="tech">DVD-video</logo>                          
       <personnelList> 
-        <producers>              
-      <personnelList>               
-                      
-  
-                      
-     
-        
-       
-    
-    
-      
-      
-PRODUCERS: Willie Mitchell and Al Green 
-ENGINEER: Willie Mitchell 
-REMIX ENGINEER: Willie Mitchell 
-VOCAL BACKGROUNDS: Rhodes, Chalmers and Rhodes 
-STRING ARRANGEMENTS: James Mitchell and Charles Chalmers 
-STRING SECTION: The Memphis Strings 
-HORN SECTION: Wayne Jackson-Trumpet; Andrew Love-Tenor, Ed Logan-Tenor; James Mitchell-Baritone Sax; Jack Hole-Trombone 
-RHYTHM SECTION: Howard Grimes, Al Jackson-Drums, Congas, & Bongo; Leroy Hodges-Bass; Charles Hodges-Organ and Piano; Teenie Hodges-Guitar, Archie Turner & Michael Allen-Piano 
-RECORDED AT: Royal Recording Studios, Memphis TN 
-THIS DISC CONTAINS THE ORIGINAL QUADRAPHONIC MIXES FROM A 7.5 I.P.S. QUAD REEL SOURCE 
-    </side>
-     
-    <side id="right">
-    </side>
-    
-  </albumCover>
+         <producers>Willie Mitchell and Al Green</producers>  
+         <engineer>Willie Mitchell </engineer>
+         <engineer type="remix">Willie Mitchell</engineer>
+         <vocalBackgrounds>Rhodes, Chalmers and Rhodes</vocalBackgrounds>
+         <stringArrangements>James Mitchell and Charles Chalmers</stringArrangements> 
+         <stringSection>The Memphis Strings</stringSection> 
+         <hornSection>Wayne Jackson-Trumpet; Andrew Love-Tenor, Ed Logan-Tenor; James Mitchell-Baritone Sax; Jack Hole-Trombone   </hornSection>      
+          <rhythmSection>Howard Grimes, Al Jackson-Drums, Congas, & Bongo; Leroy Hodges-Bass; Charles Hodges-Organ and Piano; Teenie Hodges-Guitar, Archie Turner & Michael Allen-Piano </rhythmSection>                     
+      <personnelList>
+      <recordedAt>Royal Recording Studios, Memphis TN</recordedAt>
+      <techNotes>THIS DISC CONTAINS THE ORIGINAL QUADRAPHONIC MIXES FROM A 7.5 I.P.S. QUAD REEL SOURCE</techNotes>
+      <image description="Four photos of Al Green in different poses laughing and dancing"></image>
+      <logo>Hi Records</logo>                                                                                   
+   </side>     
+   <side id="right">
+     <logo type="tech"><!-- I do not recognize this logo --></logo>
+       <logo type="tech">DVD-audio</logo>        
+       <logo type="tech">MLP Lossless</logo>
+       <logo type="tech">Dolby Digital</logo>
+       <logo type="tech">DTS Digital Surroundl</logo>
+       <logo type="tech">DVD-video</logo>
+       <title>Al Green's Greatest Hits</title>            
+   </side>
+ </albumCover>
 <album>
