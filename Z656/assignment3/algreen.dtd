@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT album (albumCover+)>
+<!ELEMENT albumCover (side+)>
+<!ELEMENT side (title*, logo*, trackList*, personnelList*, recordedAt*, techNotes*, image*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT trackList (track+)>
+<!ELEMENT personnelList (person | group)*>
+<!ELEMENT recordedAt (#PCDATA)>
+<!ELEMENT techNotes (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ELEMENT track (title, composer*, licensing*)>
+<!ELEMENT person (#PCDATA)>
+<!ELEMENT group (#PCDATA)>
+<!ELEMENT composer (#PCDATA)>
+<!ELEMENT licensing (#PCDATA)>
+
+<!ATTLIST side id CDATA #REQUIRED>
+<!ATTLIST track n CDATA #REQUIRED>
+<!ATTLIST logo type CDATA #IMPLIED>
+<!ATTLIST person role CDATA #IMPLIED>
+<!ATTLIST person type CDATA #IMPLIED>
+<!ATTLIST group role CDATA #IMPLIED>
+<!ATTLIST group type CDATA #IMPLIED>
+<!ATTLIST image description CDATA #REQUIRED>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    vc:minVersion="1.1" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning">
+    <xs:element name="recipe">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="title" type="xs:string"/>
+                <xs:element name="content">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="ingredientList">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ingredient" maxOccurs="unbounded">
+                                            <xs:complexType mixed="true">                                                                                                
+                                                <xs:sequence>
+                                                    <xs:element name="measurement">
+                                                        <xs:complexType>
+                                                            <xs:simpleContent>
+                                                                <xs:extension base="xs:string">
+                                                                    <xs:attribute name="type" default="US"/>
+                                                                 </xs:extension>   
+                                                             </xs:simpleContent>    
+                                                         </xs:complexType>
+                                                      </xs:element>
+                                                      <xs:element name="item" type="xs:string"/>
+                                                    </xs:sequence>
+                                                 <xs:attribute name="id" type="xs:positiveInteger"/> 
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="directions">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="step" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                           <xs:attribute name="id" type="xs:positiveInteger"/>
+                                                    </xs:extension>  
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
