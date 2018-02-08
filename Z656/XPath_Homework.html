@@ -16,47 +16,47 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			
-		<h1>Assignment 4: XPath pratice</h1>
-        <h2>How would you isolate the ID number of this encoded text (VAA4025-109-1-a16)?</h2>
+					
+	<h1>Assignment 4: XPath pratice</h1>
+        <h2>Question 1:How would you isolate the ID number of this encoded text (VAA4025-109-1-a16)?</h2>
         <p>XPath: /TEI.2/text/body/div/@id</p>
-        <h2>How many lists are in the article text?</h2>
+        <h2>Question 2: How many lists are in the article text?</h2>
         <p>Answer: 1 XPath:</p>
-        <p>count(/TEI.2/text//list)</p>
-        <h2>How would you isolate the copyright statement (Copyright 2013 Trustees of Indiana
+        <p>XPath: count(/TEI.2/text//list)</p>
+        <h2>Question 3: How would you isolate the copyright statement (Copyright 2013 Trustees of Indiana
             University)?</h2>
         <p>XPath: /TEI.2/teiHeader/fileDesc/publicationStmt/availability</p>
-        <h2>What are two different ways to isolate the publisher and pubPlace elements together
+        <h2>Question 4: What are two different ways to isolate the publisher and pubPlace elements together
             (Indiana University Libraries Bloomington, IN)?</h2>
-        <p>This one stumped me a bit. The first way seems pretty straightfoward, the second way
+        <p>This one stumped me a bit. The first way seems pretty straightfoward, the second way seems
             rather cumbersome, so I am not sure if that is really what you were looking for.</p>
-        <p> XPath Options:</p>
+        <p>  Options:</p>
         <ol>
             <li>//publicationStmt/publisher | //publicationStmt/pubPlace</li>
             <li>//publicationStmt/child::text()[position()=1] |
                 //publicationStmt/child::text()[position()=2]</li>
         </ol>
-        <h2>How many paragraphs are in the text of this article?</h2>
+        <h2>Question 5: How many paragraphs are in the text of this article?</h2>
         <p>Answer: 34 </p>
         <p>XPath: count(/TEI.2/text//p)</p>
-        <h2>What different states are mentioned in the text?</h2>
+        <h2>Question 6: What different states are mentioned in the text?</h2>
         <p> Answer: Indiana, Ohio, South Carolina, Kentucky, Arkansas, North Carolina</p>
         <p> XPath: distinct-values(/TEI.2/text//placeName/region [@type="state"])</p>
         <p>Explanation: I would have probably gotten a better answer if I could have looked for
             region type="state" and has distinct @key values, but I could not quite figure out the
             syntax. For some reason Monroe County is tagged as a state, and Indiana appears as both
             Indiana and Ind.</p>
-        <h2>How many distinct cities are mentioned in the text? Hint: use distinct-values()</h2>
+        <h2>Question 7: How many distinct cities are mentioned in the text? Hint: use distinct-values()</h2>
         <p>Answer: 25</p>
         <p>XPath: count(distinct-values(/TEI.2/text//placeName/settlement [@type="city"]))</p>
-        <h2>How many times does &quot;Evansville&quot; appear in this article? Hint: use ctrl+F to
+        <h2>Question 8: How many times does &quot;Evansville&quot; appear in this article? Hint: use ctrl+F to
             check your work</h2>
         <p>Answer: 2</p>
         <p>Count(/TEI.2/text//placeName[contains(., "Evansville")])</p>
         <p>Explanation: Talks about Evansville in one book review. Evansville is mentioned in the
             title and the review itself. Evansville also shows up twice more in this section as the
             value of the attribute @reg</p>
-        <h2>What&apos;s your best guess for how to figure out how many book reviews there are in
+        <h2>Question 9: What&apos;s your best guess for how to figure out how many book reviews there are in
             this article using XPath alone?</h2>
         <p>Answer: 22</p>
         <p>XPath: Count(//p/hi[@rend="i"])</p>
