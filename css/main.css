@@ -23,7 +23,7 @@ a:hover {
 #banner_image {
      height: 250px;
      width: 100%;
-     background-image: url(wild-flowers.jpg);
+     background-image: url("/Z656/XSLT Transform1/wild-flowers.jpg");
      background-size: cover;
     }
 h1 {
