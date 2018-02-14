@@ -7,7 +7,7 @@
         <html>
             <head>
                 <title>Plant Catalog</title>
-                <link rel="stylesheet" type="text/css" href="css/main.css"/>
+                <link rel="stylesheet" type="text/css" href="ayarnell.github.io/css/main.css"/>
             </head>        
         <body>
             <div id="banner_image">
