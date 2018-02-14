@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    margin: 70px auto;
     width: 70%;
 }
 nav ul, footer ul {
@@ -19,11 +19,24 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
 
+#banner_image {
+     height: 250px;
+     width: 100%;
+     background-image: url(wild-flowers.jpg);
+     background-size: cover;
+    }
+h1 {
+    text-align: center;   
+    font-size: 3.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+   
+   }
+#plant_store {
+      vertical-align: middle;
+      color: darkviolet;
+      padding: 75px;
+}
 h2 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -33,6 +46,8 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    padding: 15px;
+    margin-top: 35px;
 }
 
 li {
@@ -50,4 +65,29 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+table {
+   width:100%;
+   border-collapse: collapse;
+}
+table {
+    border: 1px solid black;
+    
+}
+th {
+    background-color: Teal;
+    color: #FFFAF0;
+    font-size: 1.5em;
+}
+th, td {
+    border-bottom: 1px solid grey;
+    text-align: left;
+    padding: 10px;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+tr:nth-child(odd) {background-color: #FFF0F5;}
+
+div {
+    margin: 30px 10px 30px 10px; 
 }
