@@ -27,12 +27,13 @@ a:hover {
      background-size: cover;
     }
 h1 {
-    text-align: center;   
+    text-align: left;   
     font-size: 3.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
    
    }
 #plant_store {
+      text-align: center;
       vertical-align: middle;
       color: darkviolet;
       padding: 75px;
