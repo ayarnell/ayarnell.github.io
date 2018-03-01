@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: Berylium;
+    src: url(Berylium.ttf);
+}
+
+body {
+    margin: 70px auto;
+    width: 70%;
+    font-family:Berylium;
+}
+
+.header {
+     padding-top:15px;
+     padding-bottom:10px;
+     padding-left:125px;
+     padding-right:100px;
+     text-align:center;
+}
+
+.marginal {
+    display:block;
+    float:left;
+    width:15%;
+    padding:10px;
+    margin:10px;
+    font-weight:bold;
+}
+
+h1 {
+    text-align: center;   
+    font-size: 3.5em;
+      
+   }
+h2 {
+    font-size: 2em;
+    text-align:center;
+    }
+
+h2 .large-title{
+    text-decoration:underline;
+}
+h3 {
+    font-size: 1.5em;
+    text-align:center;
+}
+
+ul { 
+    margin: 20px auto 40px; 
+    
+}
+
+ul li {
+    list-style: none;
+    font-size: 0.75em;
+}
+
+
+
+    
+
+
+
