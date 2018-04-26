@@ -4,8 +4,9 @@
     exclude-result-prefixes="xs" version="2.0">
     <xsl:output method="html" omit-xml-declaration="yes" indent="yes"/>
     <xsl:strip-space elements="*"/>
-   
+   <!-- hides TEI header -->
     <xsl:template match="tei:TEI/tei:teiHeader"/>
+    <!--Creates a separate html page for the sigla section  -->
     <xsl:template match="tei:TEI/tei:text/tei:front">    
         <xsl:variable name="part_num" select="position() - 1"/>
         <xsl:result-document href="{concat('/Users/amyya/OneDrive/Desktop/Digital Publishing assignments/FinalProject/', 'Sigla', '.html')}"> <html>
@@ -39,6 +40,7 @@
                    <p>The following is based on the <i>Oxford Classical Text</i> edition of the <i>Histories</i> of Tacitus by C.D. Fisher. The lists below represent the manuscripts that Fisher consulted in constructing his critical edition. The medieval manuscripts (codices) and early critical texts (editiones antiquae) are represented in the apparatus by an abbreviation. This abbreviation appears before the variant reading throughout the apparatus. In the text on this site, users may hover over underlined words to view the variant readingsM represents the earliest surviving manuscript and the exemplar for the later ones.</p>
                    <xsl:apply-templates mode="sigla"/>                    
                </div>
+           <!-- adds navigation to next page, if not the last page -->
                <xsl:if test="not(position()=10)">
                    <a href="{concat('Part0',$part_num+1,'.html')}">Next</a>
                </xsl:if>   
@@ -46,7 +48,9 @@
            </html>                
        </xsl:result-document>    
       </xsl:template>
+    <!-- creates h2 headings from the xml:id of listWit and listBibl -->
     <xsl:template match="//tei:div2/tei:listWit | //tei:div2/tei:listBibl" mode="sigla">
+        <!-- removes the hyphen from between editiones-antiquae and modern-editions -->
         <xsl:choose>
             <xsl:when test="@xml:id = 'codices'">
                 <h2>
@@ -65,6 +69,7 @@
             <xsl:apply-templates select="tei:witness | tei:bibl" mode="sigla"/>
         </ul>
     </xsl:template>
+    <!-- creates a list of the witnesses and puts the abbreviations in italics -->
     <xsl:template match="tei:witness" mode="sigla">
         <li>
             <i>
@@ -76,12 +81,14 @@
             <xsl:value-of select="tei:date"/>
         </li>
     </xsl:template>
+    <!-- Does the same as above for the list of modern editions -->
     <xsl:template match="tei:bibl" mode="sigla">
         <li>
             <xsl:value-of select="."/>
         </li>
     </xsl:template>
     <xsl:template match="//tei:div1/tei:head"/>
+    <!-- breaks up the text by part, puts navigation to each section in a navbar at the top -->
     <xsl:template match="//tei:div2">
         <xsl:variable name="part_num" select="position() - 1"/>
         <xsl:result-document
@@ -112,7 +119,8 @@
                           </li>                          
                       </ul>
                   </nav>
-                   <div id="home"> 
+                <!-- pulls the number of each part from the n attribute -->   
+                    <div id="home"> 
                        <h1>PART <xsl:value-of select="@n"/></h1>                                    
                     <xsl:apply-templates/>                    
                    </div>
@@ -123,6 +131,7 @@
                 </html>                        
         </xsl:result-document>
     </xsl:template>
+    <!-- pulls number of chapter from the n attribute. Adds navigation to top of page and the sigla -->
     <xsl:template match="//tei:div3">        
         <h2> Chapter <xsl:value-of select="@n"/></h2>
         <xsl:apply-templates/>        
@@ -131,21 +140,26 @@
        <li><a href="Sigla.html">Sigla</a></li>
         </ul></nav>
     </xsl:template>
+    <!-- puts the p elements in the tei doc into p html elements -->
     <xsl:template match="//tei:p">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
+    <!-- creates the tooltip from the app element. -->
     <xsl:template match="//tei:app">
         <xsl:variable name="order" select="position()"/>
+    <!-- puts a span around lem element -->
         <span class="tooltip">
             <xsl:value-of select="tei:lem"/>
+     <!-- nests a span element for the rdg and witDetail element -->
             <span class="tooltiptext" id="{concat('rdg-', $order)}">
                 <xsl:apply-templates select="tei:rdg | tei:witDetail"/>
             </span>
         </span>
     </xsl:template>
-    <xsl:template match="//tei:rdg">
+    <!-- creates text for the toolip. Takes the value of the tooltip from the wit attribute, strips out the #, puts it in italics. Separates readings with a ; -->
+        <xsl:template match="//tei:rdg">
         <xsl:if test="not(following-sibling::tei:rdg)">
             <i><xsl:value-of select="substring-after(@wit, '#')"/></i>: <xsl:value-of select="."/>
         </xsl:if>
@@ -153,6 +167,7 @@
             <i><xsl:value-of select="substring-after(@wit, '#')"/></i>: <xsl:value-of select="."/>;
         </xsl:if>
     </xsl:template>
+    <!-- adds the witDetail element separated by a : -->
     <xsl:template match="//tei:witDetail"> : <i><xsl:value-of select="."/></i>
     </xsl:template>
   </xsl:stylesheet>
