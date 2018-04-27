@@ -80,6 +80,7 @@ p {
 li {
     font-size: 1.5em;
     list-style:none;
+    font-family: 'Junicode';
 }
 
 .tooltip {
