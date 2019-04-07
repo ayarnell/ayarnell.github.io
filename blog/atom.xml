@@ -11,7 +11,7 @@ layout: feed
 	<id>http://ayarnell.github.io/blog</id>
 	<author>
 		<name>Amy Yarnell</name>
-		<email>fake.email@gmail.com</email>
+		<email>amy.yarnell@gmail.com</email>
 	</author>
 
 	{% for post in site.posts %}
