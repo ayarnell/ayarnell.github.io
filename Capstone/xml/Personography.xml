@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tacitus Personography</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="persName" render="#bold"/>
+               <tagUsage gi="placeName" render="#bold"/>
+               <tagUsage gi="lem" render="#bold"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <person xml:id="GALB1">
+               <persName>Servius Sulpicius Galba</persName>
+               <birth>3 B.C.E., near Terracina, Italy</birth>
+               <death>69 C.E., at Rome, from assassination</death>
+               <note type="bio">Emperor of Rome from 68 to 69 C.E.. Successor of Nero, predecessor
+                  of Otho.</note>
+               <note type="mentions">
+                  <list>
+                     <item>First mention: 1.1</item>
+                     <item>Total mentions in Book 1: 93 </item>
+                  </list>
+               </note>
+               <note type="relationships">
+                  <list>
+                     <item><relation name="predecessor" active="#OTHO1" passive="NERO1"/></item>
+                     <item><relation name="co-consul" mutual="#VINI1"/></item>
+                  </list>
+               </note>
+               <note type="resources">
+                  <list>
+                     <item><ref target="http://viaf.org/viaf/27034761">VIAF</ref></item>
+                     <item><ref target="https://en.wikipedia.org/wiki/Galba">Wikipedia</ref></item>
+                     <item><ref
+                           target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0104:entry=galba-ser-sulpicius-bio-1"
+                           >Smith's Biography at Perseus</ref></item>
+                     <item><ref
+                           target="http://data.perseus.org/texts/urn:cts:latinLit:phi1348.abo017.perseus-lat1"
+                           >Suetonius' <bibl>Life of Galba</bibl> at Perseus</ref></item>
+                     <item><ref
+                           target="http://data.perseus.org/texts/urn:cts:greekLit:tlg0007.tlg065.perseus-grc1"
+                           >Plutarch's <bibl>Life of Galba </bibl> at Perseus</ref></item>
+                  </list></note>
+            </person>
+            <person xml:id="VINI1">
+               <persName>Titus Vinius</persName>
+            </person>
+            <person xml:id="OTHO1">
+               <persName>Otho</persName>
+               <note>Chapter: 1</note>
+            </person>
+            <person xml:id="VITE1">
+               <persName>Vitellius</persName>
+               <note>Chapter: 1</note>
+            </person>
+            <person xml:id="FLAV1">
+               <persName>Vespasiano</persName>
+               <note>Chapter: 1</note>
+            </person>
+            <person xml:id="FLAV2">
+               <persName>Tito</persName>
+               <note>Chapter: 1</note>
+            </person>
+            <person xml:id="FLAV3">
+               <persName>Domitiano</persName>
+               <note>Chapter: 1</note>
+            </person>
+            <person xml:id="NERV1">
+               <persName>Nervae</persName>
+               <note>Chapter: 1</note>
+            </person>
+            <person xml:id="TRAJ1">
+               <persName>Traiani</persName>
+               <note>Chapter: 1</note>
+            </person>
+            <person xml:id="NERO1">
+               <persName>Neronis</persName>
+               <note>Chapter: 4</note>
+            </person>
+            <person xml:id="SABI1">
+               <persName>Nymphidii Sabini</persName>
+               <note>Chapter: 5</note>
+            </person>
+            <person xml:id="LACO1">
+               <persName>Cornelius Laco</persName>
+               <note>Chapter: 6</note>
+            </person>
+            <person xml:id="VARR1">
+               <persName>Cingonio Varrone</persName>
+               <note>Chapter: 6</note>
+            </person>
+            <person xml:id="TURP1">
+               <persName>Petronio Turpiliano</persName>
+               <note>Chapter: 6</note>
+            </person>
+            <person xml:id="MACE1">
+               <persName>Clodii Macri</persName>
+               <note>Chapter: 7</note>
+            </person>
+            <person xml:id="CAPI1">
+               <persName>Fontei Capitonis</persName>
+               <note>Chapter: 7</note>
+            </person>
+            <person xml:id="GARU1">
+               <persName>Trebonius Garutianus</persName>
+               <note>Chapter: 7</note>
+            </person>
+            <person xml:id="AQUI1">
+               <persName>Cornelius Aquinus</persName>
+               <note>Chapter: 7</note>
+            </person>
+            <person xml:id="VALE1">
+               <persName>Fabius Valens</persName>
+               <note>Chapter: 7</note>
+            </person>
+            <person xml:id="CLUV1">
+               <persName>Cluvius Rufus</persName>
+               <note>Chapter: 8</note>
+            </person>
+            <person xml:id="VIND1">
+               <persName>Vindicis</persName>
+               <note>Chapter: 8</note>
+            </person>
+            <person xml:id="VERG1">
+               <persName>Verginius</persName>
+               <note>Chapter: 8</note>
+            </person>
+            <person xml:id="FLACC1">
+               <persName>Hordeonium Flaccu</persName>
+               <note>Chapter: 9</note>
+            </person>
+            <person xml:id="VITE2">
+               <persName>Vitellii</persName>
+               <note>Chapter: 9</note>
+            </person>
+            <person xml:id="MUCI1">
+               <persName>Licinius Mucianus</persName>
+               <note>Chapter: 10</note>
+            </person>
+            <person xml:id="CLAU1">
+               <persName>Claudii</persName>
+               <note>Chapter: 10</note>
+            </person>
+            <person xml:id="AUGU1">
+               <persName>divo Augusto</persName>
+               <note>Chapter: 11</note>
+            </person>
+            <person xml:id="ALEX1">
+               <persName>Tiberius Alexander</persName>
+               <note>Chapter: 11</note>
+            </person>
+            <person xml:id="PROP1">
+               <persName>Pompei Propinqui</persName>
+               <note>Chapter: 12</note>
+            </person>
+            <person xml:id="ICEL1">
+               <persName>Icelo</persName>
+               <note>Chapter: 13</note>
+            </person>
+            <person xml:id="POPP1">
+               <persName>Poppaeam Sabinam</persName>
+               <note>Chapter: 13</note>
+            </person>
+            <person xml:id="OCTA1">
+               <persName>Octaviam</persName>
+               <note>Chapter: 13</note>
+            </person>
+            <person xml:id="CELS1">
+               <persName>Mario Celso</persName>
+               <note>Chapter: 14</note>
+            </person>
+            <person xml:id="GEMI1">
+               <persName>Ducenio Gemino</persName>
+               <note>Chapter: 14</note>
+            </person>
+            <person xml:id="PISO1">
+               <persName>Pisonem Licinianum</persName>
+               <note>Chapter: 14</note>
+            </person>
+            <person xml:id="RUBE1">
+               <persName>Rubellium Plautum</persName>
+               <note>Chapter: 14</note>
+            </person>
+            <person xml:id="CRAS1">
+               <persName>M. Crasso</persName>
+               <note>Chapter: 14</note>
+            </person>
+            <person xml:id="SCRI1">
+               <persName>Scribonia</persName>
+               <note>Chapter: 14</note>
+            </person>
+            <person xml:id="POMP1">
+               <persName>Cn. Pompei</persName>
+               <note>Chapter: 15</note>
+            </person>
+            <person xml:id="MARC1">
+               <persName>Marcellum</persName>
+               <note>Chapter: 15</note>
+            </person>
+            <person xml:id="AGRI1">
+               <persName>Agrippam</persName>
+               <note>Chapter: 15</note>
+            </person>
+            <person xml:id="TIBE1">
+               <persName>Tiberium Neronem</persName>
+               <note>Chapter: 15</note>
+            </person>
+            <person xml:id="CALI1">
+               <persName>Gaio</persName>
+               <note>Chapter: 16</note>
+            </person>
+            <person xml:id="TAUR1">
+               <persName>Antonius Taurus</persName>
+               <note>Chapter: 20</note>
+            </person>
+            <person xml:id="NASO1">
+               <persName>Antonius Naso</persName>
+               <note>Chapter: 20</note>
+            </person>
+            <person xml:id="PACE1">
+               <persName>Aemilius Pacensis</persName>
+               <note>Chapter: 20</note>
+            </person>
+            <person xml:id="FRON1">
+               <persName>Iulius Fronto</persName>
+               <note>Chapter: 20</note>
+            </person>
+            <person xml:id="PTOL1">
+               <persName>Ptolemaeus</persName>
+               <note>Chapter: 22</note>
+            </person>
+            <person xml:id="PUDE1">
+               <persName>Maevius Pudens</persName>
+               <note>Chapter: 24</note>
+            </person>
+            <person xml:id="TIGE1">
+               <persName>Tigellini</persName>
+               <note>Chapter: 24</note>
+            </person>
+            <person xml:id="PROC1">
+               <persName>Cocceio Proculo</persName>
+               <note>Chapter: 24</note>
+            </person>
+            <person xml:id="ONOM1">
+               <persName>Onomastum</persName>
+               <note>Chapter: 25</note>
+            </person>
+            <person xml:id="PROC2">
+               <persName>Barbium Proculum</persName>
+               <note>Chapter: 25</note>
+            </person>
+            <person xml:id="VETU1">
+               <persName>Veturium</persName>
+               <note>Chapter: 25</note>
+            </person>
+            <person xml:id="PANN1">
+               <persName>Pannonici</persName>
+               <note>Chapter: 26</note>
+            </person>
+            <person xml:id="UMBR1">
+               <persName>Vmbricius</persName>
+               <note>Chapter: 27</note>
+            </person>
+            <person xml:id="MART1">
+               <persName>Iulius Martialis tribunus</persName>
+               <note>Chapter: 28</note>
+            </person>
+            <person xml:id="VIPS1">
+               <persName>Vipsania</persName>
+               <note>Chapter: 31</note>
+            </person>
+            <person xml:id="SERE1">
+               <persName>Amullio Sereno</persName>
+               <note>Chapter: 31</note>
+            </person>
+            <person xml:id="SABI2">
+               <persName>Domitio Sabino</persName>
+               <note>Chapter: 31</note>
+            </person>
+            <person xml:id="SEVE1">
+               <persName>Cetrius Severus</persName>
+               <note>Chapter: 31</note>
+            </person>
+            <person xml:id="DEXT1">
+               <persName>Subrius Dexter</persName>
+               <note>Chapter: 31</note>
+            </person>
+            <person xml:id="LONG1">
+               <persName>Pompeius Longinus</persName>
+               <note>Chapter: 31</note>
+            </person>
+            <person xml:id="ATTI1">
+               <persName>Iulius Atticus</persName>
+               <note>Chapter: 35</note>
+            </person>
+            <person xml:id="SABI3">
+               <persName>Obultronii Sabini</persName>
+               <note>Chapter: 37</note>
+            </person>
+            <person xml:id="MARC2">
+               <persName>Cornelii Marcelli</persName>
+               <note>Chapter: 37</note>
+            </person>
+            <person xml:id="CILO1">
+               <persName>Betui Cilonis</persName>
+               <note>Chapter: 37</note>
+            </person>
+            <person xml:id="ATIL1">
+               <persName>Atilium Vergilionem</persName>
+               <note>Chapter: 41</note>
+            </person>
+            <person xml:id="CURT1">
+               <persName>Curtii</persName>
+               <note>Chapter: 41</note>
+            </person>
+            <person xml:id="LAEC1">
+               <persName>Laecanium</persName>
+               <note>Chapter: 41</note>
+            </person>
+            <person xml:id="CAMU1">
+               <persName>Camurium</persName>
+               <note>Chapter: 41</note>
+            </person>
+            <person xml:id="CAES1">
+               <persName>divi Iulii</persName>
+               <note>Chapter: 42</note>
+            </person>
+            <person xml:id="CARO1">
+               <persName>Iulio Caro</persName>
+               <note>Chapter: 42</note>
+            </person>
+            <person xml:id="DENS1">
+               <persName>Sempronium Densum </persName>
+               <note>Chapter: 43</note>
+            </person>
+            <person xml:id="FLOR1">
+               <persName>Sulpicius Florus</persName>
+               <note>Chapter: 43</note>
+            </person>
+            <person xml:id="MURC1">
+               <persName>Statius Murcus</persName>
+            </person>
+            <person xml:id="FIRM1">
+               <persName>Plotium Firmum</persName>
+               <note>Chapter: 46</note>
+            </person>
+            <person xml:id="PROC3">
+               <persName>Licinius Proculus</persName>
+               <note>Chapter: 46</note>
+            </person>
+            <person xml:id="FLAV4">
+               <persName>Flavium Sabinum</persName>
+               <note>Chapter: 46</note>
+            </person>
+            <person xml:id="VERA1">
+               <persName>Verania</persName>
+               <note>Chapter: 47</note>
+            </person>
+            <person xml:id="SCRI2">
+               <persName>Scribonianus</persName>
+               <note>Chapter: 47</note>
+            </person>
+            <person xml:id="CRIS1">
+               <persName>Crispina</persName>
+               <note>Chapter: 47</note>
+            </person>
+            <person xml:id="MAGN1">
+               <persName>Magnum</persName>
+               <note>Chapter: 48</note>
+            </person>
+            <person xml:id="CRAS2">
+               <persName>Crassum</persName>
+               <note>Chapter: 48</note>
+            </person>
+            <person xml:id="SABI4">
+               <persName>Calvisium Sabinum</persName>
+               <note>Chapter: 48</note>
+            </person>
+            <person xml:id="ARGI1">
+               <persName>Argius</persName>
+               <note>Chapter: 49</note>
+            </person>
+            <person xml:id="PATR1">
+               <persName>Patrobii</persName>
+               <note>Chapter: 49</note>
+            </person>
+            <person xml:id="BRUT1">
+               <persName>Brutoque</persName>
+               <note>Chapter: 50</note>
+            </person>
+            <person xml:id="CAEC1">
+               <persName>Alienus Caecina</persName>
+               <note>Chapter: 52</note>
+            </person>
+            <person xml:id="NONI1">
+               <persName>Nonius Receptus</persName>
+               <note>Chapter: 56</note>
+            </person>
+            <person xml:id="DONA1">
+               <persName>Donatius Valens</persName>
+               <note>Chapter: 56</note>
+            </person>
+            <person xml:id="ROMI1">
+               <persName>Romilius Marcellus</persName>
+               <note>Chapter: 56</note>
+            </person>
+            <person xml:id="CALP1">
+               <persName>Calpurnius Repentinus</persName>
+               <note>Chapter: 56</note>
+            </person>
+            <person xml:id="BURD1">
+               <persName>Iulium Burdonem</persName>
+               <note>Chapter: 58</note>
+            </person>
+            <person xml:id="CRIS2">
+               <persName>Crispinus</persName>
+               <note>Chapter: 58</note>
+            </person>
+            <person xml:id="CIVI1">
+               <persName>Iulius deinde Civilis</persName>
+               <note>Chapter: 59</note>
+            </person>
+            <person xml:id="ASIA1">
+               <persName>Valerius Asiaticus</persName>
+               <note>Chapter: 59</note>
+            </person>
+            <person xml:id="BLAE1">
+               <persName>Iunius Blaesus</persName>
+               <note>Chapter: 59</note>
+            </person>
+            <person xml:id="TREB1">
+               <persName>Trebellius Maximus</persName>
+               <note>Chapter: 60</note>
+            </person>
+            <person xml:id="COEL1">
+               <persName>Roscius Coelius</persName>
+               <note>Chapter: 60</note>
+            </person>
+            <person xml:id="VALE2">
+               <persName>Manlius Valens</persName>
+               <note>Chapter: 64</note>
+            </person>
+            <person xml:id="SEVE2">
+               <persName>Claudium Severum</persName>
+               <note>Chapter: 68</note>
+            </person>
+            <person xml:id="ALPI1">
+               <persName>Iulium Alpinum</persName>
+               <note>Chapter: 68</note>
+            </person>
+            <person xml:id="COSS1">
+               <persName>Claudius Cossus</persName>
+               <note>Chapter: 69</note>
+            </person>
+            <person xml:id="PETR1">
+               <persName>Petronium</persName>
+               <note>Chapter: 70</note>
+            </person>
+            <person xml:id="CRIS3">
+               <persName>Calvia Crispinilla</persName>
+               <note>Chapter: 73</note>
+            </person>
+            <person xml:id="OTHO2">
+               <persName>Titianum</persName>
+               <note>Chapter: 75</note>
+            </person>
+            <person xml:id="CORD1">
+               <persName>Iulio Cordo</persName>
+               <note>Chapter: 76</note>
+            </person>
+            <person xml:id="APRO1">
+               <persName>Vipstani Aproniani</persName>
+               <note>Chapter: 76</note>
+            </person>
+            <person xml:id="VOPI1">
+               <persName>Pompeius Vopiscus</persName>
+               <note>Chapter: 77</note>
+            </person>
+            <person xml:id="FLAV5">
+               <persName>Caelio</persName>
+               <note>Chapter: 77</note>
+            </person>
+            <person xml:id="ANTO1">
+               <persName>Arrio Antonino</persName>
+               <note>Chapter: 77</note>
+            </person>
+            <person xml:id="RUFU1">
+               <persName>Cadio Rufo</persName>
+               <note>Chapter: 77</note>
+            </person>
+            <person xml:id="BLAE2">
+               <persName>Pedio Blaeso</persName>
+               <note>Chapter: 77</note>
+            </person>
+            <person xml:id="SAEV1">
+               <persName>Saevino P </persName>
+               <note>Chapter: 77</note>
+            </person>
+            <person xml:id="APON1">
+               <persName>M. Aponius</persName>
+               <note>Chapter: 79</note>
+            </person>
+            <person xml:id="AURE1">
+               <persName>Fulvus Aurelius</persName>
+               <note>Chapter: 79</note>
+            </person>
+            <person xml:id="TETT1">
+               <persName>Iulianus Tettius</persName>
+               <note>Chapter: 79</note>
+            </person>
+            <person xml:id="LUPU1">
+               <persName>Numisius Lupus</persName>
+               <note>Chapter: 79</note>
+            </person>
+            <person xml:id="CRIS4">
+               <persName>Vario Crispino</persName>
+               <note>Chapter: 80</note>
+            </person>
+            <person xml:id="VITE3">
+               <persName>Vitellio Saturnino</persName>
+               <note>Chapter: 82</note>
+            </person>
+            <person xml:id="NOVE1">
+               <persName>Antonio Novello</persName>
+               <note>Chapter: 87</note>
+            </person>
+            <person xml:id="CLEM1">
+               <persName>Suedio Clementi</persName>
+               <note>Chapter: 87</note>
+            </person>
+            <person xml:id="MOSC1">
+               <persName>Moschus</persName>
+               <note>Chapter: 87</note>
+            </person>
+            <person xml:id="PAUL1">
+               <persName>Suetonius Paulinus</persName>
+               <note>Chapter: 87</note>
+            </person>
+            <person xml:id="GALL1">
+               <persName>Annius Gallus</persName>
+               <note>Chapter: 87</note>
+            </person>
+            <person xml:id="DOLA1">
+               <persName>Cornelius Dolabella</persName>
+               <note>Chapter: 88</note>
+            </person>
+            <person xml:id="VITE4">
+               <persName>Lucium Vitellium</persName>
+               <note>Chapter: 88</note>
+            </person>
+            <person xml:id="TRAC1">
+               <persName>Galeri Trachali</persName>
+               <note>Chapter: 90</note>
+            </person>
+         </listPerson>
+      </body>
+   </text>
+</TEI>

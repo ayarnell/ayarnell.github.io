@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tacitus Historiae Book 1</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+      <tagsDecl>        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="persName" render="#bold"/>
+          <tagUsage gi="placeName" render="#bold"/>
+          <tagUsage gi="lem" render="#bold"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div1>
+        <div2 type="section" xml:id="sigla">
+          <listWit xml:id="codices">
+            <witness xml:id="M">
+              <abbr rend="i">M</abbr>
+              <name>Mediceus alter vel secundus (Plut. 68.2)</name>, <date>saec, xi</date></witness>
+            <witness xml:id="M1">
+              <abbr>M<hi rend="super">1</hi></abbr>
+              <name>main copyist's hand in M</name></witness>
+            <witness xml:id="M2"><abbr>M<hi rend="super">2</hi></abbr><name>correcting hand in
+                M</name></witness>
+            <witness xml:id="ab">
+              <abbr rend="i">ab</abbr>
+              <name>Laurentiani(Plut.63.4,5)</name>
+              <date>saec. xv</date></witness>
+            <witness xml:id="a"><abbr rend="i">a</abbr><name>solum libros i, ii
+              continet</name></witness>
+            <witness xml:id="b"><abbr rend="i">b</abbr><name>non ante finem ipsius codicis
+                desinit</name></witness>
+            <witness xml:id="dett">
+              <abbr rend="i">dett</abbr>
+              <date> saec. xv </date>
+              <name>Laurentianus (Plut. 63.24),</name>
+              <name>Malatestianus</name>, <name>Neapolitanus</name>, <name>Parmensis
+                (Mediolani)</name>, <name>Vaticani, quattuor</name>, <name>Guelfybertanus sive
+                Gudianus</name>, <name>Vindobonensis,</name>
+              <name>Budensis,</name>
+              <name>Hispanus (Covarruviae)</name>, <name>Regius(Parisiensis)</name>, <name>e Coll.
+                Iesu</name>, <name>Bodleianus</name>, <name>Harleianus</name>, <name> Agricolae
+                liber </name>
+            </witness>
+          </listWit>
+          <listWit xml:id="editiones-antiquae">
+            <witness xml:id="Sp"><abbr>Sp</abbr><name>Ed. Spirensis</name>,
+              <date>1470</date></witness>
+            <witness xml:id="Put"><abbr>Put</abbr><name>Puteolani</name>,
+              <date>1475</date></witness>
+            <witness xml:id="Ber"><abbr>Ber</abbr><name>Beroaldi</name>, <date>1515</date></witness>
+            <witness xml:id="Rh"><abbr>Rh</abbr><name>Rhenani</name>, <date>1533</date></witness>
+            <witness xml:id="Lp"><abbr>Lp</abbr><name>Lipsii prima</name>,
+              <date>1574</date></witness>
+            <witness xml:id="Pic"><abbr>Pic</abbr><name>Pichenae</name>, <date>1607</date></witness>
+          </listWit>
+          <listBibl xml:id="modern-editions">
+            <bibl xml:id="Halm"><abbr>Halm</abbr></bibl>
+            <bibl xml:id="Walther"><abbr>Walther</abbr></bibl>
+            <bibl xml:id="Ritter"><abbr>Ritter</abbr></bibl>
+            <bibl xml:id="Meiser"><abbr>Meiser</abbr></bibl>
+            <bibl xml:id="Heraeus"><abbr>Heraeus</abbr></bibl>
+            <bibl xml:id="Muller"><abbr>Muller</abbr></bibl>
+            <bibl xml:id="Valmaggi"><abbr>Valmaggi</abbr></bibl>
+            <bibl xml:id="Novak"><abbr>Novak</abbr></bibl>
+            <bibl xml:id="Madvig"><abbr>Madvig</abbr></bibl>
+            <bibl xml:id="Wurm"><abbr>Wurm</abbr></bibl>
+            <bibl xml:id="Gronovius"><abbr>Gronovius</abbr></bibl>
+            <bibl xml:id="Bezzenberger"><abbr>Bezzenberger</abbr></bibl>
+          </listBibl>
+        </div2>
+      </div1>
+    </front>
+    <body>
+      <div1 type="book" n="1" org="uniform" sample="complete">
+        <head>LIBER I</head>
+        <div2 type="part" n="1">
+          <div3 n="1" type="chapter">
+            <p>Initium mihi operis <persName ref="Personography.html#GALB1">Servius Galba</persName> iterum <persName ref="Personography.html#VINI1">Titus
+              <app>
+                  <lem>Vinius</lem>
+                  <rdg wit="#dett">Iunius</rdg>
+                  <witDetail wit="#dett">et in ceteris locis</witDetail>
+                </app>
+            </persName> consules erunt. nam post conditam <placeName ref="Placeography.html#ROMA1">urbem</placeName> octingentos et viginti
+              prioris aevi annos multi auctores rettulerunt, dum res populi Romani memorabantur pari
+              eloquentia ac libertate: postquam bellatum apud <placeName ref="Placeography.html#ACTI1">Actium</placeName> atque omnem potentiam ad unum
+              conferri pacis interfuit, magna illa ingenia cessere; simul veritas pluribus modis
+              infracta, primum inscitia rei publicae ut alienae, mox libidine adsentandi aut rursus
+              odio adversus dominantis: ita neutris cura posteritatis inter <app>
+                <lem>infensos</lem>
+                <rdg wit="#M">fensos</rdg>
+              </app> vel obnoxios. sed ambitionem scriptoris facile <app>
+                <lem>averseris</lem>
+                <rdg wit="#Pic">averseris</rdg>
+                <rdg wit="#M">adverseris</rdg>
+              </app>, obtrectatio et livor pronis auribus accipiuntur; quippe adulationi foedum
+              crimen servitutis, malignitati falsa species libertatis inest. mihi <persName ref="Personography.html#GALB1">Galba </persName>
+              <persName ref="Personography.html#OTHO1">Otho </persName>
+              <persName ref="Personography.html#VITE1"> Vitellius</persName> nec beneficio nec iniuria cogniti. dignitatem nostram
+              a <persName ref="Personography.html#FLAV1">Vespasiano</persName> inchoatam, a <persName ref="Personography.html#FLAV2">Tito</persName> auctam, a
+              <persName ref="Personography.html#FLAV3">Domitiano</persName> longius provectam non abnuerim: sed incorruptam fidem
+              professis neque amore quisquam et sine odio dicendus est. quod si vita suppeditet,
+              principatum divi <persName ref="Personography.html#NERV1">Nervae</persName> et imperium <persName ref="Personography.html#TRAJ1">Traiani</persName>,
+              uberiorem securioremque materiam, senectuti seposui, rara temporum felicitate ubi
+              sentire quae velis et quae sentias dicere licet. <pb ed="oct"/></p>
+          </div3>
+          <div3 n="2" type="chapter">
+            <p>Opus adgredior <app>
+                <lem>†opimum</lem>
+                <rdg wit="#M">opibus</rdg>
+              </app> casibus, atrox proeliis, discors seditionibus, ipsa etiam pace <app>
+                <lem>saevum</lem>
+                <rdg wit="#M">saevom</rdg>
+              </app>. quattuor principes ferro interempti: trina bella civilia, plura externa ac
+              plerumque permixta:<app>
+                <lem>prosperae in Oriente, adversae in Occidente res: turbatum</lem>
+                <rdg wit="#M">prospere Inorientem adversae in occidentes returbatam</rdg>
+              </app> <placeName ref="Placeography.html#ILLY1">Illyricum</placeName>, <placeName ref="Placeography.html#GALL1">Galliae</placeName> nutantes, perdomita <app>
+                <lem><placeName ref="Placeography.html#BRIT1">Britannia</placeName></lem>
+                <rdg wit="#M2">brittannia</rdg>
+                <rdg wit="#M">brittaniae</rdg>
+              </app> et statim <app>
+                <lem>omissa</lem>
+                <rdg wit="#M">missa</rdg>
+              </app>: <app>
+                <lem>coortae</lem>
+                <rdg wit="#M">cohorte</rdg>
+              </app> in nos Sarmatarum ac Sueborum gentes, nobilitatus cladibus mutuis Dacus, mota
+              prope etiam Parthorum arma falsi Neronis ludibrio. iam vero <placeName ref="Placeography.html#ITAL1">Italia</placeName> novis cladibus vel
+              post longam saeculorum seriem repetitis adflicta. haustae aut obrutae urbes,
+              fecundissima <placeName ref="Placeography.html#CAMP1">Campaniae</placeName> ora; et <placeName ref="Placeography.html#ROMA1">urbs</placeName> incendiis vastata, consumptis antiquissimis <app>
+                <lem xml:id="lem-delubris">delubris</lem>
+                <rdg wit="#M">debris</rdg>
+                <witDetail wit="#M2" target="#lem-delubris">lu <hi rend="i">add. </hi>M<hi
+                    rend="super">2</hi></witDetail>
+              </app>, ipso <placeName ref="Placeography.html#CAPI1">Capitolio</placeName> civium manibus incenso. pollutae caerimoniae, magna adulteria:
+              plenum exiliis mare, infecti caedibus scopuli. atrocius in urbe saevitum: nobilitas,
+              opes, omissi gestique honores pro crimine et ob virtutes certissimum exitium. nec
+              minus praemia delatorum invisa quam scelera, cum alii sacerdotia et consulatus ut
+              spolia adepti, procurationes alii et interiorem potentiam, agerent verterent cuncta
+              odio et terrore. corrupti in dominos servi, in patronos liberti; et quibus deerat
+              inimicus per amicos oppressi.</p>
+          </div3>
+          <div3 n="3" type="chapter">
+            <p>Non tamen adeo virtutum <app>
+                <lem wit="#M1">sterile</lem>
+                <rdg wit="#M">steriles</rdg>
+              </app> saeculum ut non et bona exempla prodiderit. comitatae profugos liberos matres,
+              secutae maritos in exilia coniuges: propinqui <app>
+                <lem xml:id="lem-audentes">audentes</lem>
+                <rdg wit="#M">audientes</rdg>
+                <witDetail wit="M" target="#lem-audentes">
+                  <hi rend="i">sed littera</hi> i <hi rend="i">evanida</hi></witDetail>
+              </app>, <app>
+                <lem>constantes</lem>
+                <rdg wit="M">constates</rdg>
+              </app> generi, contumax etiam adversus tormenta servorum fides; supremae clarorum
+              virorum <app>
+                <lem wit="#b">necessitates fortiter<pb ed="oct"/> toleratae </lem>
+                <rdg wit="#M">necessitates ipsa necessitas fortiter tolerata</rdg>
+                <rdg wit="#Madvig">necessitates ipsa necessitate f. toleratae</rdg>
+                <rdg wit="#Heraeus">n. ipsae neces f. toleratae</rdg>
+                <rdg wit="#Meiser">n. ipsa necis necessitas</rdg>
+              </app> et laudatis antiquorum mortibus <app>
+                <lem wit="#M2">pares</lem>
+                <rdg wit="#M">pare</rdg>
+                <rdg wit="#a #Wurm">par</rdg>
+              </app> exitus. praeter multiplicis rerum humanarum casus caelo terraque prodigia et
+              fulminum monitus et futurorum praesagia, laeta <app>
+                <lem>tristia</lem>
+                <rdg wit="#M">tristitia</rdg>
+              </app>, ambigua manifesta; nec enim umquam atrocioribus populi Romani cladibus <app>
+                <lem wit="#Rh">magisve iustis</lem>
+                <rdg wit="#M">magis vetustis</rdg>
+              </app>
+              <app>
+                <lem>indiciis</lem>
+                <rdg wit="#Meiser">vindictis</rdg>
+              </app> adprobatum est non esse curae <app>
+                <lem xml:id="lem-deis">deis</lem>
+                <rdg wit="#M">de his</rdg>
+                <witDetail wit="#M2" target="#lem-deis">corr. M2</witDetail>
+              </app> securitatem nostram, esse ultionem. </p>
+          </div3>
+          <div3 n="4" type="chapter">
+            <p>Ceterum antequam destinata componam, repetendum videtur qualis status <placeName ref="Placeography.html#ROMA1">urbis</placeName>, quae
+              mens exercituum, quis habitus provinciarum, quid in toto terrarum orbe validum, quid
+              aegrum fuerit, ut non modo casus eventusque rerum, qui plerumque fortuiti sunt, sed
+              ratio etiam causaeque noscantur. finis <persName ref="Personography.html#NERO1">Neronis</persName> ut laetus primo
+              gaudentium impetu fuerat, ita varios motus animorum non modo in urbe apud patres aut
+              populum aut urbanum militem, sed omnis legiones ducesque conciverat, evulgato imperii
+              arcano posse principem alibi quam <placeName ref="Placeography.html#ROMA1">Romae</placeName> fieri. sed patres laeti, usurpata statim
+              libertate licentius ut erga principem novum et absentem; primores equitum proximi
+              gaudio patrum; pars populi <app>
+                <lem>integra</lem>
+                <rdg wit="#M">integram</rdg>
+              </app> et magnis domibus adnexa, clientes libertique damnatorum et exulum in spem
+              erecti: plebs sordida et circo ac theatris sueta, simul deterrimi servorum, aut qui
+              adesis bonis per dedecus <persName ref="Personography.html#NERO1">Neronis</persName> alebantur, maesti et rumorum
+              avidi.</p>
+          </div3>
+          <div3 n="5" type="chapter">
+            <p>Miles urbanus longo Caesarum sacramento imbutus et ad
+              destituendum <persName ref="Personography.html#NERO1">Neronem</persName> arte magis et impulsu quam suo ingenio
+              traductus, postquam neque dari <app>
+                <lem>donativum</lem>
+                <rdg wit="#M">donativom</rdg>
+              </app> sub nomine <persName ref="Personography.html#GALB1">Galbae</persName> promissum neque magnis meritis ac
+              praemiis eundem in pace quem in bello locum praeventamque gratiam
+              intellegit apud principem a legionibus factum, pronus ad novas res scelere insuper
+              <persName ref="Personography.html#SABI1">Nymphidii Sabini</persName> praefecti imperium sibi molientis <app>
+                <lem>agitatur</lem>
+                <rdg wit="#Gronovius">agitatus</rdg>
+              </app>. et <persName ref="Personography.html#SABI1">Nymphidius</persName> quidem in ipso conatu oppressus, <app>
+                <lem>set</lem>
+                <rdg wit="#Rh">set</rdg>
+                <rdg wit="#M">et</rdg>
+              </app> quamvis capite defectionis ablato manebat plerisque militum conscientia, nec
+              deerant sermones senium atque avaritiam <persName ref="Personography.html#GALB1">Galbae</persName> increpantium.
+              laudata olim et militari fama celebrata severitas eius angebat aspernantis veterem
+              disciplinam atque ita quattuordecim annis a <persName ref="Personography.html#NERO1">Nerone</persName> adsuefactos ut
+              haud minus vitia principum amarent quam olim virtutes verebantur. accessit
+              <persName ref="Personography.html#GALB1">Galbae</persName> vox pro re publica honesta, ipsi anceps, legi a se
+              militem, non emi; nec enim ad hanc formam cetera erant.</p>
+          </div3>
+          <div3 n="6" type="chapter">
+            <p>Invalidum senem <persName ref="Personography.html#VINI1">Titus Vinius</persName> et <persName ref="Personography.html#LACO1">Cornelius
+                Laco</persName>, alter deterrimus mortalium, alter ignavissimus, odio flagitiorum
+              oneratum contemptu inertiae destruebant. tardum <persName ref="Personography.html#GALB1">Galbae</persName> iter et
+              cruentum, interfectis <persName ref="Personography.html#VARR1">Cingonio Varrone</persName> consule designato et
+              <persName ref="Personography.html#TURP1">Petronio Turpiliano</persName> consulari: ille ut <persName ref="Personography.html#SABI1">Nymphidii
+              </persName> socius, hic ut dux <persName ref="Personography.html#NERO1">Neronis</persName>, inauditi atque indefensi
+              tamquam innocentes perierant. introitus in urbem trucidatis tot milibus inermium
+              militum infaustus <app>
+                <lem>omine</lem>
+                <rdg wit="#M">homine</rdg>
+              </app> atque ipsis etiam qui occiderant formidolosus. inducta <app>
+                <lem>legione</lem>
+                <rdg wit="#M1">legione</rdg>
+                <rdg wit="#M">legiones</rdg>
+              </app> Hispana, remanente ea quam e classe <persName ref="Personography.html#NERO1">Nero</persName> conscripserat,
+              plena <placeName ref="Placeography.html#ROMA1">urbs</placeName> exercitu insolito; multi ad hoc numeri e <placeName ref="Placeography.html#GERM1">Germania</placeName> ac <placeName ref="Placeography.html#BRIT1">Britannia</placeName> et <placeName ref="Placeography.html#ILLY1">Illyrico</placeName>,
+              quos idem <persName ref="Personography.html#NERO1">Nero</persName> electos praemissosque ad <placeName ref="Placeography.html#CASP1">claustra Caspiarum</placeName> et
+              bellum, quod in Albanos parabat, opprimendis <persName ref="Personography.html#VIND1">Vindicis</persName> coeptis revocaverat: ingens
+              novis rebus materia, ut non in unum aliquem prono favore ita <app>
+                <lem>audenti</lem>
+                <rdg wit="#M">audienti</rdg>
+              </app> parata.</p>
+          </div3>
+          <div3 n="7" type="chapter">
+            <p>Forte congruerat ut <persName ref="Personography.html#MACE1">Clodii Macri</persName> et <persName ref="Personography.html#CAPI1">Fontei
+              Capitonis</persName> caedes nuntiarentur. <persName ref="Personography.html#MACE1">Macrum</persName> in Africa haud
+              dubie turbantem <persName ref="Personography.html#GARU1">Trebonius Garutianus</persName> procurator iussu
+              <persName ref="Personography.html#GALB1">Galbae</persName>, <persName ref="Personography.html#CAPI1">Capitonem</persName> in
+              <placeName ref="Placeography.html#GERM1">Germania</placeName>, cum similia coeptaret, <persName ref="Personography.html#AQUI1">Cornelius Aquinus</persName> et
+              <persName ref="Personography.html#VALE1">Fabius Valens</persName> legati legionum interfecerant antequam
+              iuberentur. fuere qui crederent <persName ref="Personography.html#CAPI1">Capitonem</persName> ut avaritia et libidine
+              foedum ac maculosum ita cogitatione rerum novarum abstinuisse, sed a legatis bellum
+              suadentibus, postquam impellere nequiverint, crimen ac dolum ultro compositum, et
+              <persName ref="Personography.html#GALB1">Galbam</persName> mobilitate ingenii, an ne altius scrutaretur, quoquo
+              modo acta, quia mutari non poterant, comprobasse. ceterum utraque caedes sinistre
+              accepta, et inviso semel principi seu bene seu male facta <app>
+                <lem>parem invidiam</lem>
+                <rdg wit="#Bezzenberger">parem invidiam</rdg>
+                <rdg wit="#M">praeminuit Iam</rdg>
+                <rdg wit="#Meiser">perniciem</rdg>
+              </app> adferebant. venalia cuncta, praepotentes liberti, servorum manus subitis avidae
+              et tamquam apud senem festinantes, eademque novae aulae mala, aeque gravia, non aeque
+              excusata. ipsa aetas <persName ref="Personography.html#GALB1">Galbae</persName> inrisui ac fastidio erat adsuetis
+              iuventae <persName ref="Personography.html#NERO1">Neronis</persName> et imperatores forma ac decore corporis, ut est
+              mos vulgi, comparantibus.</p>
+          </div3>
+          <div3 n="8" type="chapter">
+            <p>Et hic quidem Romae, tamquam in tanta multitudine, habitus animorum <app>
+                <lem>fuit</lem>
+                <rdg wit="#M">fit</rdg>
+            </app>. e provinciis Hispaniae praeerat <persName ref="Personography.html#CLUV1">Cluvius Rufus</persName>, vir
+              facundus et pacis artibus, bellis inexpertus. Galliae super memoriam
+              <persName ref="Personography.html#VIND1">Vindicis</persName> obligatae recenti <app>
+                <lem>dono</lem>
+                <rdg wit="#M">domino</rdg>
+                <witDetail wit="#M">in rasura M a manu recentiore</witDetail>
+              </app> Romanae civitatis et in posterum tributi levamento. proximae tamen
+                Germanicis exercitibus Galliarum civitates non eodem honore
+              habitae, quaedam etiam finibus ademptis pari dolore commoda aliena ac suas iniurias
+              metiebantur. Germanici exercitus, quod periculosissimum in tantis
+              viribus, solliciti et irati, superbia recentis victoriae et <app>
+                <lem>metu</lem>
+                <rdg wit="#M">metus</rdg>
+              </app> tamquam alias partis fovissent. tarde a <persName ref="Personography.html#NERO1">Nerone</persName>
+              desciverant, nec statim pro <persName ref="Personography.html#GALB1">Galba</persName>
+              <persName ref="Personography.html#VERG1">Verginius</persName>. an imperare noluisset dubium: delatum ei <pb ed="oct"
+              /> a milite imperium conveniebat. <persName ref="Personography.html#CAPI1">Fonteium Capitonem</persName> occisum etiam qui queri non
+              poterant, tamen indignabantur. dux deerat abducto <persName ref="Personography.html#VERG1">Verginio</persName> per simulationem amicitiae;
+              quem non remitti atque etiam reum esse tamquam suum crimen accipiebant.</p>
+          </div3>
+          <div3 n="9" type="chapter">
+            <p>Superior exercitus legatum <persName ref="Personography.html#FLACC1">Hordeonium Flaccu</persName>m spernebat, senecta ac debilitate pedum
+              invalidum, sine constantia, sine auctoritate: ne quieto quidem milite regimen; adeo
+              furentes infirmitate retinentis ultro accendebantur. <placeName ref="Placeography.html#GERM2">inferioris Germaniae</placeName> legiones
+              diutius sine <app>
+                <lem>consulari</lem>
+                <rdg wit="#M1">consulari</rdg>
+                <rdg wit="#M">consularis</rdg>
+              </app> fuere, donec missu <persName ref="Personography.html#GALB1">Galbae</persName> <persName ref="Personography.html#VITE1">A. Vitellius</persName> aderat, censoris <persName ref="Personography.html#VITE2">Vitellii</persName> ac ter
+              consulis filius: id satis videbatur. in <placeName ref="Placeography.html#BRIT1">Britannico</placeName> exercitu nihil irarum. non sane
+              aliae legiones per <app>
+                <lem>omnis</lem>
+                <rdg wit="#M2">omnes</rdg>
+                <rdg wit="#M">omne</rdg>
+              </app> civilium bellorum motus innocentius egerunt, seu quia procul et Oceano divisae,
+              seu crebris expeditionibus doctae hostem potius odisse. quies et <placeName ref="Placeography.html#ILLY1">Illyrico</placeName>, quamquam
+              excitae a <persName ref="Personography.html#NERO1">Nerone</persName> legiones, dum in <placeName ref="Placeography.html#ITAL1">Italia</placeName> cunctantur, <persName ref="Personography.html#VERG1">Verginium</persName> legationibus adissent:
+              sed longis spatiis discreti exercitus, quod saluberrimum est ad continendam militarem
+              fidem, nec vitiis nec viribus miscebantur.</p>
+          </div3>
+        </div2>
+        <div2 type="part" n="2">
+          <div3 n="10" type="chapter">
+            <p>Oriens adhuc immotus. <placeName ref="Placeography.html#SYRI1">Syriam</placeName> et quattuor legiones obtinebat <persName ref="Personography.html#MUCI1">Licinius Mucianus</persName>, vir
+              secundis adversisque iuxta famosus. insignis amicitias iuvenis ambitiose coluerat; mox <app>
+                <lem>attritis</lem>
+                <rdg wit="#M1">attritis</rdg>
+                <rdg wit="#M">atteritis</rdg>
+              </app> opibus, lubrico statu, suspecta etiam <persName ref="Personography.html#CLAU1">Claudii</persName> iracundia, in secretum <placeName ref="Placeography.html#ASIA1">Asiae</placeName>
+              sepositus tam prope ab exule fuit quam postea a principe. luxuria industria, comitate
+              adrogantia, malis bonisque artibus mixtus: nimiae voluptates, cum vacaret; quotiens
+              expedierat, magnae virtutes: palam laudares, secreta male audiebant: sed apud
+              subiectos, apud pro- <pb ed="oct"/> ximos, apud collegas variis inlecebris potens, et
+              cui expeditius fuerit tradere imperium quam obtinere. bellum <app>
+                <lem>Iudaicum</lem>
+                <rdg wit="#M">Iudei cum</rdg>
+                <witDetail wit="#M2">a superscripsit M2</witDetail>
+                <rdg wit="#Halm">Iudaeicum</rdg>
+              </app> <persName ref="Personography.html#FLAV1">Flavius Vespasianus</persName> (ducem eum <persName ref="Personography.html#NERO1">Nero</persName> delegerat) tribus legionibus administrabat.
+              nec <persName ref="Personography.html#FLAV1">Vespasiano</persName> adversus <persName ref="Personography.html#GALB1">Galbam</persName> votum aut animus: quippe <persName ref="Personography.html#FLAV2">Titum</persName> filium ad venerationem
+              cultumque eius miserat, ut suo loco memorabimus. occulta fati et ostentis ac responsis
+              destinatum <persName ref="Personography.html#FLAV1">Vespasiano</persName> liberisque eius imperium post fortunam credidimus. </p>
+          </div3>
+          <div3 n="11" type="chapter">
+            <p><placeName ref="Placeography.html#AEGY1">Aegyptum</placeName> copiasque, quibus coerceretur, iam inde a <persName ref="Personography.html#AUGU1">divo Augusto</persName> equites Romani
+              obtinent loco regum: ita visum expedire, provinciam aditu <app>
+                <lem>difficilem</lem>
+                <rdg wit="#M">difficile</rdg>
+              </app>, annonae fecundam, <app>
+                <lem>superstitione</lem>
+                <rdg wit="#M1">superstitione</rdg>
+                <rdg wit="#M">superstitionem</rdg>
+              </app> ac lascivia discordem et mobilem, insciam legum, ignaram magistratuum, domi
+              retinere. regebat tum <persName ref="Personography.html#ALEX1">Tiberius Alexander</persName>, eiusdem nationis. <placeName ref="Placeography.html#AFRI1">Africa</placeName> ac legiones in ea
+              interfecto <persName ref="Personography.html#MACE1">Clodio Macro</persName> contenta qualicumque principe post experimentum domini
+              minoris. <placeName ref="Placeography.html#MAUR1">duae Mauretania</placeName>e, <placeName ref="Placeography.html#RAET1">Raetia</placeName>, <placeName ref="Placeography.html#NORI1">Noricum</placeName>, <placeName ref="Placeography.html#THRA1">Thraecia</placeName> et quae aliae procuratoribus
+              cohibentur, ut cuique exercitui vicinae, ita in favorem aut odium contactu valentiorum
+              agebantur. inermes provinciae atque ipsa in primis <placeName ref="Placeography.html#ITAL1">Italia</placeName>, cuicumque servitio
+              exposita, in pretium belli cessurae erant. hic fuit rerum Romanarum status, cum
+              <persName ref="Personography.html#GALB1">Servius Galba</persName> iterum <persName ref="Personography.html#VINI1">Titus Vinius</persName> consules inchoavere annum sibi ultimum, rei publicae
+              prope supremum.</p>
+          </div3>
+          <div3 n="12" type="chapter">
+            <p>Paucis post kalendas Ianuarias diebus <persName ref="Personography.html#PROP1">Pompei Propinqui</persName> procuratoris e <placeName ref="Placeography.html#BELG1">Belgica</placeName>
+              litterae adferuntur, <placeName ref="Placeography.html#GERM3">superioris Germaniae</placeName> legiones rupta sacramenti reverentia
+              imperatorem alium flagitare et senatui ac populo Romano <app>
+                <lem>arbitrium</lem>
+                <rdg wit="#M1">arbitrium</rdg>
+                <rdg wit="#M">arbitrio</rdg>
+              </app> eligendi permittere quo seditio mollius acciperetur. maturavit ea res consilium
+              <persName ref="Personography.html#GALB1">Galbae</persName> iam pridem de adoptione secum et cum proximis agitantis. non sane crebrior tota
+              civitate sermo per illos mensis fuerat, primum licentia ac libidine talia loquendi,
+              dein fessa iam aetate <persName ref="Personography.html#GALB1">Galbae</persName>. paucis iudicium aut rei publicae amor: multi stulta spe,
+              prout quis amicus vel cliens, hunc vel illum ambitiosis rumoribus destinabant, etiam
+              in <persName ref="Personography.html#VINI1">Titi Vinii</persName> odium, qui in dies quanto potentior eodem actu invisior erat. quippe
+              hiantis in magna fortuna amicorum cupiditates ipsa Galbae facilitas intendebat, cum
+              apud infirmum et credulum minore metu et maiore praemio peccaretur. </p>
+          </div3>
+          <div3 n="13" type="chapter">
+            <p>Potentia principatus divisa in <persName ref="Personography.html#VINI1">Titum Vinium</persName> consulem <app>
+                <lem>Cornelium</lem>
+                <rdg wit="#dett #Halm">et Cornelium</rdg>
+            </app> <persName ref="Personography.html#LACO1">Laconem</persName> praetorii praefectum; nec minor gratia <persName ref="Personography.html#ICEL1">Icelo</persName> <persName ref="Personography.html#GALB1">Galbae</persName> liberto, quem
+              anulis donatum equestri nomine <persName ref="Personography.html#ICEL1">Marcianum</persName> vocitabant. hi discordes et rebus minoribus
+              sibi quisque tendentes, circa consilium eligendi su ccessoris in duas factiones
+              scindebantur. <persName ref="Personography.html#VINI1">Vinius</persName> pro <persName ref="Personography.html#OTHO1">M. Othone</persName>, <persName ref="Personography.html#LACO1">Laco</persName> atque <persName ref="Personography.html#ICEL1">Icelus</persName> consensu non tam unum aliquem
+              fovebant quam alium. neque erat <persName ref="Personography.html#GALB1">Galbae</persName> ignota <persName ref="Personography.html#OTHO1">Othonis</persName> ac <persName ref="Personography.html#VINI1">Titi Vinii</persName> amicitia; et
+              rumoribus nihil silentio transmittentium, quia <persName ref="Personography.html#VINI1">Vinio</persName> vidua filia, <app>
+                <lem>caelebs</lem>
+                <rdg wit="#M">caeleps</rdg>
+              </app> <persName ref="Personography.html#OTHO1">Otho</persName>, gener ac socer destinabantur. credo et rei publicae curam subisse,
+              frustra a <persName ref="Personography.html#NERO1">Nerone</persName> translatae si apud <persName ref="Personography.html#OTHO1">Othonem</persName> relinqueretur. namque <persName ref="Personography.html#OTHO1">Otho</persName> pueritiam
+              incuriose, adulescentiam petulanter egerat, gratus <persName ref="Personography.html#NERO1">Neroni</persName> aemulatione luxus. eoque
+              <persName ref="Personography.html#POPP1">Poppaeam Sabinam</persName>, principale scortum, ut apud conscium libidinum deposuerat, donec
+              <persName ref="Personography.html#OCTA1">Octaviam</persName> uxorem amoliretur. mox suspectum in eadem <persName ref="Personography.html#POPP1">Poppaea</persName> in
+              provinciam <placeName ref="Placeography.html#LUSI1">Lusitaniam</placeName> specie legationis seposuit. <persName ref="Personography.html#OTHO1">Otho</persName> comiter administrata provincia
+              primus in partis transgressus nec segnis et, donec bellum fuit, inter praesentis
+              splendidissimus, spem adoptionis statim conceptam acrius in dies rapiebat, faventibus
+              plerisque militum, prona in eum aula <persName ref="Personography.html#NERO1">Neronis</persName> ut similem.</p>
+          </div3>
+          <div3 n="14" type="chapter">
+            <p>Sed <persName ref="Personography.html#GALB1">Galba</persName> post nuntios Germanicae seditionis, quamquam nihil adhuc de <persName ref="Personography.html#VITE1">Vitellio</persName>
+              certum, anxius quonam exercituum vis <app>
+                <lem>erumperet</lem>
+                <rdg wit="#Ritter">erumperet et</rdg>
+              </app>, ne urbano quidem militi confisus, quod remedium unicum rebatur, comitia
+              imperii <app>
+                <lem>transigit</lem>
+                <rdg wit="#M">transsigit</rdg>
+              </app>; adhibitoque super <persName ref="Personography.html#VINI1">Vinium</persName> ac <persName ref="Personography.html#LACO1">Laconem</persName> <persName ref="Personography.html#CELS1">Mario Celso</persName> consule designato ac <persName ref="Personography.html#GEMI1">Ducenio
+                Gemino</persName> praefecto urbis, pauca praefatus de sua senectute, <persName ref="Personography.html#PISO1">Pisonem Licinianum</persName> <app>
+                <lem>accersiri</lem>
+                <rdg wit="#dett">accersi</rdg>
+                <rdg wit="#Gronovius">arcessi</rdg>
+                </app> iubet, seu propria electione sive, ut quidam crediderunt, <persName ref="Personography.html#LACO1">Lacone</persName> instante, cui
+              apud <persName ref="Personography.html#RUBE1">Rubellium Plautum</persName> exercita cum <persName ref="Personography.html#PISO1">Pisone</persName> amicitia; sed callide ut ignotum fovebat,
+              et prospera de <persName ref="Personography.html#PISO1">Pisone</persName> fama consilio eius fidem addiderat. <persName ref="Personography.html#PISO1">Piso</persName> <persName ref="Personography.html#CRAS1">M. Crasso</persName> et <persName ref="Personography.html#SCRI1">Scribonia</persName>
+              genitus, nobilis utrimque, vultu habituque moris antiqui et aestimatione recta
+              severus, deterius interpretantibus tristior habebatur: ea pars morum eius quo
+              suspectior sollicitis adoptanti placebat. </p>
+          </div3>
+          <div3 n="15" type="chapter">
+            <p>Igitur <persName ref="Personography.html#GALB1">Galba</persName>, adprehensa <persName ref="Personography.html#PISO1">Pisonis</persName> manu, in hunc modum locutus fertur: 'si te privatus
+              lege curiata apud pontifices, ut moris est, adoptarem, et mihi egregium erat <persName ref="Personography.html#POMP1">Cn.
+                Pompei</persName> et <persName ref="Personography.html#CRASS1">M. Crassi</persName> subolem in penatis meos adsciscere, et tibi insigne Sulpiciae ac
+              Lutatiae decora nobilitati tuae adiecisse: nunc me deorum hominumque consensu ad
+              imperium vocatum praeclara indoles tua et amor patriae impulit ut <pb ed="oct"/>
+              principatum, de quo maiores nostri armis certabant, bello adeptus quiescenti offeram,
+              exemplo <persName ref="Personography.html#AUGU1">divi Augusti</persName> qui sororis filium <persName ref="Personography.html#MARC1">Marcellum</persName>, dein generum <persName ref="Personography.html#AGRI1">Agrippam</persName>, mox nepotes
+              suos, postremo <persName ref="Personography.html#TIBE1">Tiberium Neronem</persName> privignum in proximo sibi fastigio conlocavit. sed
+              <persName ref="Personography.html#AUGU1">Augustus</persName> in domo successorem quaesivit, ego in re publica, non quia propinquos aut
+              socios belli non habeam, sed neque ipse imperium ambitione accepi, et iudicii mei
+              documentum sit non meae tantum necessitudines, quas tibi postposui, sed et tuae. est
+              tibi frater pari nobilitate, natu maior, dignus hac fortuna nisi tu potior esses. ea
+              aetas tua quae cupiditates adulescentiae iam effugerit, ea vita in qua nihil
+              praeteritum excusandum habeas. fortunam adhuc tantum adversam tulisti: secundae res
+              acrioribus stimulis animos explorant, quia miseriae tolerantur, felicitate
+              corrumpimur. fidem, libertatem, amicitiam, praecipua humani animi bona, tu quidem
+              eadem constantia retinebis, sed alii per obsequium imminuent: inrumpet adulatio,
+              blanditiae <add>et</add> pessimum veri adfectus venenum, sua cuique utilitas. etiam
+                <add>si</add> ego ac tu simplicissime inter nos hodie loquimur, ceteri libentius cum
+              fortuna nostra quam nobiscum; nam suadere principi quod oporteat multi laboris,
+              adsentatio erga quemcumque principem sine adfectu peragitur.'</p>
+          </div3>
+          <div3 n="16" type="chapter">
+            <p>'Si immensum imperii corpus stare ac librari sine rectore posset, dignus eram a quo
+              res publica inciperet: nunc eo necessitatis iam pridem ventum est ut nec mea senectus
+              conferre plus populo Romano possit quam bonum successorem, nec tua plus iuventa quam
+              bonum principem. sub <persName ref="Personography.html#TIBE1">Tiberio</persName> et <persName ref="Personography.html#CALI1">Gaio</persName> et <persName ref="Personography.html#CLAU1">Claudio</persName> unius familiae quasi hereditas fuimus: loco libertatis erit quod eligi coepimus; et finita Iuliorum
+              Claudiorumque domo optimum quemque adoptio inveniet. nam generari et nasci a
+              principibus fortuitum, nec ultra aestimatur: adoptandi iudicium integrum et, si velis
+              eligere, consensu monstratur. sit ante oculos <persName ref="Personography.html#NERO1">Nero</persName> quem longa Caesarum serie tumentem
+              non <persName ref="Personography.html#VIND1">Vindex</persName> cum inermi provincia aut ego cum una legione, sed sua immanitas, sua
+              luxuria cervicibus publicis depulerunt; neque erat adhuc damnati principis exemplum.
+              nos bello et ab aestimantibus adsciti cum invidia quamvis egregii erimus. ne tamen
+              territus fueris si duae legiones in hoc concussi orbis motu nondum quiescunt: ne ipse
+              quidem ad securas res accessi, et audita adoptione desinam videri senex, quod nunc
+              mihi unum obicitur. <persName ref="Personography.html#NERO1">Nero</persName> a pessimo quoque semper desiderabitur: mihi ac tibi
+              providendum est ne etiam a bonis desideretur. monere diutius neque temporis huius, et
+              impletum est omne consilium si te bene elegi. utilissimus idem ac brevissimus bonarum
+              malarumque rerum dilectus est, cogitare quid aut volueris sub alio principe aut
+              nolueris; neque enim hic, ut gentibus quae regnantur, certa dominorum domus et ceteri
+              servi, sed imperaturus es hominibus qui nec totam servitutem pati possunt nec totam
+              libertatem.' et <persName ref="Personography.html#GALB1">Galba</persName> quidem haec ac talia, tamquam principem faceret, ceteri tamquam
+              cum facto loquebantur. </p>
+          </div3>
+          <div3 n="17" type="chapter">
+            <p><persName ref="Personography.html#PISO1">Pisonem</persName> ferunt statim intuentibus et mox coniectis in eum omnium oculis nullum
+              turbati aut exultantis animi motum prodidisse. sermo erga patrem imperatoremque
+              reverens, de se moderatus; nihil in vultu habituque mutatum, quasi imperare posset
+              magis quam vellet. consultatum inde, pro rostris an in senatu an in castris adoptio
+              nuncuparetur. <pb ed="oct"/> iri in castra placuit: honorificum id militibus fore,
+              quorum favorem ut largitione et ambitu male adquiri, ita per bonas artis haud
+              spernendum. circumsteterat interim <placeName ref="Placeography.html#PALA1">Palatium</placeName> publica expectatio, magni secreti
+              impatiens; et male coercitam famam supprimentes augebant.</p>
+          </div3>
+          <div3 n="18" type="chapter">
+            <p>Quartum idus Ianuarias, foedum imbribus diem, tonitrua et fulgura et caelestes minae
+              ultra solitum turbaverunt. observatum id antiquitus comitiis dirimendis non terruit
+              <persName ref="Personography.html#GALB1">Galbam</persName> quo minus in castra pergeret, contemptorem talium ut fortuitorum; seu quae fato
+              manent, quamvis significata, non vitantur. apud frequentem militum contionem
+              imperatoria brevitate adoptari a se <persName ref="Personography.html#PISO">Pisonem</persName> exemplo <persName ref="Personography.html#AUGU1">divi Augusti</persName> et more militari, quo
+              vir virum legeret, pronuntiat. ac ne dissimulata seditio in maius crederetur, ultro
+              adseverat quartam et duoetvicensimam legiones, paucis seditionis auctoribus, non ultra
+              verba ac voces errasse et brevi in officio fore. nec ullum orationi aut lenocinium
+              addit aut pretium. tribuni tamen centurionesque et proximi militum grata auditu
+              respondent: per ceteros maestitia ac silentium, tamquam usurpatam etiam in pace
+              donativi necessitatem bello perdidissent. constat potuisse conciliari animos
+              quantulacumque parci senis liberalitate: nocuit antiquus rigor et nimia severitas, cui
+              iam pares non sumus. </p>
+          </div3>
+          <div3 n="19" type="chapter">
+            <p>Inde apud senatum non comptior <persName ref="Personography.html#GALB1">Galbae</persName>, non longior quam apud militem sermo: <persName ref="Personography.html#PISO1">Pisonis</persName>
+              comis oratio. et patrum favor aderat: multi voluntate, effusius qui noluerant, medii
+              ac plurimi obvio obsequio, privatas spes agitantes sine publica cura. nec aliud
+              sequenti quadriduo, quod medium inter adoptionem et caedem fuit, dictum a <persName ref="Personography.html#PISO1">Pisone</persName> in
+              publico <pb ed="oct"/> factumve. crebrioribus in dies Germanicae defectionis nuntiis
+              et facili civitate ad accipienda credendaque omnia nova cum tristia sunt, censuerant
+              patres mittendos ad Germanicum exercitum legatos. agitatum secreto num et <persName ref="Personography.html#PISO1">Piso</persName>
+              proficisceretur, maiore praetextu, illi auctoritatem senatus, hic dignationem Caesaris
+              laturus. placebat et <persName ref="Personography.html#LACO1">Laconem</persName> praetorii praefectum simul mitti: is consilio
+              intercessit. legati quoque (nam senatus electionem <persName ref="Personography.html#GALB1">Galbae</persName> permiserat) foeda
+              inconstantia nominati, excusati, substituti, ambitu remanendi aut eundi, ut quemque
+              metus vel spes impulerat.</p>
+          </div3>
+        </div2>
+        <div2 type="part" n="3">
+          <div3 n="20" type="chapter">
+            <p>Proxima pecuniae cura; et cuncta scrutantibus iustissimum visum est inde repeti ubi
+              inopiae causa erat. bis et viciens miliens sestertium donationibus <persName ref="Personography.html#NERO1">Nero</persName> effuderat:
+              appellari singulos iussit, decima parte liberalitatis apud quemque eorum relicta. at
+              illis vix decimae super portiones erant, isdem erga aliena sumptibus quibus sua
+              prodegerant, cum rapacissimo cuique ac perditissimo non agri aut faenus sed sola
+              instrumenta vitiorum manerent. exactioni triginta equites Romani praepositi, novum
+              officii genus et ambitu ac numero onerosum: ubique hasta et sector, et inquieta urbs
+              actionibus. ac tamen grande gaudium quod tam pauperes forent quibus donasset <persName ref="Personography.html#NERO1">Nero</persName> quam
+              quibus abstulisset. exauctorati per eos dies tribuni, e praetorio <persName ref="Personography.html#TAUR1">Antonius Taurus</persName> et
+              <persName ref="Personography.html#NASO1">Antonius Naso</persName>, ex urbanis cohortibus <persName ref="Personography.html#PACE1">Aemilius Pacensis</persName>, e vigilibus <persName ref="Personography.html#FRON1">Iulius Fronto</persName>. nec
+              remedium in ceteros fuit, sed metus initium, tamquam per artem et formidine singuli
+              pellerentur, omnibus suspectis. </p>
+          </div3>
+          <div3 n="21" type="chapter">
+            <p>Interea <persName ref="Personography.html#OTHO1">Othonem</persName>, cui compositis rebus nulla spes, <pb ed="oct"/> omne in turbido
+              consilium, multa simul extimulabant, luxuria etiam principi onerosa, inopia vix
+              privato toleranda, in <persName ref="Personography.html#GALB1">Galbam</persName> ira, in <persName ref="Personography.html#PISO1">Pisonem</persName> invidia; fingebat et metum quo magis
+              concupisceret: praegravem se <persName ref="Personography.html#NERO1">Neroni</persName> fuisse, nec <placeName ref="Placeography.html#LUSI1">Lusitaniam</placeName> rursus et alterius exilii
+              honorem expectandum. suspectum semper invisumque dominantibus qui proximus
+              destinaretur. nocuisse id sibi apud senem principem, magis nociturum apud iuvenem
+              ingenio trucem et longo exilio efferatum: occidi <persName ref="Personography.html#OTHO1">Othonem</persName> posse. proinde agendum
+              audendumque, dum <persName ref="Personography.html#GALB1">Galbae</persName> auctoritas fluxa, <persName ref="Personography.html#PISO1">Pisonis</persName> nondum coaluisset. opportunos magnis
+              conatibus transitus rerum, nec cunctatione opus, ubi perniciosior sit quies quam
+              temeritas. mortem omnibus ex natura aequalem oblivione apud posteros vel gloria
+              distingui; ac si nocentem innocentemque idem exitus maneat, acrioris viri esse merito
+              perire. </p>
+          </div3>
+          <div3 n="22" type="chapter">
+            <p>Non erat <persName ref="Personography.html#OTHO1">Othonis</persName> mollis et corpori similis animus. et intimi libertorum servorumque,
+              corruptius quam in privata domo habiti, aulam <persName ref="Personography.html#NERO1">Neronis</persName> et luxus, adulteria, matrimonia
+              ceterasque regnorum libidines avido talium, si auderet, ut sua ostentantes, quiescenti
+              ut aliena exprobrabant, urgentibus etiam mathematicis, dum novos motus et clarum
+              <persName ref="Personography.html#OTHO1">Othoni</persName> annum observatione siderum adfirmant, genus hominum potentibus infidum,
+              sperantibus fallax, quod in civitate nostra et vetabitur semper et retinebitur. multos
+              secreta <persName ref="Personography.html#POPP1">Poppaeae</persName> mathematicos, pessimum principalis matrimonii instrumentum,
+              habuerant: e quibus <persName ref="Personography.html#PTOL1">Ptolemaeus</persName> <persName ref="Personography.html#OTHO1">Othoni</persName> in <placeName ref="Placeography.html#HISP1">Hispania</placeName> comes, cum superfuturum eum <persName ref="Personography.html#NERO1">Neroni</persName>
+              promisisset, postquam ex eventu fides, coniectura iam et rumore senium <persName ref="Personography.html#GALB1">Galbae</persName> et iuventam <persName ref="Personography.html#OTHO1">Othonis</persName> computantium persuaserat fore ut in imperium
+              adscisceretur. sed <persName ref="Personography.html#OTHO1">Otho</persName> tamquam peritia et monitu fatorum praedicta accipiebat,
+              cupidine ingenii humani libentius obscura credendi. nec deerat <persName ref="Personography.html#PTOL1">Ptolemaeus</persName>, iam et
+              sceleris instinctor, ad quod facillime ab eius modi voto transitur.</p>ref="Personography.xml#
+          </div3>
+          <div3 n="23" type="chapter">
+            <p>Sed sceleris cogitatio incertum an repens: studia militum iam pridem spe successionis
+              aut paratu facinoris adfectaverat, in itinere, in agmine, in stationibus vetustissimum
+              quemque militum nomine vocans ac memoria <persName ref="Personography.html#NERO1">Neroniani</persName> comitatus contubernalis appellando;
+              alios agnoscere, quosdam requirere et pecunia aut gratia iuvare, inserendo saepius
+              querelas et ambiguos de <persName ref="Personography.html#GALB1">Galba</persName> sermones quaeque alia turbamenta vulgi. labores
+              itinerum, inopia commeatuum, duritia imperii atrocius accipiebantur, cum <placeName ref="Placeography.html#CAMP1">Campaniae</placeName>
+              lacus et <placeName ref="Placeography.html#ACHA1">Achaiae</placeName> urbes classibus adire soliti <placeName ref="Placeography.html#PYRE1">Pyrenaeum</placeName> et <placeName ref="Placeography.html#ALPE1">Alpes</placeName> et immensa viarum
+              spatia aegre sub armis eniterentur.</p>
+          </div3>
+          <div3 n="24" type="chapter">
+            <p>Flagrantibus iam militum animis velut faces addiderat <persName ref="Personography.html#PUDE1">Maevius Pudens</persName>, e proximis
+              <persName ref="Personography.html#TIGE1">Tigellini</persName>. is mobilissimum quemque ingenio aut pecuniae indigum et in novas
+              cupiditates praecipitem adliciendo eo paulatim progressus est ut per speciem convivii,
+              quotiens <persName ref="Personography.html#GALB1">Galba</persName> apud <persName ref="Personography.html#OTHO1">Othonem</persName> epularetur, cohorti excubias agenti viritim centenos
+              nummos divideret; quam velut publicam largitionem <persName ref="Personography.html#OTHO1">Otho</persName> secretioribus apud singulos
+              praemiis intendebat, adeo animosus corruptor ut <persName ref="Personography.html#PROC1">Cocceio Proculo</persName> speculatori, de parte
+              finium cum vicino ambigenti, universum vicini agrum sua pecunia emptum dono dederit,
+              per socordiam praefecti, quem nota pariter et occulta fallebant.</p>
+          </div3>
+          <div3 n="25" type="chapter">
+            <p>Sed tum e libertis <persName ref="Personography.html#ONOM1">Onomastum</persName> futuro sceleri praefecit, a quo <persName ref="Personography.html#PROC2">Barbium Proculum</persName>
+              tesserarium speculatorum et <pb ed="oct"/> <persName ref="Personography.html#VETU1">Veturium</persName> optionem eorundem perductos,
+              postquam vario sermone callidos audacisque cognovit, pretio et promissis onerat, data
+              pecunia ad pertemptandos plurium animos. suscepere duo manipulares imperium populi
+              Romani transferendum et transtulerunt. in conscientiam facinoris pauci adsciti:
+              suspensos ceterorum animos diversis artibus stimulant, primores militum per beneficia
+              <persName ref="Personography.html#SABI1">Nymphidii</persName> ut suspectos, vulgus et ceteros ira et desperatione dilati totiens donativi.
+              erant quos memoria <persName ref="Personography.html#NERO1">Neronis</persName> ac desiderium prioris licentiae accenderet: in commune
+              omnes metu mutandae militiae terrebantur.</p>
+          </div3>
+          <div3 n="26" type="chapter">
+            <p>Infecit ea tabes legionum quoque et auxiliorum motas iam mentis, postquam vulgatum
+              erat labare Germanici exercitus fidem. adeoque parata apud malos seditio, etiam apud
+              integros dissimulatio fuit, ut postero iduum die redeuntem a cena <persName ref="Personography.html#OTHO1">Othonem</persName> rapturi
+              fuerint, ni incerta noctis et tota urbe sparsa militum castra nec facilem inter
+              temulentos consensum timuissent, non rei publicae cura, quam foedare principis sui
+              sanguine sobrii parabant, sed ne per tenebras, ut quisque <persName ref="Personography.html#PANN1">Pannonici</persName> vel Germanici
+              exercitus militibus oblatus esset, ignorantibus plerisque, pro <persName ref="Personography.html#OTHO1">Othone</persName> destinaretur.
+              multa erumpentis seditionis indicia per conscios oppressa: quaedam apud <persName ref="Personography.html#GALB1">Galbae</persName> auris
+              praefectus <persName ref="Personography.html#LACO">Laco</persName> elusit, ignarus militarium animorum consiliique quamvis egregii, quod
+              non ipse adferret, inimicus et adversus peritos pervicax.</p>
+          </div3>
+          <div3 n="27" type="chapter">
+            <p>Octavo decimo kalendas Februarias sacrificanti pro <placeName ref="Placeography.html#AEDE1">aede Apollinis</placeName> <persName ref="Personography.html#GALB1">Galbae</persName> haruspex
+              <persName ref="Personography.html#UMBR1">Vmbricius</persName> tristia exta et instantis insidias ac domesticum hostem praedicit, audiente
+              <persName ref="Personography.html#OTHO1">Othone</persName> (nam proximus adstiterat) idque ut laetum e contra- <pb ed="oct"/> rio et suis
+              cogitationibus prosperum interpretante. nec multo post libertus Onomastus nuntiat
+              expectari eum ab architecto et redemptoribus, quae significatio coeuntium iam militum
+              et paratae coniurationis convenerat. <persName ref="Personography.html#OTHO1">Otho</persName>, causam digressus requirentibus, cum emi
+              sibi praedia vetustate suspecta eoque prius exploranda finxisset, innixus liberto per
+              <placeName ref="Placeography.html#DOMU1"><persName ref="Personography.html#TIBE1">Tiberianam</persName> domum</placeName> in <placeName ref="Placeography.html#VELA1">Velabrum</placeName>, inde ad <placeName ref="Placeography.html#MILI1">miliarium aureum</placeName> sub <placeName ref="Placeography.html#AEDE2">aedem Saturni</placeName> pergit. ibi
+              tres et viginti speculatores consalutatum imperatorem ac paucitate salutantium
+              trepidum et sellae festinanter impositum strictis mucronibus rapiunt; totidem ferme
+              milites in itinere adgregantur, alii conscientia, plerique miraculo, pars clamore et
+              gladiis, pars silentio, animum ex eventu sumpturi.</p>
+          </div3>
+          <div3 n="28" type="chapter">
+            <p>Stationem in castris agebat <persName ref="Personography.html#MART1">Iulius Martialis tribunus</persName>. is magnitudine subiti
+              sceleris, an corrupta latius castra et, si contra tenderet, exitium metuens, praebuit
+              plerisque suspicionem conscientiae; anteposuere ceteri quoque tribuni centurionesque
+              praesentia dubiis et honestis, isque habitus animorum fuit ut pessimum facinus
+              auderent pauci, plures vellent, omnes paterentur.</p>
+          </div3>
+          <div3 n="29" type="chapter">
+            <p>Ignarus interim <persName ref="Personography.html#GALB1">Galba</persName> et sacris intentus fatigabat alieni iam imperii deos, cum
+              adfertur rumor rapi in castra incertum quem senatorem, mox <persName ref="Personography.html#OTHO1">Othonem</persName> esse qui raperetur,
+              simul ex tota urbe, ut quisque obvius fuerat, alii formidine augentes, quidam minora
+              vero, ne tum quidem obliti adulationis. igitur consultantibus placuit pertemptari
+              animum cohortis, quae in <placeName ref="Placeography.html#PALA1">Palatio</placeName> stationem agebat, nec per ipsum <persName ref="Personography.html#GALB1">Galbam</persName>, cuius integra
+              auctoritas maioribus remediis servabatur. <persName ref="Personography.html#PISO1">Piso</persName> pro gradibus domus vocatos in hunc
+              modum adlocutus est: 'sextus dies agitur, commilitones, ex quo ignarus futuri, et sive optandum hoc nomen sive timendum erat, Caesar adscitus sum. quo
+              domus nostrae aut rei publicae fato in vestra manu positum est, non quia meo nomine
+              tristiorem casum paveam, ut qui adversas res expertus cum maxime discam ne secundas
+              quidem minus discriminis habere: patris et senatus et ipsius imperii vicem doleo, si
+              nobis aut perire hodie necesse est aut, quod aeque apud bonos miserum est, occidere.
+              solacium proximi motus habebamus incruentam urbem et res sine discordia translatas:
+              provisum adoptione videbatur ut ne post <persName ref="Personography.html#GALB1">Galbam</persName> quidem bello locus esset.'</p>
+          </div3>
+        </div2>
+        <div2 type="part" n="4">
+          <div3 n="30" type="chapter">
+            <p>'Nihil adrogabo mihi nobilitatis aut modestiae; neque enim relatu virtutum in
+              comparatione <persName ref="Personography.html#OTHO1">Othonis</persName> opus est. vitia, quibus solis gloriatur, evertere imperium, etiam
+              cum amicum imperatoris ageret. habitune et incessu an illo muliebri ornatu mereretur
+              imperium? falluntur quibus luxuria specie liberalitatis imponit: perdere iste sciet,
+              donare nesciet. stupra nunc et comissationes et feminarum coetus volvit animo: haec
+              principatus praemia putat, quorum libido ac voluptas penes ipsum sit, rubor ac dedecus
+              penes omnis; nemo enim umquam imperium flagitio quaesitum bonis artibus exercuit.
+              <persName ref="Personography.html#GALB1">Galbam</persName> consensus generis humani, me <persName ref="Personography.html#GALB1">Galba</persName> consentientibus vobis Caesarem dixit. si res
+              publica et senatus et populus vacua nomina sunt, vestra, commilitones, interest ne
+              imperatorem pessimi faciant. legionum seditio adversus duces suos audita est
+              aliquando: vestra fides famaque inlaesa ad hunc diem mansit. et <persName ref="Personography.html#NERO1">Nero</persName> quoque vos
+              destituit, non vos <persName ref="Personography.html#NERO1">Neronem</persName>. minus triginta transfugae et desertores, quos centurionem
+              aut tribunum sibi eligentis nemo ferret, imperium adsignabunt? admittitis exemplum et
+              quiescendo commune crimen facitis? transcendet haec licentia in
+              provincias, et ad nos scelerum exitus, bellorum ad vos pertinebunt. nec est plus quod
+              pro caede principis quam quod innocentibus datur, sed proinde a nobis donativum ob
+              fidem quam ab aliis pro facinore accipietis.'</p>
+          </div3>
+          <div3 n="31" type="chapter">
+            <p>Dilapsis speculatoribus cetera cohors non aspernata contionantem, ut turbidis rebus
+              evenit, forte magis et nullo adhuc consilio rapit signa <add>quam</add>, quod postea
+              creditum est, insidiis et simulatione. missus et <persName ref="Personography.html#CELS1">Celsus Marius</persName> ad electos <placeName ref="Placeography.html#ILLY1">Illyrici</placeName>
+              exercitus, <placeName ref="Placeography.html#PORT1"><persName ref="Personography.html#VIPS1">Vipsania</persName> in porticu</placeName> tendentis; praeceptum <persName ref="Personography.html#SERE1">Amullio Sereno</persName> et <persName ref="Personography.html#SABI2">Domitio Sabino</persName>
+              primipilaribus, ut Germanicos milites e Libertatis atrio accerserent. legioni
+              classicae diffidebatur, infestae ob caedem commilitonum, quos primo statim introitu
+              trucidaverat <persName ref="Personography.html#GALB1">Galba</persName>. pergunt etiam in castra praetorianorum tribuni <persName ref="Personography.html#SEVE1">Cetrius Severus</persName>,
+              <persName ref="Personography.html#DEXT1">Subrius Dexter</persName>, <persName ref="Personography.html#LONG1">Pompeius Longinus</persName>, si incipiens adhuc et necdum adulta seditio
+              melioribus consiliis flecteretur. tribunorum <persName ref="Personography.html#DEXT1">Subrium</persName> et <persName ref="Personography.html#SEVE1">Cetrium</persName> adorti milites minis,
+              <persName ref="Personography.html#LONG1">Longinum</persName> manibus coercent exarmantque, quia non ordine militiae, sed e <persName ref="Personography.html#GALB1">Galbae</persName> amicis,
+              fidus princip i suo et desciscentibus suspectior erat. legio classica nihil cunctata
+              praetorianis adiungitur; <placeName ref="Placeography.html#ILLY1">Illyrici</placeName> exercitus electi <persName ref="Personography.html#CELS1">Celsum</persName> infestis pilis proturbant.
+              Germanica vexilla diu nutavere, invalidis adhuc corporibus et placatis animis, quod
+              eos a <persName ref="Personography.html#NERO1">Nerone</persName> <placeName ref="Placeography.html#ALEX1">Alexandriam</placeName> praemissos atque inde rursus longa navigatione aegros
+              impensiore cura <persName ref="Personography.html#GALB1">Galba</persName> refovebat. <pb ed="oct"/></p>
+          </div3>
+          <div3 n="32" type="chapter">
+            <p>Vniversa iam plebs <placeName ref="Placeography.html#PALA1">Palatium</placeName> implebat, mixtis servitiis et dissono clamore caedem
+              <persName ref="Personography.html#OTHO1">Othonis</persName> et coniuratorum exitium poscentium ut si in circo aut theatro ludicrum aliquod
+              postularent: neque illis iudicium aut veritas, quippe eodem die diversa pari certamine
+              postulaturis, sed tradito more quemcumque principem adulandi licentia adclamationum et
+              studiis inanibus. </p>
+            <p>Interim <persName ref="Personography.html#GALB1">Galbam</persName> duae sententiae distinebant: <persName ref="Personography.html#VINI1">Titus Vinius</persName> manendum intra domum,
+              opponenda servitia, firmandos aditus, non eundum ad iratos censebat: daret malorum
+              paenitentiae, daret bonorum consensui spatium: scelera impetu, bona consilia mora
+              valescere, denique eundi ultro, si ratio sit, eandem mox facultatem, regressum, si
+              paeniteat, in aliena potestate.</p>
+          </div3>
+          <div3 n="33" type="chapter">
+            <p>Festinandum ceteris videbatur antequam cresceret invalida adhuc coniuratio paucorum:
+              trepidaturum etiam <persName ref="Personography.html#OTHO1">Othonem</persName>, qui furtim digressus, ad ignaros inlatus, cunctatione nunc
+              et segnitia terentium tempus imitari principem discat. non expectandum ut compositis
+              castris forum invadat et prospectante <persName ref="Personography.html#GALB1">Galba</persName> <placeName ref="Placeography.html#CAPI1">Capitolium</placeName> adeat, dum egregius imperator
+              cum fortibus amicis ianua ac limine tenus domum cludit, obsidionem nimirum
+              toleraturus. et praeclarum in servis auxilium si consensus tantae multitudinis et,
+              quae plurimum valet, prima indignatio elanguescat. proinde intuta quae indecora; vel
+              si cadere necesse sit, occurrendum discrimini: id <persName ref="Personography.html#OTHO1">Othoni</persName> invidiosius et ipsis
+              honestum. repugnantem huic sententiae <persName ref="Personography.html#VINI1">Vinium</persName> <persName ref="Personography.html#LACO1">Laco</persName> minaciter invasit, stimulante <persName ref="Personography.html#ICEL1">Icelo</persName>
+              privati odii pertinacia in publicum exitium. <pb ed="oct"/></p>
+          </div3>
+          <div3 n="34" type="chapter">
+            <p>Nec diutius <persName ref="Personography.html#GALB1">Galba</persName> cunctatus speciosiora suadentibus accessit. praemissus tamen in
+              castra <persName ref="Personography.html#PISO1">Piso</persName>, ut iuvenis magno nomine, recenti favore et infensus <persName ref="Personography.html#VINI1">Tito Vinio</persName>, seu quia
+              erat seu quia irati ita volebant; et facilius de odio creditur. vixdum egresso <persName ref="Personography.html#PISO1">Pisone</persName>
+              occisum in castris <persName ref="Personography.html#OTHO1">Othonem</persName> vagus primum et incertus rumor: mox, ut in magnis
+              mendaciis, interfuisse se quidam et vidisse adfirmabant, credula fama inter gaudentis
+              et incuriosos. multi arbitrabantur compositum auctumque rumorem mixtis iam <persName ref="Personography.html#OTHO1">Othonianis</persName>,
+              qui ad evocandum <persName ref="Personography.html#GALB1">Galbam</persName> laeta falso vulgaverint.</p>
+          </div3>
+          <div3 n="35" type="chapter">
+            <p>Tum vero non populus tantum et imperita plebs in plausus et immodica studia sed
+              equitum plerique ac senatorum, posito metu incauti, refractis <placeName ref="Placeography.html#PALA1">Palatii</placeName> foribus ruere
+              intus ac se <persName ref="Personography.html#GALB1">Galbae</persName> ostentare, praereptam sibi ultionem querentes, ignavissimus quisque
+              et, ut res docuit, in periculo non ausurus, nimii verbis, linguae feroces; nemo scire
+              et omnes adfirmare, donec inopia veri et consensu errantium victus sumpto thorace
+              <persName ref="Personography.html#GALB1">Galba</persName> inruenti turbae neque aetate neque corpore <add>re</add>sistens sella levaretur.
+              obvius in <placeName ref="Placeography.html#PALA1">Palatio</placeName> <persName ref="Personography.html#ATTI1">Iulius Atticus</persName> speculator, cruentum gladium ostentans, occisum a se
+              <persName ref="Personography.html#OTHO1">Othonem</persName> exclamavit; et <persName ref="Personography.html#GALB1">Galba</persName> 'commilito', inquit, 'quis iussit?' insigni animo ad
+              coercendam militarem licentiam, minantibus intrepidus, adversus blandientis
+              incorruptus.</p>
+          </div3>
+          <div3 n="36" type="chapter">
+            <p>Haud dubiae iam in castris omnium mentes tantusque ardor ut non contenti agmine et
+              corporibus in suggestu, in quo paulo ante aurea <persName ref="Personography.html#GALB1">Galbae</persName> statua fuerat, medium inter
+              signa <persName ref="Personography.html#OTHO1">Othonem</persName> vexillis circumdarent. nec tribunis aut centurionibus adeundi locus:
+              gregarius miles caveri insuper praepositos iubebat. strepere cuncta clamoribus et
+              tumultu et <pb ed="oct"/> exhortatione mutua, non tamquam in populo ac plebe, variis
+              segni adulatione vocibus, sed ut quemque adfluentium militum aspexerant, prensare
+              manibus, complecti armis, conlocare iuxta, praeire sacramentum, modo imperatorem
+              militibus, modo milites imperatori commendare. nec deerat <persName ref="Personography.html#OTHO1">Otho</persName> protendens manus
+              adorare vulgum, iacere oscula et omnia serviliter pro dominatione. postquam universa
+              classicorum legio sacramentum eius accepit, fidens viribus, et quos adhuc singulos
+              extimulaverat, accendendos in commune ratus pro vallo castrorum ita coepit.</p>
+          </div3>
+          <div3 n="37" type="chapter">
+            <p>'Quis ad vos processerim commilitones, dicere non possum, quia nec privatum me vocare
+              sustineo princeps a vobis nominatus, nec principem alio imperante. vestrum quoque
+              nomen in incerto erit donec dubitabitur imperatorem populi Romani in castris an hostem
+              habeatis. auditisne ut poena mea et supplicium vestrum simul postulentur? adeo
+              manifestum est neque perire nos neque salvos esse nisi una posse; et cuius lenitatis
+              est <persName ref="Personography.html#GALB1">Galba</persName>, iam fortasse promisit, ut qui nullo exposcente tot milia innocentissimorum
+              militum trucidaverit. horror animum subit quotiens recordor feralem introitum et hanc
+              solam <persName ref="Personography.html#GALB1">Galbae</persName> victoriam, cum in oculis urbis decimari deditos iuberet, quos deprecantis
+              in fidem acceperat. his auspiciis urbem ingressus, quam gloriam ad principatum attulit
+              nisi occisi <persName ref="Personography.html#SABI3">Obultronii Sabini</persName> et <persName ref="Personography.html#MARC2">Cornelii Marcelli</persName> in <placeName ref="Placeography.html#HISP1">Hispania</placeName>, <persName ref="Personography.html#CILO1">Betui Cilonis</persName> in
+              <placeName ref="Placeography.html#GALL1">Gallia</placeName>, <persName ref="Personography.html#CAPI1">Fontei Capitonis</persName> in <placeName ref="Placeography.html#GERM1">Germania</placeName>, <persName ref="Personography.html#MACE1">Clodii Macri</persName> in <placeName ref="Placeography.html#AFRI1">Africa</placeName>, <persName ref="Personography.html#VARR1">Cingonii</persName> in via,
+              <persName ref="Personography.html#TURP1">Turpiliani</persName> <placeName ref="Placeography.html#ROMA1">in urbe</placeName>, <persName ref="Personography.html#SABI1">Nymphidii</persName> in castris? quae usquam provincia, quae castra sunt nisi
+              cruenta et maculata aut, ut ipse praedicat, emendata et correcta? nam quae alii
+              scelera, hic remedia vocat, dum falsis nominibus severitatem pro saevitia, parsimoniam
+              pro avaritia, supplicia et contumelias vestras <pb ed="oct"/> disciplinam appellat.
+              septem a <persName ref="Personography.html#NERO1">Neronis</persName> fine menses sunt, et iam plus rapuit <persName ref="Personography.html#ICEL1">Icelus</persName> quam quod Polycliti et Vatinii et Aegiali perdiderunt. minore avaritia ac licentia grassatus esset <persName ref="Personography.html#VINI1">T. Vinius</persName>
+              si ipse imperasset: nunc et subiectos nos habuit tamquam suos et vilis ut alienos. una
+              illa domus sufficit donativo quod vobis numquam datur et cotidie exprobratur.'</p>
+          </div3>
+          <div3 n="38" type="chapter">
+            <p>'Ac ne qua saltem in successore <persName ref="Personography.html#GALB1">Galbae</persName> spes esset accersit ab exilio quem tristitia
+              et avaritia sui simillimum iudicabat. vidistis, commilitones, notabili tempestate
+              etiam deos infaustam adoptionem aversantis. idem senatus, idem populi Romani animus
+              est: ves tra virtus expectatur, apud quos omne honestis consiliis robur et sine quibus
+              quamvis egregia invalida sunt. non ad bellum vos nec ad periculum voco: omnium militum
+              arma nobiscum sunt. nec una cohors togata defendit nunc <persName ref="Personography.html#GALB1">Galbam</persName> sed detinet: cum vos
+              aspexerit, cum signum meum acceperit, hoc solum erit certamen, quis mihi plurimum
+              imputet. nullus cunctationis locus est in eo consilio quod non potest laudari nisi
+              peractum.' aperire deinde armamentarium iussit. rapta statim arma, sine more et ordine
+              militiae, ut praetorianus aut legionarius insignibus suis distingueretur: miscentur
+              auxiliaribus galeis scutisque, nullo tribunorum centurionumve adhortante, sibi quisque
+              dux et instigator; et praecipuum pessimorum incitamentum quod boni maerebant.</p>
+          </div3>
+          <div3 n="39" type="chapter">
+            <p>Iam exterritus <persName ref="Personography.html#PISO1">Piso</persName> fremitu crebrescentis seditionis et vocibus in urbem usque
+              resonantibus, egressum interim <pb ed="oct"/> <persName ref="Personography.html#GALB1">Galbam</persName> et foro adpropinquantem adsecutus
+              erat; iam <persName ref="Personography.html#CELS1">Marius Celsus</persName> haud laeta rettulerat, cum alii in <placeName ref="Placeography.html#PALA1">Palatium</placeName> redire, alii
+              <placeName ref="Placeography.html#CAPI1">Capitolium</placeName> petere, plerique rostra occupanda censerent, plures tantum sententiis
+              aliorum contra dicerent, utque evenit in consiliis infelicibus, optima viderentur
+              quorum tempus effugerat. agitasse <persName ref="Personography.html#LACO1">Laco</persName> ignaro <persName ref="Personography.html#GALB1">Galba</persName> de occidendo <persName ref="Personography.html#VINI1">Tito Vinio</persName> dicitur,
+              sive ut poena eius animos militum mulceret, seu conscium <persName ref="Personography.html#OTHO1">Othonis</persName> credebat, ad
+              postremum vel odio. haesitationem attulit tempus ac locus, quia initio caedis orto
+              difficilis modus; et turbavere consilium trepidi nuntii ac proximorum diffugia,
+              languentibus omnium studiis qui primo alacres fidem atque animum ostentaverant.</p>
+          </div3>
+        </div2>
+        <div2 type="part" n="5">
+          <div3 n="40" type="chapter">
+            <p>Agebatur huc illuc <persName ref="Personography.html#GALB1">Galba</persName> vario turbae fluctuantis impulsu, completis undique
+              basilicis ac templis, lugubri prospectu. neque populi aut plebis ulla vox, sed
+              attoniti vultus et conversae ad omnia aures; non tumultus, non quies, quale magni
+              metus et magnae irae silentium est. <persName ref="Personography.html#OTHO1">Othoni</persName> tamen armari plebem nuntiabatur; ire
+              praecipitis et occupare pericula iubet. igitur milites Romani, quasi Vologaesum aut
+              Pacorum avito Arsacidarum solio depulsuri ac non imperatorem suum inermem et senem
+              trucidare pergerent, disiecta plebe, proculcato senatu, truces armis, rapidi equis
+              forum inrumpunt. nec illos <placeName ref="Placeography.html#CAPI1">Capitolii</placeName> aspectus et imminentium templorum religio et
+              priores et futuri principes terruere quo minus facerent scelus cuius ultor est
+              quisquis successit.</p>
+          </div3>
+          <div3 n="41" type="chapter">
+            <p>Viso comminus armatorum agmine vexillarius comitatae <persName ref="Personography.html#GALB1">Galbam</persName> cohortis (<persName ref="Personography.html#ATIL1">Atilium
+              Vergilionem</persName> fuisse tradunt) dereptam <persName ref="Personography.html#GALB1">Galbae</persName> imaginem solo adflixit: eo signo manifesta
+              in <persName ref="Personography.html#OTHO1">Othonem</persName> omnium militum studia, desertum fuga populi <pb ed="oct"/> forum, destricta
+              adversus dubitantis tela. iuxta <placeName ref="Placeography.html#LACU1"><persName ref="Personography.html#CURT1">Curtii</persName> lacum</placeName> trepidatione ferentium <persName ref="Personography.html#GALB1">Galba</persName> proiectus e
+              sella ac provolutus est. extremam eius vocem, ut cuique odium aut admiratio fuit,
+              varie prodidere. alii suppliciter interrogasse quid mali meruisset, paucos dies
+              exolvendo donativo deprecatum: plures obtulisse ultro percussoribus iugulum: agerent
+              ac ferirent, si ita <add>e</add> re publica videretur. non interfuit occidentium quid
+              diceret. de percussore non satis constat: quidam <persName ref="Personography.html#TERE1">Terentium</persName> evocatum, alii <persName ref="Personography.html#LAEC1">Laecanium</persName>;
+              crebrior fama tradidit <persName ref="Personography.html#CAMU1">Camurium</persName> quintae decimae legionis militem impresso gladio
+              iugulum eius hausisse. ceteri crura brachiaque (nam pectus tegebatur) foede laniavere;
+              pleraque vulnera feritate et saevitia trunco iam corpori adiecta.</p>
+          </div3>
+          <div3 n="42" type="chapter">
+            <p><persName ref="Personography.html#VINI1">Titum inde Vinium</persName> invasere, de quo et ipso ambigitur consumpseritne vocem eius
+              instans metus, an proclamaverit non esse ab <persName ref="Personography.html#OTHO1">Othone</persName> mandatum ut occideretur. quod seu
+              finxit formidine seu conscientiam coniurationis confessus est, huc potius eius vita
+              famaque inclinat, ut conscius sceleris fuerit cuius causa erat. ante <placeName ref="Placeography.html#AEDE3">aedem <persName ref="Personography.html#CAES1">divi Iulii</persName></placeName>
+              iacuit primo ictu in poplitem, mox ab <persName ref="Personography.html#CARO1">Iulio Caro</persName> legionario milite in utrumque latus
+              transverberatus.</p>
+          </div3>
+          <div3 n="43" type="chapter">
+            <p>Insignem illa die virum <persName ref="Personography.html#DENS1">Sempronium Densum </persName>aetas nostra vidit. centurio is praetoriae
+              cohortis, a <persName ref="Personography.html#GALB1">Galba</persName> custodiae <persName ref="Personography.html#PISO1">Pisonis</persName> additus, stricto pugione occurrens armatis et
+              scelus exprobrans ac modo manu modo voce vertendo in se percussores quamquam vulnerato
+              <persName ref="Personography.html#PISO1">Pisoni</persName> effugium dedit. <persName ref="Personography.html#PISO1">Piso</persName> in <placeName ref="Placeography.html#AEDE4">aedem Vestae</placeName> pervasit, exceptusque misericordia publici
+              servi et contubernio eius abditus non religione nec caerimoniis sed
+              latebra inminens exitium differebat, cum advenere missu <persName ref="Personography.html#OTHO1">Othonis</persName> nominatim in caedem
+              eius ardentis <persName ref="Personography.html#FLOR1">Sulpicius Florus</persName> e Britannicis cohortibus, nuper a <persName ref="Personography.html#GALB1">Galba</persName> civitate
+              donatus, et <persName ref="Personography.html#MURC1">Statius Murcus</persName> speculator, a quibus protractus <persName ref="Personography.html#PISO1">Piso</persName> in foribus templi
+              trucidatur.</p>
+          </div3>
+          <div3 n="44" type="chapter">
+            <p>Nullam caedem <persName ref="Personography.html#OTHO1">Otho</persName> maiore laetitia excepisse, nullum caput tam insatiabilibus oculis
+              perlustrasse dicitur, seu tum primum levata omni sollicitudine mens vacare gaudio
+              coeperat, seu recordatio maiestatis in <persName ref="Personography.html#GALB1">Galba</persName>, amicitiae in <persName ref="Personography.html#VINI1">Tito Vinio</persName> quamvis immitem
+              animum imagine tristi confuderat, <persName ref="Personography.html#PISO1">Pisonis</persName> ut inimici et aemuli caede laetari ius
+              fasque credebat. praefixa contis capita gestabantur inter signa cohortium iuxta
+              aquilam legionis, certatim ostentantibus cruentas manus qui occiderant, qui
+              interfuerant, qui vere qui falso ut pulchrum et memorabile facinus iactabant. plures
+              quam centum viginti libellos praemium exposcentium ob aliquam notabilem illa die
+              operam <persName ref="Personography.html#VITE1">Vitellius</persName> postea invenit, omnisque conquiri et interfici iussit, non honori
+              <persName ref="Personography.html#GALB1">Galbae</persName>, sed tradito principibus more munimentum ad praesens, in posterum ultionem.</p>
+          </div3>
+          <div3 n="45" type="chapter">
+            <p>Alium crederes senatum, alium populum: ruere cuncti in castra, anteire proximos,
+              certare cum praecurrentibus, increpare <persName ref="Personography.html#GALB1">Galbam</persName>, laudare militum iudicium, exosculari
+              <persName ref="Personography.html#OTHO1">Othonis</persName> manum; quantoque magis falsa erant quae fiebant, tanto plura facere. nec
+              aspernabatur singulos <persName ref="Personography.html#OTHO1">Otho</persName>, avidum et minacem militum animum voce vultuque temperans.
+              <persName ref="Personography.html#CELS1">Marium Celsum</persName>, consulem designatum et <persName ref="Personography.html#GALB1">Galbae</persName> usque in extremas res amicum fidumque, ad
+              supplicium expostulabant, indu- <pb ed="oct"/> striae eius innocentiaeque quasi malis
+              artibus infensi. caedis et praedarum initium et optimo cuique perniciem quaeri
+              apparebat, sed <persName ref="Personography.html#OTHO1">Othoni</persName> nondum auctoritas inerat ad prohibendum scelus: iubere iam
+              poterat. ita simulatione irae vinciri iussum et maiores poenas daturum adfirmans
+              praesenti exitio subtraxit. </p>
+          </div3>
+          <div3 n="46" type="chapter">
+            <p>Omnia deinde arbitrio militum acta: praetorii praefectos sibi ipsi legere, <persName  ref="Personography.html#FIRM1">Plotium
+              Firmum</persName> e manipularibus quondam, tum vigilibus praepositum et incolumi adhuc <persName ref="Personography.html#GALB1">Galba</persName>
+              partis <persName ref="Personography.html#OTHO1">Othonis</persName> secutum; adiungitur <persName ref="Personography.html#PROC3">Licinius Proculus</persName>, intima familiaritate <persName ref="Personography.html#OTHO1">Othonis</persName>
+              suspectus consilia eius fovisse. urbi <persName ref="Personography.html#FLAV4">Flavium Sabinum</persName> praefecere, iudicium <persName ref="Personography.html#NERO1">Neronis</persName>
+              secuti, sub quo eandem curam obtinuerat, plerisque <persName ref="Personography.html#FLAV1">Vespasianum</persName> fratrem in eo
+              respicientibus. flagitatum ut vacationes praestari centurionibus solitae
+              remitterentur; namque gregarius miles ut tributum annuum pendebat. quarta pars
+              manipuli sparsa per commeatus aut in ipsis castris vaga, dum mercedem centurioni
+              exolveret, neque modum oneris quisquam neque genus quaestus pensi habebat: per
+              latrocinia et raptus aut servilibus ministeriis militare otium redimebant. tum
+              locupletissimus quisque miles labore ac saevitia fatigari donec vacationem emeret. ubi
+              sumptibus exhaustus socordia insuper elanguerat, inops pro locuplete et iners pro
+              strenuo in manipulum redibat, ac rursus alius atque alius, eadem egestate ac licentia
+              corrupti, ad seditiones et discordias et ad extremum bella civilia ruebant. sed <persName ref="Personography.html#OTHO1">Otho</persName>
+              ne vulgi largitione centurionum animos averteret, fiscum suum vacationes annuas
+              exoluturum promisit, rem haud dubie utilem et a bonis postea principibus perpetuitate
+              disciplinae firmatam. <persName ref="Personography.html#LACO1">Laco</persName> prae- <pb ed="oct"/> fectus, tamquam in insulam
+              seponeretur, ab evocato, quem ad caedem eius <persName ref="Personography.html#OTHO1">Otho</persName> praemiserat, confossus; in <persName ref="Personography.html#ICEL1">Marcianum
+              Icelum</persName> ut in libertum palam animadversum.</p>
+          </div3>
+          <div3 n="47" type="chapter">
+            <p>Exacto per scelera die novissimum malorum fuit laetitia. vocat senatum praetor
+              urbanus, certant adulationibus ceteri magistratus, adcurrunt patres: decernitur <persName ref="Personography.html#OTHO1">Othoni</persName>
+              tribunicia potestas et nomen Augusti et omnes principum honores, adnitentibus cunctis
+              abolere convicia ac probra, quae promisce iacta haesisse animo eius nemo sensit;
+              omisisset offensas an distulisset brevitate imperii in incerto fuit. <persName ref="Personography.html#OTHO1">Otho</persName> cruento
+              adhuc foro per stragem iacentium in <placeName ref="Placeography.html#CAPI1">Capitolium</placeName> atque inde in <placeName ref="Placeography.html#PALA1">Palatium</placeName> vectus concedi
+              corpora sepulturae cremarique permisit. <persName ref="Personography.html#PISO1">Pisonem</persName> <persName ref="Personography.html#VERA1">Verania</persName> uxor ac frater <persName ref="Personography.html#SCRI2">Scribonianus</persName>,
+              <persName ref="Personography.html#VINI1">Titum Vinium</persName> <persName ref="Personography.html#CRIS1">Crispina</persName> filia composuere, quaesitis redemptisque capitibus, quae venalia
+              interfectores servaverant.</p>
+          </div3>
+          <div3 n="48" type="chapter">
+            <p><persName ref="Personography.html#PISO1">Piso</persName> unum et tricensimum aetatis annum explebat, fama meliore quam fortuna. fratres
+              eius <persName ref="Personography.html#MAGN1">Magnum</persName> <persName ref="Personography.html#CLAU1">Claudius</persName>, <persName ref="Personography.html#CRAS2">Crassum</persName> <persName ref="Personography.html#NERO1">Nero</persName> interfecerant: ipse diu exul, quadriduo Caesar,
+              properata adoptione ad hoc tantum maiori fratri praelatus est ut prior occideretur.
+              <persName ref="Personography.html#VINI1">Titus Vinius</persName> quinquaginta septem annos variis moribus egit. pater illi praetoria
+              familia, maternus avus e proscriptis. prima militia infamis: legatum <persName ref="Personography.html#SABI4">Calvisium Sabinum</persName>
+              habuerat, cuius uxor mala cupidine visendi situm castrorum, per noctem militari habitu
+              ingressa, cum vigilias et cetera militiae munia eadem lascivia temptasset, in ipsis
+              principiis stuprum ausa, et criminis huius reus <persName ref="Personography.html#VINI1">Titus Vinius</persName> arguebatur. igitur iussu
+              <persName ref="Personography.html#CALI1">G. Caesaris</persName> oneratus catenis, mox mutatione temporum dimissus, cursu honorum <pb
+                ed="oct"/> inoffenso legioni post praeturam praepositus probatusque servili deinceps
+              probro respersus est tamquam scyphum aureum in convivio <persName ref="Personography.html#CLAU1">Claudii</persName> furatus, et <persName ref="Personography.html#CLAU1">Claudius</persName>
+              postera die soli omnium <persName ref="Personography.html#VINI1">Vinio</persName> fictilibus ministrari iussit. sed <persName ref="Personography.html#VINI1">Vinius</persName> proconsulatu
+              <placeName ref="Placeography.html#GALL2">Galliam Narbonensem</placeName> severe integreque rexit; mox <persName ref="Personography.html#GALB1">Galbae</persName> amicitia in abruptum tractus,
+              audax, callidus, promptus et, prout animum intendisset, pravus aut industrius, eadem
+              vi. testamentum <persName ref="Personography.html#VINI1">Titi Vinii</persName> magnitudine opum inritum, <persName ref="Personography.html#PISO1">Pisonis</persName> supremam voluntatem
+              paupertas firmavit.</p>
+          </div3>
+          <div3 n="49" type="chapter">
+            <p><persName ref="Personography.html#GALB1">Galbae</persName> corpus diu neglectum et licentia tenebrarum plurimis ludibriis vexatum
+              dispensator <persName ref="Personography.html#ARGI">Argius</persName> e prioribus servis humili sepultura in privatis eius hortis
+              contexit. caput per lixas calonesque suffixum laceratumque ante <persName ref="Personography.html#PATR1">Patrobii</persName> tumulum
+              (libertus in <persName ref="Personography.html#NERO1">Neronis</persName> punitus a <persName ref="Personography.html#GALB1">Galba</persName> fuerat) postera demum die repertum et cremato iam
+              corpori admixtum est. hunc exitum habuit <persName ref="Personography.html#GALB1">Servius Galba</persName>, tribus et septuaginta annis
+              quinque principes prospera fortuna emensus et alieno imperio felicior quam suo. vetus
+              in familia nobilitas, magnae opes: ipsi medium ingenium, magis extra vitia quam cum
+              virtutibus. famae nec incuriosus nec venditator; pecuniae alienae non adpetens, suae
+              parcus, publicae avarus; amicorum libertorumque, ubi in bonos incidisset, sine
+              reprehensione patiens, si mali forent, usque ad culpam ignarus. sed claritas natalium
+              et metus temporum obtentui, ut, quod segnitia erat, sapientia vocaretur. dum vigebat
+              aetas militari laude apud <placeName ref="Placeography.html#GERM1">Germanias</placeName> floruit. pro consule <placeName ref="Placeography.html#AFRI1">Africam</placeName> moderate, iam senior
+              <placeName ref="Placeography.html#HISP2">citeriorem Hispaniam</placeName> pari iustitia continuit, maior privato visus dum privatus fuit,
+              et omnium consensu capax imperii nisi imperasset.</p>
+          </div3>
+        </div2>
+        <div2 type="part" n="6">
+          <div3 n="50" type="chapter">
+            <p>Trepidam urbem ac simul atrocitatem recentis sce- <pb ed="oct"/> leris, simul veteres
+              <persName ref="Personography.html#OTHO1">Othonis</persName> mores paventem novus insuper de <persName ref="Personography.html#VITE1">Vitellio</persName> nuntius exterruit, ante caedem <persName ref="Personography.html#GALB1">Galbae</persName>
+              suppressus ut tantum <placeName ref="Placeography.html#GERM3">superioris Germaniae</placeName> exercitum descivisse crederetur. tum duos
+              omnium mortalium impudicitia ignavia luxuria deterrimos velut ad perdendum imperium
+              fataliter electos non senatus modo et eques, quis aliqua pars et cura rei publicae,
+              sed vulgus quoque palam maerere. nec iam recentia saevae pacis exempla sed repetita
+              bellorum civilium memoria captam totiens suis exercitibus <placeName ref="Placeography.html#ROMA1">urbem</placeName>, vastitatem <placeName ref="Placeography.html#ITAL1">Italiae</placeName>,
+              direptiones provinciarum, <placeName ref="Placeography.html#PHAR1">Pharsaliam</placeName> <placeName ref="Placeography.html#PHIL1">Philippos</placeName> et <placeName ref="Placeography.html#PERU1">Perusiam</placeName> ac <placeName ref="Placeography.html#MUTI1">Mutinam</placeName>, nota publicarum
+              cladium nomina, loquebantur. prope eversum orbem etiam cum de principatu inter bonos
+              certaretur, sed mansisse <persName ref="Personography.html#CAES1">G. Iulio</persName>, mansisse <persName ref="Personography.html#AUGU1">Caesare Augusto</persName> victore imperium; mansuram
+              fuisse sub <persName ref="Personography.html#POMP1">Pompeio</persName> <persName ref="Personography.html#BRUT1">Brutoque</persName> rem publicam: nunc pro <persName ref="Personography.html#OTHO1">Othone</persName> an pro <persName ref="Personography.html#VITE1">Vitellio</persName> in templa
+              ituros? utrasque impias preces, utraque detestanda vota inter duos, quorum bello solum
+              id scires, deteriorem fore qui vicisset. erant qui <persName ref="Personography.html#FLAV1">Vespasianum</persName> et arma Orientis
+              augurarentur, et ut potior utroque <persName ref="Personography.html#FLAV1">Vespasianus</persName>, ita bellum aliud atque alias cladis
+              horrebant. et ambigua de <persName ref="Personography.html#FLAV1">Vespasiano</persName> fama, solusque omnium ante se principum in melius
+              mutatus est.</p>
+          </div3>
+          <div3 n="51" type="chapter">
+            <p>Nunc initia causasque motus <persName ref="Personography.html#VITE1">Vitelliani</persName> expediam. caeso cum omnibus copiis <persName ref="Personography.html#VIND1">Iulio Vindice</persName> ferox praeda gloriaque exercitus, ut cui sine labore ac periculo ditissimi
+              belli victoria evenisset, expeditionem et aciem, praemia quam stipendia malebat. diu
+              infructuosam et asperam militiam toleraverant ingenio loci caelique et severitate
+              disciplinae, quam in pace inexorabilem discordiae civium resolvunt, paratis utrimque corruptoribus et perfidia impunita. viri, arma, equi ad usum et ad
+              decus supererant. sed ante bellum centurias tantum suas turmasque noverant; exercitus
+              finibus provinciarum discernebantur: tum adversus <persName ref="Personography.html#VIND1">Vindicem</persName> contractae legiones, seque
+              et <placeName ref="Placeography.html#GALL1">Gallias</placeName> expertae, quaerere rursus arma novasque discordias; nec socios, ut olim,
+              sed hostis et victos vocabant. nec deerat pars <placeName ref="Placeography.html#GALL1">Galliarum</placeName>, quae <placeName ref="Placeography.html#RHEN1">Rhenum</placeName> accolit, easdem
+              partis secuta ac tum acerrima instigatrix adversum Galbianos; hoc enim nomen fastidito
+              <persName ref="Personography.html#VIND1">Vindice</persName> indiderant. igitur Sequanis Aeduisque ac deinde, prout opulentia civitatibus
+              erat, infensi expugnationes urbium, populationes agrorum, raptus penatium hauserunt
+              animo, super avaritiam et adrogantiam, praecipua validiorum vitia, contumacia Gallorum
+              inritati, qui remissam sibi a <persName ref="Personography.html#GALB1">Galba</persName> quartam tributorum partem et publice donatos in
+              ignominiam exercitus iactabant. accessit callide vulgatum, temere creditum, decimari
+              legiones et promptissimum quemque centurionum dimitti. undique atroces nuntii,
+              sinistra ex urbe fama; infensa <placeName ref="Placeography.html#LUGD1">Lugdunensis colonia</placeName> et pertinaci pro <persName ref="Personography.html#NERO1">Nerone</persName> fide
+              fecunda rumoribus; sed plurima ad fingendum credendumque materies in ipsis castris,
+              odio metu et, ubi viris suas respexerant, securitate.</p>
+          </div3>
+          <div3 n="52" type="chapter">
+            <p>Sub ipsas superioris anni kalendas Decembris <persName ref="Personography.html#VITE1">Aulus Vitellius</persName> <placeName ref="Placeography.html#GERM2">inferiorem Germaniam</placeName>
+              ingressus hiberna legionum cum cura adierat: redditi plerisque ordines, remissa
+              ignominia, adlevatae notae; plura ambitione, quaedam iudicio, in quibus sordis et
+              avaritiam <persName ref="Personography.html#CAPI1">Fontei Capitonis</persName> adimendis adsignandisve militiae ordinibus integre
+              mutaverat. nec consula- <pb ed="oct"/> ris legati mensura sed in maius omnia
+              accipiebantur. et <add>ut</add> <persName ref="Personography.html#VITE1">Vitellius</persName> apud severos humilis, ita comitatem
+              bonitatemque faventes vocabant, quod sine modo, sine iudicio donaret sua, largiretur
+              aliena; simul aviditate imperitandi ipsa vitia pro virtutibus interpretabantur. multi
+              in utroque exercitu sicut modesti quietique ita mali et strenui. sed profusa cupidine
+              et insigni temeritate legati legionum <persName ref="Personography.html#CAEC1">Alienus Caecina</persName> et <persName ref="Personography.html#VALE1">Fabius Valens</persName>; e quibus
+              <persName ref="Personography.html#VALE1">Valens</persName> infensus <persName ref="Personography.html#GALB1">Galbae</persName>, tamquam detectam a se <persName ref="Personography.html#VERG1">Verginii</persName> cunctationem, oppressa
+              <persName ref="Personography.html#CAPI1">Capitonis</persName> consilia ingrate tulisset, instigare <persName ref="Personography.html#VITE1">Vitellium</persName>, ardorem militum ostentans:
+              ipsum celebri ubique fama, nullam in <persName ref="Personography.html#FLACC1">Flacco Hordeonio</persName> moram; adfore <placeName ref="Placeography.html#BRIT1">Britanniam</placeName>,
+              secutura Germanorum auxilia: male fidas provincias, precarium seni imperium et brevi
+              transiturum: panderet modo sinum et venienti Fortunae occurreret. merito dubitasse
+              <persName ref="Personography.html#VERG1">Verginium</persName> equestri familia, ignoto patre, imparem si recepisset imperium, tutum si
+              recusasset: <persName ref="Personography.html#VITE1">Vitellio</persName> tris patris consulatus, censuram, collegium <persName ref="Personography.html#CLAU1">Caesaris</persName> et imponere
+              iam pridem imperatoris dignationem et auferre privati securitatem. quatiebatur his
+              segne ingenium ut concupisceret magis quam ut speraret.</p>
+          </div3>
+          <div3 n="53" type="chapter">
+            <p>At in <placeName ref="Placeography.html#GERM3">superiore Germania</placeName> <persName ref="Personography.html#CAEC1">Caecina</persName>, decorus iuventa, corpore ingens, animi immodicus,
+              scito sermone, erecto incessu, studia militum inlexerat. hunc iuvenem <persName ref="Personography.html#GALB1">Galba</persName>,
+              quaestorem in <placeName ref="Placeography.html#BAET1">Baetica</placeName> impigre in partis suas transgressum, legioni praeposuit: mox
+              compertum publicam pecuniam avertisse ut peculatorem flagitari iussit. <persName ref="Personography.html#CAEC1">Caecina</persName> aegre
+              passus miscere cuncta et privata vulnera rei publicae malis operire statuit. nec
+              deerant in exercitu semina discordiae, quod et <pb ed="oct"/> bello adversus <persName ref="Personography.html#VIND1">Vindicem</persName>
+              universus adfuerat, nec nisi occiso <persName ref="Personography.html#NERO1">Nerone</persName> translatus in <persName ref="Personography.html#GALB1">Galbam</persName> atque in eo ipso
+              sacramento vexillis inferioris Germaniae praeventus erat. et Treviri ac Lingones,
+              quasque alias civitates atrocibus edictis aut damno finium <persName ref="Personography.html#GALB1">Galba</persName> perculerat, hibernis
+              legionum propius miscentur: unde seditiosa colloquia et inter paganos corruptior
+              miles; et in <persName ref="Personography.html#VERG1">Verginium</persName> favor cuicumque alii profuturus.</p>
+          </div3>
+          <div3 n="54" type="chapter">
+            <p>Miserat civitas <placeName ref="Placeography.html#LING1">Lingonum</placeName> vetere instituto dona legionibus dextras, hospitii insigne.
+              legati eorum in squalorem maestitiamque compositi per principia per contubernia modo
+              suas iniurias, modo vicinarum civitatium praemia, et ubi pronis militum auribus
+              accipiebantur, ipsius exercitus pericula et contumelias conquerentes accendebant
+              animos. nec procul seditione aberant cum <persName ref="Personography.html#FLACC1">Hordeonius Flaccus</persName> abire legatos, utque
+              occultior digressus esset, nocte castris excedere iubet. inde atrox rumor,
+              adfirmantibus plerisque interfectos, ac ni sibi ipsi consulerent, fore ut acerrimi
+              militum et praesentia conquesti per tenebras et inscitiam ceterorum occiderentur.
+              obstringuntur inter se tacito foedere legiones, adsciscitur auxiliorum miles, primo
+              suspectus tamquam circumdatis cohortibus alisque impetus in legiones pararetur, mox
+              eadem acrius volvens, faciliore inter malos consensu ad bellum quam in pace ad
+              concordiam.</p>
+          </div3>
+          <div3 n="55" type="chapter">
+            <p><placeName ref="Placeography.html#GERM2">Inferioris tamen Germaniae</placeName> legiones sollemni kalendarum Ianuariarum sacramento pro
+              <persName ref="Personography.html#GALB1">Galba</persName> adactae, multa cunctatione et raris primorum ordinum vocibus, ceteri silentio
+              proximi cuiusque audaciam expectantes, insita mortalibus natura, propere sequi quae
+              piget inchoare. sed ipsis legionibus inerat diversitas animorum: primani quintanique
+              <pb ed="oct"/> turbidi adeo ut quidam saxa in <persName ref="Personography.html#GALB1">Galbae</persName> imagines iecerint: quinta
+              decima ac sexta decima legiones nihil ultra fremitum et minas ausae initium erumpendi
+              circumspectabant. at in superiore exercitu quarta ac duetvicensima legiones, isdem
+              hibernis tendentes, ipso kalendarum Ianuariarum die dirumpunt imagines <persName ref="Personography.html#GALB1">Galbae</persName>, quarta
+              legio promptius, duetvicensima cunctanter, mox consensu. ac ne reverentiam imperii
+              exuere viderentur, senatus populique Romani oblitterata iam nomina sacramento
+              advocabant, nullo legatorum tribunorumve pro <persName ref="Personography.html#GALB1">Galba</persName> nitente, quibusdam, ut in tumultu,
+              notabilius turbantibus. non tamen quisquam in modum contionis aut suggestu locutus;
+              neque enim erat adhuc cui imputaretur.</p>
+          </div3>
+          <div3 n="56" type="chapter">
+            <p>Spectator flagitii <persName ref="Personography.html#FLACC1">Hordeonius Flaccus</persName> consularis legatus aderat, non compescere
+              ruentis, non retinere dubios, non cohortari bonos ausus, sed segnis pavidus et
+              socordia innocens. quattuor centuriones duetvicensimae legionis, <persName ref="Personography.html#NONI1">Nonius Receptus</persName>,
+              <persName ref="Personography.html#DONA1">Donatius Valens</persName>, <persName ref="Personography.html#ROMI1">Romilius Marcellus</persName>, <persName ref="Personography.html#CALP1">Calpurnius Repentinus</persName>, cum protegerent <persName ref="Personography.html#GALB1">Galbae</persName>
+              imagines, impetu militum abrepti vinctique. nec cuiquam ultra fides aut memoria
+              prioris sacramenti, sed quod in seditionibus accidit, unde plures erant omnes fuere.</p>
+            <p>Nocte quae kalendas Ianuarias secuta est in <placeName ref="Placeography.html#COLO1">coloniam Agrippinensem</placeName> aquilifer quartae
+              legionis epulanti <persName ref="Personography.html#VITE1">Vitellio</persName> nuntiat quartam et duetvicensimam legiones proiectis <persName ref="Personography.html#GALB1">Galbae</persName>
+              imaginibus in senatus ac populi Romani verba iurasse. id sacramentum inane visum:
+              occupari nutantem fortunam et offerri principem placuit. missi a <persName ref="Personography.html#VITE1">Vitellio</persName> ad legiones
+              legatosque qui descivisse a <persName ref="Personography.html#GALB1">Galba</persName> superiorem exercitum nuntiarent: proinde aut
+              bellandum adversus desciscentis aut, <pb ed="oct"/> si concordia et pax placeat,
+              faciendum imperatorem: et minore discrimine sumi principem quam quaeri.</p>
+          </div3>
+          <div3 n="57" type="chapter">
+            <p>Proxima legionis primae hiberna erant et promptissimus e legatis <persName ref="Personography.html#VALE1">Fabius Valens</persName>. is
+              die postero <placeName ref="Placeography.html#COLO1">coloniam Agrippinensem</placeName> cum equitibus legionis auxiliariorumque ingressus
+              imperatorem <persName ref="Personography.html#VITE1">Vitellium</persName> consalutavit. secutae ingenti certamine eiusdem provinciae
+              legiones; et superior exercitus, speciosis senatus populique Romani nominibus
+              relictis, tertium nonas Ianuarias <persName ref="Personography.html#VITE1">Vitellio</persName> accessit: scires illum priore biduo non
+              penes rem publicam fuisse. ardorem exercituum Agrippinenses, Treviri, Lingones
+              aequabant, auxilia equos, arma pecuniam offerentes, ut quisque corpore opibus ingenio
+              validus. nec principes modo coloniarum aut castrorum, quibus praesentia ex affluenti
+              et parta victoria magnae spes, sed manipuli quoque et gregarius miles viatica sua et
+              balteos phalerasque, insignia armorum argento decora, loco pecuniae tradebant,
+              instinctu et impetu et avaritia.</p>
+          </div3>
+          <div3 n="58" type="chapter">
+            <p>Igitur laudata militum alacritate <persName ref="Personography.html#VITE1">Vitellius</persName> ministeria principatus per libertos agi
+              solita in equites Romanos disponit, vacationes centurionibus ex fisco numerat,
+              saevitiam militum plerosque ad poenam exposcentium saepius adprobat, raro simulatione
+              vinculorum frustratur. <persName ref="Personography.html#PROP1">Pompeius Propinquus</persName> procurator <placeName ref="Placeography.html#BELG1">Belgicae</placeName> statim interfectus;
+              <persName ref="Personography.html#BURD1">Iulium Burdonem</persName> Germanicae classis praefectum astu subtraxit. exarserat in eum
+              iracundia exercitus tamquam crimen ac mox insidias <persName ref="Personography.html#CAPI1">Fonteio Capitoni</persName> struxisset. grata
+              erat memoria <persName ref="Personography.html#CAPI1">Capitonis</persName>, et apud saevientis occidere palam, ignoscere non nisi fallendo
+              licebat: ita in custodia habitus et post victoriam <pb ed="oct"/> demum, stratis iam
+              militum odiis, dimissus est. interim ut piaculum obicitur centurio <persName ref="Personography.html#CRIS2">Crispinus</persName>. sanguine
+              <persName ref="Personography.html#CAPI1">Capitonis</persName> <add>se</add> cruentaverat eoque et postulantibus manifestior et punienti
+              vilior fuit.</p>
+          </div3>
+          <div3 n="59" type="chapter">
+            <p><persName ref="Personography.html#CIVI1">Iulius deinde Civilis</persName> periculo exemptus, praepotens inter Batavos, ne supplicio eius
+              ferox gens alienaretur. et erant in <placeName ref="Placeography.html#LING1">civitate Lingonum</placeName> octo Batavorum cohortes, quartae
+              decimae legionis auxilia, tum discordia temporum a legione digressae, prout
+              inclinassent, grande momentum sociae aut adversae. <persName ref="Personography.html#NONI1">Nonium</persName>, <persName ref="Personography.html#DONA1">Donatium</persName>, <persName ref="Personography.html#ROMI1">Romilium</persName>,
+              <persName ref="Personography.html#CALP1">Calpurnium</persName> centuriones, de quibus supra rettulimus, occidi iussit, damnatos fidei
+              crimine, gravissimo inter desciscentis. accessere partibus <persName ref="Personography.html#ASIA1">Valerius Asiaticus</persName>,
+              <placeName ref="Placeography.html#BELG1">Belgicae</placeName> provinciae legatus, quem mox <persName ref="Personography.html#VITE1">Vitellius</persName> generum adscivit, et <persName ref="Personography.html#BLAE1">Iunius Blaesus</persName>,
+              <placeName ref="Placeography.html#GALL3">Lugdunensis Galliae</placeName> rector, cum Italica legione et ala Tauriana Lugduni tendentibus.
+              nec in Raeticis copiis mora quo minus statim adiungerentur: ne in <placeName ref="Placeography.html#BRIT1">Britannia</placeName> quidem
+              dubitatum.</p>
+          </div3>
+        </div2>
+        <div2 type="part" n="7">
+          <div3 n="60" type="chapter">
+            <p>Praeerat <persName ref="Personography.html#TREB1">Trebellius Maximus</persName>, per avaritiam ac sordis contemptus exercitui invisusque.
+              accendebat odium eius <persName ref="Personography.html#COEL1">Roscius Coelius</persName> legatus vicensimae legionis, olim discors, sed
+              occasione civilium armorum atrocius proruperant. <persName ref="Personography.html#TREB1">Trebellius</persName> seditionem et confusum
+              ordinem disciplinae <persName ref="Personography.html#COEL1">Coelio</persName>, spoliatas et inopes legiones <persName ref="Personography.html#COEL1">Coelius</persName> <persName ref="Personography.html#TREB1">Trebellio</persName> obiectabat,
+              cum interim foedis legatorum certaminibus modestia exercitus corrupta eoque discordiae
+              ventum ut auxiliarium quoque militum conviciis proturbatus et adgregantibus se Coelio
+              cohortibus alisque desertus <persName ref="Personography.html#TREB1">Trebellius</persName> ad <persName ref="Personography.html#VITE1">Vitellium</persName> perfugerit. quies provinciae quamquam remoto consulari mansit: rexere legati legionum, pares iure, <persName ref="Personography.html#COEL1">Coelius</persName> audendo
+              potentior.</p>
+            <pb ed="oct"/>
+          </div3>
+          <div3 n="61" type="chapter">
+            <p>Adiuncto Britannico exercitu ingens viribus opibusque <persName ref="Personography.html#VITE1">Vitellius</persName> duos duces, duo
+              itinera bello destinavit: <persName ref="Personography.html#VALE1">Fabius Valens</persName> adlicere vel, si abnuerent, vastare <placeName ref="Placeography.html#GALL1">Gallias</placeName> et
+              <placeName ref="Placeography.html#ALPE2">Cottianis Alpibus</placeName> <placeName ref="Placeography.html#ITAL1">Italiam</placeName> inrumpere, <persName ref="Personography.html#CAEC1">Caecina</persName> propiore transitu <placeName ref="Placeography.html#POEN1">Poeninis iugis</placeName> degredi
+              iussus. <persName ref="Personography.html#VALE1">Valenti</persName> <placeName ref="Placeography.html#GERM2">inferioris</placeName> exercitus electi cum aquila quintae legionis et cohortibus
+              alisque, ad quadraginta milia armatorum data; triginta milia <persName ref="Personography.html#CAEC1">Caecina</persName> e <placeName ref="Placeography.html#GERM3">superiore
+              Germania</placeName> ducebat, quorum robur legio unaetvicensima fuit. addita utrique Germanorum
+              auxilia, e quibus <persName ref="Personography.html#VITE1">Vitellius</persName> suas quoque copias supplevit, tota mole belli secuturus.
+            </p>
+          </div3>
+          <div3 n="62" type="chapter">
+            <p>Mira inter exercitum imperatoremque diversitas: instare miles, arma poscere, dum
+              <placeName ref="Placeography.html#GALL1">Galliae</placeName> trepident, dum <placeName ref="Placeography.html#HISP1">Hispaniae</placeName> cunctentur: non obstare hiemem neque ignavae pacis
+              moras: invadendam <placeName ref="Placeography.html#ITAL1">Italiam,</placeName> occupandam <placeName ref="Placeography.html#ROMA1">urbem</placeName>; nihil in discordiis civilibus
+              festinatione tutius, ubi facto magis quam consulto opus esset. torpebat <persName ref="Personography.html#VITE1">Vitellius</persName> et
+              fortunam principatus inerti luxu ac prodigis epulis praesumebat, medio diei temulentus
+              et sagina gravis, cum tamen ardor et vis militum ultro ducis munia implebat, ut si
+              adesset imperator et strenuis vel ignavis spem metumve adderet. instructi intentique
+              signum profectionis exposcunt. nomen Germanici <persName ref="Personography.html#VITE1">Vitellio</persName> statim additum: Caesarem se
+              appellari etiam victor prohibuit. laetum augurium <persName ref="Personography.html#VALE1">Fabio Valenti</persName> exercituique, quem in
+              bellum agebat, ipso profectionis die aquila leni meatu, prout agmen incederet, velut
+              dux viae praevolavit, longum- <pb ed="oct"/> que per spatium is gaudentium militum
+              clamor, ea quies interritae alitis fuit ut haud dubium magnae et prosperae rei omen
+              acciperetur.</p>
+          </div3>
+          <div3 n="63" type="chapter">
+            <p>Et Treviros quidem ut socios securi adiere: <placeName ref="Placeography.html#DIVO1">Divoduri</placeName> (Mediomatricorum id oppidum est)
+              quamquam omni comitate exceptos subitus pavor terruit, raptis repente armis ad caedem
+              innoxiae civitatis, non ob praedam aut spoliandi cupidine, sed furore et rabie et
+              causis incertis eoque difficilioribus remediis, donec precibus ducis mitigati ab
+              excidio civitatis temperavere; caesa tamen ad quattuor milia hominum. isque terror
+              <placeName ref="Placeography.html#GALL1">Gallias</placeName> invasit ut venienti mox agmini universae civitates cum magistratibus et
+              precibus occurrerent, stratis per vias feminis puerisque: quaeque alia placamenta
+              hostilis irae, non quidem in bello sed pro pace tendebantur.</p>
+          </div3>
+          <div3 n="64" type="chapter">
+            <p>Nuntium de caede <persName ref="Personography.html#GALB1">Galbae</persName> et imperio <persName ref="Personography.html#OTHO1">Othonis</persName> <persName ref="Personography.html#VALE1">Fabius Valens</persName> in <placeName ref="Placeography.html#LEUC1">civitate Leucorum</placeName>
+              accepit. nec militum animus in gaudium aut formidine permotus: bellum volvebat. <placeName ref="Placeography.html#GALL1">Gallis</placeName>
+              cunctatio exempta est: in <persName ref="Personography.html#OTHO1">Othonem</persName> ac <persName ref="Personography.html#VITE1">Vitellium</persName> odium par, ex <persName ref="Personography.html#VITE1">Vitellio</persName> et metus.
+              proxima <placeName ref="Placeography.html#LING1">Lingonum civitas</placeName> erat, fida partibus. benigne excepti modestia certavere, sed
+              brevis laetitia fuit cohortium intemperie, quas a legione quarta decima, ut supra
+              memoravimus, digressas exercitui suo <persName ref="Personography.html#VALE1">Fabius Valens</persName> adiunxerat. iurgia primum, mox rixa
+              inter Batavos et legionarios, dum his aut illis studia militum adgregantur, prope in
+              proelium exarsere, ni <persName ref="Personography.html#VALE1">Valens</persName> animadversione paucorum oblitos iam Batavos imperii
+              admonuisset. frustra adversus Aeduos quaesita belli causa: iussi
+              pecuniam atque arma deferre gratuitos insuper commeatus praebuere. quod Aedui
+              formidine Lugdunenses gaudio fecere. sed legio Italica et ala Tauriana abductae:
+              cohortem duodevicensimam <placeName ref="Placeography.html#LUGD2">Lugduni</placeName>, solitis sibi hibernis, relinqui placuit. <persName ref="Personography.html#VALE2">Manlius
+              Valens</persName> legatus Italicae legionis, quamquam bene de partibus meritus, nullo apud
+              <persName ref="Personography.html#VITE1">Vitellium</persName> honore fuit: secretis eum criminationibus infamaverat <persName ref="Personography.html#VALE1">Fabius</persName> ignarum et, quo
+              incautior deciperetur, palam laudatum. </p>
+          </div3>
+          <div3 n="65" type="chapter">
+            <p>Veterem inter <placeName ref="Placeography.html#LUGD1">Lugdunensis</placeName> <add>et <placeName ref="Placeography.html#VIEN1">Viennensis</placeName></add> discordiam proximum bellum
+              accenderat. multae in vicem clades, crebrius infestiusque quam ut tantum propter
+              <persName ref="Personography.html#NERO1">Neronem</persName> <persName ref="Personography.html#GALB1">Galbamque</persName> pugnaretur. et <persName ref="Personography.html#GALB1">Galba</persName> reditus <placeName ref="Placeography.html#LUGD1">Lugdunensium</placeName> occasione irae in fiscum
+              verterat; multus contra in <placeName ref="Placeography.html#VIEN1">Viennensis</placeName> honor: unde aemulatio et invidia et uno amne
+              discretis conexum odium. igitur Lugdunenses extimulare singulos militum et in
+              eversionem <placeName ref="Placeography.html#VIEN1">Viennensium</placeName> impellere, obsessam ab illis coloniam suam, adiutos <persName ref="Personography.html#VIND1">Vindicis</persName>
+              conatus, conscriptas nuper legiones in praesidium <persName ref="Personography.html#GALB1">Galbae</persName> referendo. et ubi causas
+              odiorum praetenderant, magnitudinem praedae ostendebant, nec iam secreta exhortatio,
+              sed publicae preces: irent ultores, excinderent sedem Gallici belli: cuncta illic
+              externa et hostilia: se, coloniam Romanam et partem exercitus et prosperarum
+              adversarumque rerum socios, si fortuna contra daret, iratis ne relinquerent.</p>
+          </div3>
+          <div3 n="66" type="chapter">
+            <p>His et pluribus in eundem modum perpulerant ut ne legati quidem ac duces partium
+              restingui posse iracun- <pb ed="oct"/> diam exercitus arbitrarentur, cum haud ignari
+              discriminis sui Viennenses, velamenta et infulas praeferentes, ubi agmen incesserat,
+              arma genua vestigia prensando flexere militum animos; addidit <persName ref="Personography.html#VALE1">Valens</persName> trecenos singulis
+              militibus sestertios. tum vetustas dignitasque coloniae valuit et verba <persName ref="Personography.html#VALE1">Fabi</persName> salutem
+              incolumitatemque <placeName ref="Placeography.html#VIEN1">Viennensium</placeName> commendantis aequis auribus accepta; publice tamen armis
+              multati, privatis et promiscis copiis iuvere militem. sed fama constans fuit ipsum
+              <persName ref="Personography.html#VALE1">Valentem</persName> magna pecunia emptum. is diu sordidus, repente dives mutationem fortunae male
+              tegebat, accensis egestate longa cupidinibus immoderatus et inopi iuventa senex
+              prodigus. lento deinde agmine per finis Allobrogum ac Vocontiorum ductus exercitus,
+              ipsa itinerum spatia et stativorum mutationes venditante duce, foedis pactionibus
+              adversus possessores agrorum et magistratus civitatum, adeo minaciter ut <placeName ref="Placeography.html#LUCO1">Luco</placeName>
+              (municipium id Vocontiorum est) faces admoverit, donec pecunia mitigaretur. quotiens
+              pecuniae materia deesset, stupris et adulteriis exorabatur. sic ad <placeName ref="Placeography.html#ALPE1">Alpis</placeName>
+              perventum.</p>
+          </div3>
+          <div3 n="67" type="chapter">
+            <p>Plus praedae ac sanguinis <persName ref="Personography.html#CAEC1">Caecina</persName> hausit. inritaverant turbidum ingenium Helvetii, Gallica gens olim armis virisque, mox memoria nominis clara, de caede <persName ref="Personography.html#GALB1">Galbae</persName> ignari et
+              <persName ref="Personography.html#VITE1">Vitellii</persName> imperium abnuentes. initium bello fuit avaritia ac festinatio unaetvicensimae
+              legionis; rapuerant pecuniam missam in stipendium castelli quod olim Helvetii suis
+              militibus ac stipendiis tuebantur. aegre id passi Helvetii, interceptis epistulis,
+              quae nomine Germanici exercitus ad Pannonicas legiones ferebantur, centurionem et
+              quosdam militum in custodia retinebant. <persName ref="Personography.html#CAEC1">Caecina</persName> belli avidus proximam quamque culpam,
+              antequam paeniteret, ultum ibat: mota <pb ed="oct"/> propere castra, vastati agri,
+              direptus longa pace in modum municipii extructus locus, amoeno salubrium aquarum usu
+              frequens; missi ad Raetica auxilia nuntii ut versos in legionem Helvetios a tergo
+              adgrederentur.</p>
+          </div3>
+          <div3 n="68" type="chapter">
+            <p>Illi ante discrimen feroces, in periculo pavidi, quamquam primo tumultu <persName ref="Personography.html#SEVE2">Claudium
+              Severum</persName> ducem legerant, non arma noscere, non ordines sequi, non in unum consulere.
+              exitiosum adversus veteranos proelium, intuta obsidio dilapsis vetustate moenibus;
+              hinc <persName ref="Personography.html#CAEC1">Caecina</persName> cum valido exercitu, inde Raeticae alae cohortesque et ipsorum Raetorum
+              iuventus, sueta armis et more militiae exercita. undique populatio et caedes: ipsi
+              medio vagi, abiectis armis, magna pars saucii aut palantes, in <placeName ref="Placeography.html#VOCE1">montem Vocetium</placeName>
+              perfugere. ac statim immissa cohorte Thraecum depulsi et consectantibus Germanis
+              Raetisque per silvas atque in ipsis latebris trucidati. multa hominum milia caesa,
+              multa sub corona venundata. cumque dirutis omnibus <placeName ref="Placeography.html#AVEN1">Aventicum</placeName> gentis caput infesto
+              agmine peteretur, missi qui dederent civitatem, et deditio accepta. in <persName ref="Personography.html#ALPI1">Iulium Alpinum</persName>
+              e principibus ut concitorem belli <persName ref="Personography.html#CAEC1">Caecina</persName> animadvertit: ceteros veniae vel saevitiae
+              <persName ref="Personography.html#VITE1">Vitellii</persName> reliquit. </p>
+          </div3>
+          <div3 n="69" type="chapter">
+            <p>Haud facile dictu est, legati Helvetiorum minus placabilem imperatorem an militem
+              invenerint. civitatis excidium poscunt, tela ac manus in ora legatorum intentant. ne <persName ref="Personography.html#VITE1">Vitellius</persName> quidem verbis et minis temperabat, cum <persName ref="Personography.html#COSS1">Claudius Cossus</persName>,
+              unus ex legatis, notae facundiae sed dicendi artem apta trepidatione occultans atque
+              eo validior, militis animum mitigavit. ut est mos, vulgus mutabile subitis et tam
+              pronum in misericordiam quam immodicum saevitia fuerat: effusis lacrimis et meliora
+              constantius postulando impunitatem salutemque civitati impetravere.</p>
+          </div3>
+        </div2>
+        <div2 type="part" n="8">
+          <div3 n="70" type="chapter">
+            <p><persName ref="Personography.html#CAEC1">Caecina</persName> paucos in Helvetiis moratus dies dum sententiae <persName ref="Personography.html#VITE1">Vitellii</persName> certior fieret,
+              simul transitum <placeName ref="Placeography.html#ALPE1">Alpium</placeName> parans, laetum ex <placeName ref="Placeography.html#ITAL1">Italia</placeName> nuntium accipit alam Silianam circa
+              <placeName ref="Placeography.html#PADU1">Padum</placeName> agentem sacramento <persName ref="Personography.html#VITE1">Vitellii</persName> accessisse. pro consule <persName ref="Personography.html#VITE1">Vitellium</persName> Siliani in <placeName ref="Placeography.html#AFRI1">Africa</placeName>
+              habuerant; mox a <persName ref="Personography.html#NERO1">Nerone</persName>, ut in <placeName ref="Placeography.html#AEGY1">Aegyptum</placeName> praemitterentur, exciti et ob bellum <persName ref="Personography.html#VIND1">Vindicis</persName>
+              revocati ac tum in <placeName ref="Placeography.html#ITAL1">Italia</placeName> manentes, instinctu decurionum, qui <persName ref="Personography.html#OTHO1">Othonis</persName> ignari, <persName ref="Personography.html#VITE1">Vitellio</persName>
+              obstricti robur adventantium legionum et famam Germanici exercitus attollebant,
+              transiere in partis et ut donum aliquod novo principi firmissima <placeName ref="Placeography.html#TRAN1">transpadanae regionis</placeName>
+              municipia, <placeName ref="Placeography.html#MEDI1">Mediolanum</placeName> ac <placeName ref="Placeography.html#NOVA1">Novariam</placeName> et <placeName ref="Placeography.html#EPOR1">Eporediam</placeName> et <placeName ref="Placeography.html#VERC1">Vercellas</placeName>, adiunxere. id <persName ref="Personography.html#CAEC1">Caecinae</persName>
+              per ipsos compertum. et quia praesidio alae unius latissima <placeName ref="Placeography.html#ITAL1">Italiae</placeName> pars defendi
+              nequibat, praemissis Gallorum Lusitanorumque et Britannorum cohortibus et Germanorum
+              vexillis cum ala Petriana, ipse paulum cunctatus est num Raeticis iugis in <placeName ref="Placeography.html#NORI1">Noricum</placeName>
+                flecteret adversus <persName ref="Personography.html#PETR1">Petronium Vrbicum</persName> procuratorem, qui concitis auxiliis et
+                interruptis fluminum pontibus fidus <persName ref="Personography.html#OTHO1">Othoni</persName> putabatur. <pb ed="oct"/> sed metu ne
+              amitteret praemissas iam cohortis alasque, simul reputans plus gloriae retenta <placeName ref="Placeography.html#ITAL1">Italia</placeName>
+              et, ubicumque certatum foret, <placeName ref="Placeography.html#NORI1">Noricos</placeName> in cetera victoriae praemia cessuros, <placeName ref="Placeography.html#POEN1">Poenino</placeName>
+              itinere subsignanum militem et grave legionum agmen hibernis adhuc <placeName ref="Placeography.html#ALPE1">Alpibus</placeName>
+              transduxit.</p>
+          </div3>
+          <div3 n="71" type="chapter">
+            <p><persName ref="Personography.html#OTHO1">Otho</persName> interim contra spem omnium non deliciis neque desidia torpescere: dilatae
+              voluptates, dissimulata luxuria et cuncta ad decorem imperii composita, eoque plus
+              formidinis adferebant falsae virtutes et vitia reditura. <persName ref="Personography.html#CELS1">Marium Celsum</persName> consulem
+              designatum, per speciem vinculorum saevitiae militum subtractum, acciri in <placeName ref="Placeography.html#CAPI1">Capitolium</placeName>
+              iubet; clementiae titulus e viro claro et partibus inviso petebatur. <persName ref="Personography.html#CELS1">Celsus</persName> constanter
+              servatae erga <persName ref="Personography.html#GALB1">Galbam</persName> fidei crimen confessus, exemplum ultro imputavit. nec <persName ref="Personography.html#OTHO1">Otho</persName> quasi
+              ignosceret sed deos testis mutuae reconciliationis adhibens, statim inter intimos
+              amicos habuit et mox bello inter duces delegit, mansitque <persName ref="Personography.html#CELS1">Celso</persName> velut fataliter etiam
+              pro <persName ref="Personography.html#OTHO1">Othone</persName> fides integra et infelix. laeta primoribus civitatis, celebrata in vulgus
+              <persName ref="Personography.html#CELS1">Celsi</persName> salus ne militibus quidem ingrata fuit, eandem virtutem admirantibus cui
+              irascebantur.</p>
+          </div3>
+          <div3 n="72" type="chapter">
+            <p>Par inde exultatio disparibus causis consecuta impetrato <persName ref="Personography.html#TIGE1">Tigellini</persName> exitio. <persName ref="Personography.html#TIGE1">Ofonius
+              Tigellinus</persName> obscuris parentibus, foeda pueritia, impudica senecta, praefecturam vigilum
+              et praetorii et alia praemia virtutum, quia velocius erat, vitiis adeptus,
+              crudelitatem mox, deinde avaritiam, virilia scelera, exercuit, corrupto ad omne
+              facinus <persName ref="Personography.html#NERO1">Nerone</persName>, quae- <pb ed="oct"/> dam ignaro ausus, ac postremo eiusdem desertor ac
+              proditor: unde non alium pertinacius ad poenam flagitaverunt, diverso adfectu, quibus
+              odium <persName ref="Personography.html#NERO1">Neronis</persName> inerat et quibus desiderium. apud <persName ref="Personography.html#GALB1">Galbam</persName> <persName ref="Personography.html#VINI1">Titi Vinii</persName> potentia defensus,
+              praetexentis servatam ab eo filiam. haud dubie servaverat, non clementia, quippe tot
+              interfectis, sed effugium in futurum, quia pessimus quisque diffidentia praesentium
+              mutationem pavens adversus publicum odium privatam gratiam praeparat: unde nulla
+              innocentiae cura sed vices impunitatis. eo infensior populus, addita ad vetus
+              <persName ref="Personography.html#TIGE1">Tigellini</persName> odium recenti <persName ref="Personography.html#VINI1">Titi Vinii</persName> invidia, concurrere ex tota urbe in <placeName ref="Placeography.html#PALA1">Palatium</placeName> ac
+              fora et, ubi plurima vulgi licentia, in circum ac theatra effusi seditiosis vocibus
+              strepere, donec <persName ref="Personography.html#TIGE1">Tigellinus</persName> accepto apud <placeName ref="Placeography.html#SINU1">Sinuessanas</placeName> aquas supremae necessitatis nuntio
+              inter stupra concubinarum et oscula et deformis moras sectis novacula faucibus infamem
+              vitam foedavit etiam exitu sero et inhonesto.</p>
+          </div3>
+          <div3 n="73" type="chapter">
+            <p>Per idem tempus expostulata ad supplicium <persName ref="Personography.html#CRIS3">Calvia Crispinilla</persName> variis frustrationibus
+              et adversa dissimulantis principis fama periculo exempta est. magistra libidinum
+              <persName ref="Personography.html#NERO1">Neronis</persName>, transgressa in <placeName ref="Placeography.html#AFRI1">Africam</placeName> ad instigandum in arma <persName ref="Personography.html#MACE1">Clodium Macrum</persName>, famem populo
+              Romano haud obscure molita, totius postea civitatis gratiam obtinuit, consulari
+              matrimonio subnixa et apud <persName ref="Personography.html#GALB1">Galbam</persName> <persName ref="Personography.html#OTHO1">Othonem</persName> <persName ref="Personography.html#VITE1">Vitellium</persName> inlaesa, mox potens pecunia et
+              orbitate, quae bonis malisque temporibus iuxta valent.</p>
+          </div3>
+          <div3 n="74" type="chapter">
+            <p>Crebrae interim et muliebribus blandimentis infectae ab <persName ref="Personography.html#OTHO1">Othone</persName> ad <persName ref="Personography.html#VITE1">Vitellium</persName> epistulae
+              offerebant pecuniam et gratiam et quemcumque <add>e</add> quietis locis prodigae vitae
+              legis- <pb ed="oct"/> set. paria <persName ref="Personography.html#VITE1">Vitellius</persName> ostentabat, primo mollius, stulta utrimque
+              et indecora simulatione, mox quasi rixantes stupra ac flagitia in vicem obiectavere,
+              neuter falso. <persName ref="Personography.html#OTHO1">Otho</persName>, revocatis quos <persName ref="Personography.html#GALB1">Galba</persName> miserat legatis, rursus ad utrumque
+              Germanicum exercitum et ad legionem Italicam easque quae <placeName ref="Placeography.html#LUGD2">Lugduni</placeName> agebant copias specie
+              senatus misit. legati apud <persName ref="Personography.html#VITE1">Vitellium</persName> remansere, promptius quam ut retenti viderentur;
+              praetoriani, quos per simulationem officii legatis <persName ref="Personography.html#OTHO1">Otho</persName> adiunxerat, remissi antequam
+              legionibus miscerentur. addidit epistulas <persName ref="Personography.html#VALE1">Fabius Valens</persName> nomine Germanici exercitus ad
+              praetorias et urbanas cohortis de viribus partium magnificas et concordiam offerentis;
+              increpabat ultro quod tanto ante traditum <persName ref="Personography.html#VITE1">Vitellio</persName> imperium ad <persName ref="Personography.html#OTHO1">Othonem</persName> vertissent.</p>
+          </div3>
+          <div3 n="75" type="chapter">
+            <p>Ita promissis simul ac minis temptabantur, ut bello impares, in pace nihil amissuri;
+              neque ideo praetorianorum fides mutata. sed insidiatores ab <persName ref="Personography.html#OTHO1">Othone</persName> in <placeName ref="Placeography.html#GERM1">Germaniam</placeName>, a
+              <persName ref="Personography.html#VITE1">Vitellio</persName> in <placeName ref="Placeography.html#ROMA1">urbem</placeName> missi. utrisque frustra fuit, <persName ref="Personography.html#VITE1">Vitellianis</persName> inpune, per tantam hominum
+              multitudinem mutua ignorantia fallentibus: <persName ref="Personography.html#OTHO1">Othoniani</persName> novitate vultus, omnibus in vicem
+              gnaris, prodebantur. <persName ref="Personography.html#VITE1">Vitellius</persName> litteras ad <persName ref="Personography.x ml#OTHO2">Titianum</persName> fratrem <persName ref="Personography.html#OTHO1">Othonis</persName> composuit, exitium
+              ipsi filioque eius minitans ni incolumes sibi mater ac liberi servarentur. et stetit
+              domus utraque, sub <persName ref="Personography.html#OTHO1">Othone</persName> incertum an metu: <persName ref="Personography.html#VITE1">Vitellius</persName> victor clementiae gloriam
+              tulit.</p>
+          </div3>
+          <div3 n="76" type="chapter">
+            <p>Primus <persName ref="Personography.html#OTHO1">Othoni</persName> fiduciam addidit ex <placeName ref="Placeography.html#ILLY1">Illyrico</placeName> nuntius iurasse in eum <placeName ref="Placeography.html#DALM1">Dalmatiae</placeName> ac
+              <placeName ref="Placeography.html#PANN1">Pannoniae</placeName> et <placeName ref="Placeography.html#MOES1">Moesiae</placeName> legiones. idem ex <placeName ref="Placeography.html#HISP1">Hispania</placeName> adlatum laudatusque per edictum
+              <persName ref="Personography.html#CLUV1">Cluvius Rufus</persName>: set statim cognitum est conversam ad <persName ref="Personography.html#VITE1">Vitellium</persName> <placeName ref="Placeography.html#HISP1">Hispaniam</placeName>. ne <placeName ref="Placeography.html#AQUI1">Aquitania</placeName>
+              quidem, quamquam ab <persName ref="Personography.html#CORD1">Iulio Cordo</persName> <pb ed="oct"/> in verba <persName ref="Personography.html#OTHO1">Othonis</persName> obstricta, diu mansit.
+              nusquam fides aut amor: metu ac necessitate huc illuc mutabantur. eadem formido
+              provinciam <placeName ref="Placeography.html#GALL2">Narbonensem</placeName> ad <persName ref="Personography.html#VITE1">Vitellium</persName> vertit, facili transitu ad proximos et validiores.
+              longinquae provinciae et quidquid armorum mari dirimitur penes <persName ref="Personography.html#OTHO1">Othonem</persName> manebat, non
+              partium studio, sed erat grande momentum in nomine urbis ac praetexto senatus, et
+              occupaverat animos prior auditus. Iudaicum exercitum <persName ref="Personography.html#FLAV1">Vespasianus</persName>, <placeName ref="Placeography.html#SYRI1">Syriae</placeName> legiones
+              <persName ref="Personography.html#MUCI1">Mucianus</persName> sacramento <persName ref="Personography.html#OTHO1">Othonis</persName> adegere; simul <placeName ref="Placeography.html#AEGY1">Aegyptus</placeName> omnesque versae in Orientem provinciae nomine eius tenebantur. idem <placeName ref="Placeography.html#AFRI1">Africae</placeName> obsequium, initio <placeName ref="Placeography.html#CART1">Carthagine</placeName> orto
+              neque expectata <persName ref="Personography.html#APRO1">Vipstani Aproniani</persName> proconsulis auctoritate: Crescens <persName ref="Personography.html#NERO1">Neronis</persName> libertus
+              (nam et hi malis temporibus partem se rei publicae faciunt) epulum plebi ob laetitiam
+              recentis imperii obtulerat, et populus pleraque sine modo festinavit. <placeName ref="Placeography.html#CART1">Carthaginem</placeName>
+              ceterae civitates secutae.</p>
+          </div3>
+          <div3 n="77" type="chapter">
+            <p>Sic distractis exercitibus ac provinciis <persName ref="Personography.html#VITE1">Vitellio</persName> quidem ad capessendam principatus
+              fortunam bello opus erat, <persName ref="Personography.html#OTHO1">Otho</persName> ut in multa pace munia imperii obibat, quaedam ex
+              dignitate rei publicae, pleraque contra decus ex praesenti usu properando. consul cum
+              <persName ref="Personography.html#OTHO2">Titiano</persName> fratre in kalendas Martias ipse; proximos mensis <persName ref="Personography.html#VERG1">Verginio</persName> destinat ut aliquod
+              exercitui Germanico delenimentum; iungitur <persName ref="Personography.html#VERG1">Verginio</persName> <persName ref="Personography.html#VOPI1">Pompeius Vopiscus</persName> praetexto
+              veteris amicitiae; plerique <placeName ref="Placeography.html#VIEN1">Viennensium</placeName> honori datum interpretabantur. ceteri
+                consulatus ex destinatione <persName ref="Personography.html#NERO1">Neronis</persName> aut <persName ref="Personography.html#GALB1">Galbae</persName> mansere, <persName ref="Personography.html#FLAV5">Caelio</persName> ac <persName ref="Personography.html#FLAV4">Flavio Sabinis</persName> in
+              Iulias, <persName ref="Personography.html#ANTO1">Arrio Antonino</persName> et <persName ref="Personography.html#CELS1">Mario Celso</persName> in Septembris, quorum honoribus ne <persName ref="Personography.html#VITE1">Vitellius</persName>
+              quidem victor intercessit. sed <persName ref="Personography.html#OTHO1">Otho</persName> pontificatus auguratusque honoratis iam senibus cumulum dignitatis addidit, aut recens ab exilio reversos nobilis
+              adulescentulos avitis ac paternis sacerdotiis in solacium recoluit. redditus <persName ref="Personography.html#RUFU1">Cadio
+                Rufo</persName>, <persName ref="Personography.html#BLAE2">Pedio Blaeso</persName>, †<persName ref="Personography.html#SAEV1">Saevino P </persName><gap/> senatorius locus. repetundarum criminibus sub
+              <persName ref="Personography.html#CLAU1">Claudio</persName> ac <persName ref="Personography.html#NERO1">Nerone</persName> ceciderant: placuit ignoscentibus verso nomine, quod avaritia
+              fuerat, videri maiestatem, cuius tum odio etiam bonae leges peribant.</p>
+          </div3>
+          <div3 n="78" type="chapter">
+            <p>Eadem largitione civitatum quoque ac provinciarum animos adgressus <placeName ref="Placeography.html#HISP3">Hispalensibus</placeName> et
+              <placeName ref="Placeography.html#EMER1">Emeritensibus</placeName> familiarum adiectiones, Lingonibus universis civitatem Romanam,
+              provinciae <placeName ref="Placeography.html#BAET1">Baeticae</placeName> <placeName ref="Placeography.html#MAUR1">Maurorum</placeName> civitates dono dedit; nova iura <placeName ref="Placeography.html#CAPP1">Cappadociae</placeName>, nova
+              <placeName ref="Placeography.html#AFRI1">Africae</placeName>, ostentata magis quam mansura. inter quae necessitate praesentium rerum et
+              instantibus curis excusata ne tum quidem immemor amorum statuas <persName ref="Personography.html#POPP1">Poppaeae</persName> per senatus
+              consultum reposuit; creditus est etiam de celebranda <persName ref="Personography.html#NERO1">Neronis</persName> memoria agitavisse spe
+              vulgum adliciendi. et fuere qui imagines <persName ref="Personography.html#NERO1">Neronis</persName> proponerent: atque etiam <persName ref="Personography.html#OTHO1">Othoni</persName>
+              quibusdam diebus populus et miles, tamquam nobilitatem ac decus adstruerent, Neroni Othoni adclamavit. ipse in suspenso tenuit, vetandi metu vel agnoscendi pudore.</p>
+          </div3>
+          <div3 n="79" type="chapter">
+            <p>Conversis ad civile bellum animis externa sine cura habebantur. eo audentius
+              <placeName ref="Placeography.html#RHOX1">Rhoxolani</placeName>, Sarmatica gens, priore hieme caesis duabus cohortibus, magna spe <placeName ref="Placeography.html#MOES1">Moesiam</placeName>
+              inruperant, ad novem milia equitum, ex ferocia et successu praedae magis quam pugnae
+              intenta. igitur vagos et incuriosos tertia legio adiunctis auxiliis repente invasit.
+              apud Romanos omnia proelio apta: Sarmatae dispersi aut cupidine praedae graves onere sarcinarum et lubrico itinerum adempta equorum pernicitate velut
+              vincti caedebantur. namque mirum dictu ut sit omnis Sarmatarum virtus velut extra
+              ipsos. nihil ad pedestrem pugnam tam ignavum: ubi per turmas advenere vix ulla acies
+              obstiterit. sed tum umido die et soluto gelu neque conti neque gladii, quos praelongos
+              utraque manu regunt, usui, lapsantibus equis et catafractarum pondere. id principibus
+              et nobilissimo cuique tegimen, ferreis lamminis aut praeduro corio consertum, ut
+              adversus ictus impenetrabile ita impetu hostium provolutis inhabile ad resurgendum;
+              simul altitudine et mollitia nivis hauriebantur. Romanus miles facilis lorica et
+              missili pilo aut lanceis adsultans, ubi res posceret, levi gladio inermem Sarmatam (neque enim scuto defendi mos est) comminus fodiebat, donec pauci qui proelio
+              superfuerant paludibus abderentur. ibi saevitia hiemis aut vulnerum absumpti. postquam
+              id <placeName ref="Placeography.html#ROMA1">Romae</placeName> compertum, <persName ref="Personography.html#APON1">M. Aponius</persName> <placeName ref="Placeography.html#MOES1">Moesiam</placeName> obtinens triumphali statua, <persName ref="Personography.html#AURE1">Fulvus Aurelius</persName> et
+              <persName ref="Personography.html#TETT1">Iulianus Tettius</persName> ac <persName ref="Personography.html#LUPU1">Numisius Lupus</persName>, legati legionum, consularibus ornamentis donantur,
+              laeto <persName ref="Personography.html#OTHO1">Othone</persName> et gloriam in se trahente, tamquam et ipse felix bello et suis ducibus
+              suisque exercitibus rem publicam auxisset.</p>
+          </div3>
+        </div2>
+        <div2 type="part" n="9">
+          <div3 n="80" type="chapter">
+            <p>Parvo interim initio, unde nihil timebatur, orta seditio prope urbi excidio fuit.
+              septimam decimam cohortem e <placeName ref="Placeography.html#OSTI1">colonia Ostiensi</placeName> in urbem acciri <persName ref="Personography.html#OTHO1">Otho</persName> iusserat; armandae
+              eius cura <persName ref="Personography.html#CRIS4">Vario Crispino</persName> tribuno e praetorianis data. is quo magis vacuus quietis
+              castris iussa exequeretur, vehicula cohortis incipiente nocte onerari aperto
+              armamentario iubet. tempus in suspicionem, causa in crimen, adfectatio quietis in
+              tumultum evaluit, et visa inter temulentos arma cupidinem sui movere. fremit miles et
+              tribunos centurionesque pro- <pb ed="oct"/> ditionis arguit, tamquam familiae
+              senatorum ad perniciem <persName ref="Personography.html#OTHO1">Othonis</persName> armarentur, pars ignari et vino graves, pessimus
+              quisque in occasionem praedarum, vulgus, ut mos est, cuiuscumque motus novi cupidum;
+              et obsequia meliorum nox abstulerat. resistentem seditioni tribunum et severissimos
+              centurionum obtruncant; rapta arma, nudati gladii; insidentes equis <placeName ref="Placeography.html#ROMA1">urbem</placeName> ac <placeName ref="Placeography.html#PALA1">Palatium</placeName>
+              petunt.</p>
+          </div3>
+          <div3 n="81" type="chapter">
+            <p>Erat <persName ref="Personography.html#OTHO1">Othoni</persName> celebre convivium primoribus feminis virisque; qui trepidi, fortuitusne
+              militum furor an dolus imperatoris, manere ac deprehendi an fugere et dispergi
+              periculosius foret, modo constantiam simulare, modo formidine detegi, simul <persName ref="Personography.html#OTHO1">Othonis</persName>
+              vultum intueri; utque evenit inclinatis ad suspicionem mentibus, cum timeret <persName ref="Personography.html#OTHO1">Otho</persName>,
+              timebatur. sed haud secus discrimine senatus quam suo territus et praefectos praetorii
+              ad mitigandas militum iras statim miserat et abire propere omnis e convivio iussit.
+              tum vero passim magistratus proiectis insignibus, vitata comitum et servorum
+              frequentia, senes feminaeque per tenebras diversa urbis itinera, rari domos, plurimi
+              amicorum tecta et ut cuique humillimus cliens, incertas latebras petivere.</p>
+          </div3>
+          <div3 n="82" type="chapter">
+            <p>Militum impetus ne foribus quidem <placeName ref="Placeography.html#PALA1">Palatii</placeName> coercitus quo minus convivium inrumperent,
+              ostendi sibi <persName ref="Personography.html#OTHO1">Othonem</persName> expostulantes, vulnerato <persName ref="Personography.html#MART1">Iulio Martiale</persName> tribuno et <persName ref="Personography.html#VITE3">Vitellio
+              Saturnino</persName> praefecto legionis, dum ruentibus obsistunt. undique arma et minae, modo in
+              centuriones tribunosque, modo in senatum universum, lymphatis caeco pavore animis, et
+              quia neminem unum destinare irae poterant, licentiam in omnis poscentibus, donec <persName ref="Personography.html#OTHO1">Otho</persName>
+              contra decus imperii toro insistens precibus et lacrimis aegre cohibuit, redieruntque
+              in castra inviti neque innocentes. postera die velut capta urbe clausae domus, rarus
+              per vias populus, maesta plebs; deiecti in terram militum vultus ac plus tristitiae
+              quam <pb ed="oct"/> paenitentiae. manipulatim adlocuti sunt <persName ref="Personography.html#PROC3">Licinius Proculus</persName> et
+              <persName ref="Personography.html#FIRM1">Plotius Firmus</persName> praefecti, ex suo quisque ingenio mitius aut horridius. finis sermonis
+              in eo ut quina milia nummum singulis militibus numerarentur: tum <persName ref="Personography.html#OTHO1">Otho</persName> ingredi castra
+              ausus. atque illum tribuni centurionesque circumsistunt, abiectis militiae insignibus
+              otium et salutem flagitantes. sensit invidiam miles et compositus in obsequium
+              auctores seditionis ad supplicium ultro postulabat.</p>
+          </div3>
+          <div3 n="83" type="chapter">
+            <p><persName ref="Personography.html#OTHO1">Otho</persName>, quamquam turbidis rebus et diversis militum animis, cum optimus quisque
+              remedium praesentis licentiae posceret, vulgus et plures seditionibus et ambitioso
+              imperio laeti per turbas et raptus facilius ad civile bellum impellerentur, simul
+              reputans non posse principatum scelere quaesitum subita modestia et prisca gravitate
+              retineri, sed discrimine urbis et periculo senatus anxius, postremo ita disseruit:
+              'neque ut adfectus vestros in amorem mei accenderem, commilitones, neque ut animum ad
+              virtutem cohortarer (utraque enim egregie supersunt), sed veni postulaturus a vobis
+              temperamentum vestrae fortitudinis et erga me modum caritatis. tumultus proximi
+              initium non cupiditate vel odio, quae multos exercitus in discordiam egere, ac ne
+              detrectatione quidem aut formidine periculorum: nimia pietas vestra acrius quam
+              considerate excitavit; nam saepe honestas rerum causas, ni iudicium adhibeas,
+              perniciosi exitus consequuntur. imus ad bellum. num omnis nuntios palam audiri, omnia
+              consilia cunctis praesentibus tractari ratio rerum aut occasionum velocitas patitur?
+              tam nescire quaedam milites quam scire oportet: ita se ducum auctoritas, sic rigor
+              disciplinae habet, ut multa etiam centuriones tribunosque <pb ed="oct"/> tantum iuberi
+              expediat. si cur iubeantur quaerere singulis liceat, pereunte obsequio etiam imperium
+              intercidit. an et illic nocte intempesta rapientur arma? unus alterve perditus ac
+              temulentus (neque enim pluris consternatione proxima insanisse crediderim) centurionis
+              ac tribuni sanguine manus imbuet, imperatoris sui tentorium inrumpet?'</p>
+          </div3>
+          <div3 n="84" type="chapter">
+            <p>'Vos quidem istud pro me: sed in discursu ac tenebris et rerum omnium confusione
+              patefieri occasio etiam adversus me potest. si <persName ref="Personography.html#VITE1">Vitellio</persName> et satellitibus eius eligendi
+              facultas detur, quem nobis animum, quas mentis imprecentur, quid aliud quam seditionem
+              et discordiam optabunt? ne miles centurioni, ne centurio tribuno obsequatur, ut
+              confusi pedites equitesque in exitium ruamus. parendo potius, commilitones, quam
+              imperia ducum sciscitando res militares continentur, et fortissimus in ipso discrimine
+              exercitus est qui ante discrimen quietissimus. vobis arma et animus sit: mihi
+              consilium et virtutis vestrae regimen relinquite. paucorum culpa fuit, duorum poena
+              erit: ceteri abolete memoriam foedissimae noctis. nec illas adversus senatum voces
+              ullus usquam exercitus audiat. caput imperii et decora omnium provinciarum ad poenam
+              vocare non hercule illi, quos cum maxime <persName ref="Personography.html#VITE1">Vitellius</persName> in nos ciet, Germani audeant.
+              ulline <placeName ref="Placeography.html#ITAL1">Italiae</placeName> alumni et Romana vere iuventus ad sanguinem et caedem depoposcerit
+              ordinem, cuius splendore et gloria sordis et obscuritatem <persName ref="Personography.html#VITE1">Vitellianarum</persName> partium
+              praestringimus? nationes aliquas occupavit <persName ref="Personography.html#VITE1">Vitellius</persName>, imaginem quandam exercitus
+              habet, senatus nobiscum est: sic fit ut hinc res publica, inde hostes rei publicae
+              constiterint. quid? vos pulcherrimam hanc urbem domibus et tectis et
+              congestu lapidum stare creditis? muta ista et inanima intercidere ac reparari promisca
+              sunt: aeternitas rerum et pax gentium et mea cum vestra salus incolumitate senatus
+              firmatur. hunc auspicato a parente et conditore urbis nostrae institutum et a regibus
+              usque ad principes continuum et immortalem, sicut a maioribus accepimus, sic posteris
+              tradamus; nam ut ex vobis senatores, ita ex senatoribus principes nascuntur.'</p>
+          </div3>
+          <div3 n="85" type="chapter">
+            <p>Et oratio ad perstringendos mulcendosque militum animos et severitatis modus (neque
+              enim in pluris quam in duos animadverti iusserat) grate accepta compositique ad
+              praesens qui coerceri non poterant. non tamen quies urbi redierat: strepitus telorum
+              et facies belli, <del status="unremarkable">et</del> militibus ut nihil in commune
+              turbantibus, ita sparsis per domos occulto habitu, et maligna cura in omnis, quos
+              nobilitas aut opes aut aliqua insignis claritudo rumoribus obiecerat: Vitellianos
+              quoque milites venisse in urbem ad studia partium noscenda plerique credebant: unde
+              plena omnia suspicionum et vix secreta domuum sine formidine. sed plurimum
+              trepidationis in publico, ut quemque nuntium fama attulisset, animum vultumque
+              conversis, ne diffidere dubiis ac parum gaudere prosperis viderentur. coacto vero in
+              curiam senatu arduus rerum omnium modus, ne contumax silentium, ne suspecta libertas;
+              et privato <persName ref="Personography.html#OTHO1">Othoni</persName> nuper atque eadem dicenti nota adulatio. igitur versare sententias
+              et huc atque illuc torquere, hostem et parricidam <persName ref="Personography.html#VITE1">Vitellium</persName> vocantes, providen- <pb
+                ed="oct"/> tissimus quisque vulgaribus conviciis, quidam vera probra iacere, in
+              clamore tamen et ubi plurimae voces, aut tumultu verborum sibi ipsi obstrepentes.</p>
+          </div3>
+          <div3 n="86" type="chapter">
+            <p>Prodigia insuper terrebant diversis auctoribus vulgata: in vestibulo <placeName ref="Placeography.html#CAPI1">Capitolii</placeName>
+              omissas habenas bigae, cui Victoria institerat, erupisse <placeName ref="Placeography.html#IUNO1">cella Iunonis</placeName> maiorem humana
+              speciem, statuam <persName ref="Personography.html#CAES1">divi Iulii</persName> in <placeName ref="Placeography.html#INSU1">insula Tiberini amnis</placeName> sereno et immoto die ab occidente
+              in orientem conversam, prolocutum in <placeName ref="Placeography.html#ETRU1">Etruria</placeName> bovem, insolitos animalium partus, et
+              plura alia rudibus saeculis etiam in pace observata, quae nunc tantum in metu
+              audiuntur. sed praecipuus et cum praesenti exitio etiam futuri pavor subita
+              inundatione <placeName ref="Placeography.html#TIBE2">Tiberis</placeName>, qui immenso auctu proruto ponte sublicio ac strage obstantis
+              molis refusus, non modo iacentia et plana urbis loca, sed secura eius modi casuum
+              implevit: rapti e publico plerique, plures in tabernis et cubilibus intercepti. fames
+              in vulgus inopia quaestus et penuria alimentorum. corrupta stagnantibus aquis
+              insularum fundamenta, dein remeante flumine dilapsa. utque primum vacuus a periculo
+              animus fuit, id ipsum quod paranti expeditionem <persName ref="Personography.html#OTHO1">Othoni</persName> <placeName ref="Placeography.html#CAMP2">campus Martius</placeName> et <placeName ref="Placeography.html#FLAM1">via Flaminia</placeName>
+              iter belli esset obstructum, a fortuitis vel naturalibus causis in prodigium et omen
+              imminentium cladium vertebatur.</p>
+          </div3>
+          <div3 n="87" type="chapter">
+            <p><persName ref="Personography.html#OTHO1">Otho</persName> lustrata urbe et expensis bello consiliis, quando <placeName ref="Placeography.html#POEN1">Poeninae</placeName> <placeName ref="Placeography.html#ALPE2">Cottiaeque Alpes</placeName> et
+              ceteri <placeName ref="Placeography.html#GALL1">Galliarum</placeName> aditus <persName ref="Personography.html#VITE1">Vitellianis</persName> exercitibus claudebantur, <placeName ref="Placeography.html#GALL2">Narbonensem Galliam</placeName>
+              adgredi statuit classe valida et partibus fida, quod reliquos caesorum ad <placeName ref="Placeography.html#MULV1">pontem
+                Mulvium</placeName> et saevitia <persName ref="Personography.html#GALB1">Galbae</persName> in custodia <pb ed="oct"/> habitos in numeros legionis
+              composuerat, facta et ceteris spe honoratae in posterum militiae. addidit classi
+              urbanas cohortis et plerosque e praetorianis, viris et robur exercitus atque ipsis
+              ducibus consilium et custodes. summa expeditionis <persName ref="Personography.html#NOVE1">Antonio Novello</persName>, <persName ref="Personography.html#CLEM1">Suedio Clementi</persName>
+              primipilaribus, <persName ref="Personography.html#PACE1">Aemilio Pacensi</persName>, cui ademptum a <persName ref="Personography.html#GALB1">Galba</persName> tribunatum reddiderat, permissa.
+              curam navium <persName ref="Personography.html#MOSC1">Moschus</persName> libertus retinebat ad observandam honestiorum fidem immutatus.
+              peditum equitumque copiis <persName ref="Personography.html#PAUL1">Suetonius Paulinus</persName>, <persName ref="Personography.html#CELS1">Marius Celsus</persName>, <persName ref="Personography.html#GALL1">Annius Gallus</persName> rectores
+              destinati, sed plurima fides <persName ref="Personography.html#PROC1">Licinio Proculo</persName> praetorii praefecto. is urbanae militiae
+              impiger, bellorum insolens, auctoritatem <persName ref="Personography.html#PAUL1">Paulini</persName>, vigorem <persName ref="Personography.html#CELS1">Celsi</persName>, maturitatem <persName ref="Personography.html#GALL1">Galli</persName>, ut
+              cuique erat, criminando, quod facillimum factu est, pravus et callidus bonos et
+              modestos anteibat. </p>
+          </div3>
+          <div3 n="88" type="chapter">
+            <p>Sepositus per eos dies <persName ref="Personography.html#DOLA1">Cornelius Dolabella</persName> in <placeName ref="Placeography.html#AQUI2">coloniam Aquinatem</placeName>, neque arta custodia 
+              neque obscura, nullum ob crimen, sed vetusto nomine et propinquitate <persName ref="Personography.html#GALB1">Galbae</persName>
+              monstratus. multos e magistratibus, magnam consularium partem <persName ref="Personography.html#OTHO1">Otho</persName> non participes aut
+              ministros bello, sed comitum specie secum expedire iubet, in quis et <persName ref="Personography.html#VITE4">Lucium Vitellium</persName>,
+              eodem quo ceteros cultu, nec ut imperatoris fratrem nec ut hostis. igitur motae urbis
+              curae; nullus ordo metu aut periculo vacuus. primores senatus aetate invalidi et longa
+              pace desides, segnis et oblita bellorum nobilitas, ignarus militiae eques, quanto
+              magis occultare et abdere pavorem nitebantur, manifestius pavidi. nec deerant e
+              contrario qui ambitione stolida conspicua arma, insignis equos, quidam luxuriosos
+              apparatus conviviorum et inritamenta libidinum ut instrumen- <pb ed="oct"/> tum belli
+              mercarentur. sapientibus quietis et rei publicae cura; levissimus quisque et futuri
+              improvidus spe vana tumens; multi adflicta fide in pace anxii, turbatis rebus alacres
+              et per incerta tutissimi.</p>
+          </div3>
+          <div3 n="89" type="chapter">
+            <p>Sed vulgus et magnitudine nimia communium curarum expers populus sentire paulatim
+              belli mala, conversa in militum usum omni pecunia, intentis alimentorum pretiis, quae
+              motu <persName ref="Personography.html#VIND1">Vindicis</persName> haud perinde plebem attriverant, secura tum urbe et provinciali bello,
+              quod inter legiones <placeName ref="Placeography.html#GALL1">Galliasque</placeName> velut externum fuit. nam ex quo <persName ref="Personography.html#AUGU1">divus Augustus</persName> res
+              Caesarum composuit, procul et in unius sollicitudinem aut decus populus Romanus
+              bellaverat; sub <persName ref="Personography.html#TIBE1">Tiberio</persName> et <persName ref="Personography.html#CALI1">Gaio</persName> tantum pacis adversa <add>ad</add> rem publicam
+              pertinuere; <persName ref="Personography.html#SCRI2">Scriboniani</persName> contra <persName ref="Personography.html#CLAU1">Claudium</persName> incepta simul audita et coercita; <persName ref="Personography.html#NERO1">Nero</persName> nuntiis
+              magis et rumoribus quam armis depulsus: tum legiones classesque et, quod raro alias,
+              praetorianus urbanusque miles in aciem deducti, Oriens Occidensque et quicquid
+              utrimque virium est a tergo, si ducibus aliis bellatum foret, longo bello materia.
+              fuere qui proficiscenti <persName ref="Personography.html#OTHO1">Othoni</persName> moras religionemque nondum conditorum ancilium
+              adferrent: aspernatus est omnem cunctationem ut Neroni quoque exitiosam; et <persName ref="Personography.html#CAEC1">Caecina</persName>
+              iam <placeName ref="Placeography.html#ALPE1">Alpes</placeName> transgressus extimulabat.</p>
+          </div3>
+          <div3 n="90" type="chapter">
+            <p>Pridie idus Martias commendata patribus re publica reliquias Neronianarum sectionum
+              nondum in fiscum conversas revocatis ab exilio concessit, iustissimum donum et in
+              speciem magnificum, sed festinata iam pridem exactione usu <pb ed="oct"/> sterile. mox
+              vocata contione maiestatem <placeName ref="Placeography.html#ROMA1">urbis</placeName> et consensum populi ac senatus pro se attollens,
+              adversum Vitellianas partis modeste disseruit, inscitiam potius legionum quam audaciam
+              increpans, nulla <persName ref="Personography.html#VITE1">Vitellii</persName> mentione, sive ipsius ea moderatio, seu scriptor orationis
+              sibi metuens contumeliis in <persName ref="Personography.html#VITE1">Vitellium</persName> abstinuit, quando, ut in consiliis militiae
+              <persName ref="Personography.html#PAUL1">Suetonio Paulino</persName> et <persName ref="Personography.html#CELS1">Mario Celso</persName>, ita in rebus urbanis <persName ref="Personography.html#TRAC1">Galeri Trachali</persName> ingenio <persName ref="Personography.html#OTHO1">Othonem</persName>
+              uti credebatur; et erant qui genus ipsum orandi noscerent, crebro fori usu celebre et
+              ad implendas populi auris latum et sonans. clamor vocesque vulgi ex more adulandi
+              nimiae et falsae: quasi dictatorem <persName ref="Personography.html#CAES1">Caesarem</persName> aut imperatorem <persName ref="Personography.html#AUGU1">Augustum</persName> prosequerentur,
+              ita studiis votisque certabant, nec metu aut amore, sed ex libidine servitii: ut in
+              familiis, privata cuique stimulatio, et vile iam decus publicum. profectus <persName ref="Personography.html#OTHO1">Otho</persName>
+              quietem urbis curasque imperii <persName ref="Personography.html#OTHO2">Salvio Titiano</persName> fratri permisit. </p>
+          </div3>
+        </div2>
+      </div1>
+    </body>
+  </text>
+</TEI>

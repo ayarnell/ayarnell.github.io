@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Tacitus Placeography</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="persName" render="#bold"/>
+               <tagUsage gi="placeName" render="#bold"/>
+               <tagUsage gi="lem" render="#bold"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>The following is a list of places mentioned in Book 1 of the <bibl>Histories</bibl>.
+            Coordinates are centralized representative points calculated by <ref
+               target="https://pleiades.stoa.org/">Pleiades</ref></p>
+         <listPlace xmlns:tei="http://www.tei-c.org/ns/1.0">
+            <place xml:id="ROMA1">
+               <placeName type="city">Roma</placeName>
+               <figure>
+                  <head>Rome on Google Maps</head>
+                  <figDesc>Map showing the location of Rome with modern terrain and place namesin
+                     Google maps</figDesc>
+                  <graphic url="images/ROMA1.JPG"/>
+               </figure>
+               <location>
+                  <geo>41.891775, 12.486137</geo>
+               </location>
+               <note type="mentions">
+                  <list>
+                     <item>First mention: 1.1</item>
+                     <item>Total mentions in Book 1: 12</item>
+                  </list></note>
+               <note type="resources">
+                  <list>
+                     <item><ref target="https://pleiades.stoa.org/places/423025"
+                        >Pleiades</ref></item>
+                     <item><ref target="https://en.wikipedia.org/wiki/Rome">Wikipedia</ref></item>
+                     <item><ref                           target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DR%3Aentry+group%3D4%3Aentry%3Droma-geo"
+                           >Smith's Geography on Perseus</ref></item>
+                  </list>
+               </note>
+            </place>
+            <place xml:id="ACTI1">
+               <placeName>Actium</placeName>
+               <location>
+                  <geo>38.923568, 20.749775</geo>
+               </location>
+               <note>Chapter: 1</note>
+            </place>
+            <place xml:id="ILLY1">
+               <placeName>Illyricum</placeName>
+               <location>
+                  <geo>42.4272918, 17.9650280333</geo>
+               </location>
+               <note>Chapter: 2</note>
+            </place>
+            <place xml:id="GALL1">
+               <placeName>Galliae</placeName>
+               <location>
+                  <geo>45.57717715, 2.49095881905</geo>
+               </location>
+               <note>Chapter: 2</note>
+            </place>
+            <place xml:id="BRIT1">
+               <placeName>Britannia</placeName>
+               <location>
+                  <geo>53.826, -2.422</geo>
+               </location>
+               <note>Chapter: 2</note>
+            </place>
+            <place xml:id="ITAL1">
+               <placeName>Italia</placeName>
+               <location>
+                  <geo>42.5, 12.5</geo>
+               </location>
+               <note>Chapter: 2</note>
+            </place>
+            <place xml:id="CAMP1">
+               <placeName>Campania</placeName>
+               <location>
+                  <geo>41.25, 14.25</geo>
+               </location>
+               <note>Chapter: 2</note>
+            </place>
+            <place xml:id="CAPI1">
+               <placeName>Capitolium</placeName>
+               <location>
+                  <geo>41.875, 12.375</geo>
+               </location>
+               <note>Chapter: 2</note>
+            </place>
+            <place xml:id="CASP1">
+               <placeName>claustra Caspiarum</placeName>
+               <note>Chapter: 6</note>
+            </place>
+            <place>
+               <placeName xml:id="GERM1">Germania</placeName>
+               <location>
+                  <geo>52.5, 7.5</geo>
+               </location>
+               <note>Chapter: 7</note>
+            </place>
+            <place xml:id="GERM2">
+               <placeName>Germania Inferior</placeName>
+               <location>
+                  <geo>51.6054836, 5.795502625</geo>
+               </location>
+               <note>Chapter: 9</note>
+            </place>
+            <place xml:id="SYRI1">
+               <placeName>Syria</placeName>
+               <location>
+                  <geo>37.5, 37.5</geo>
+               </location>
+               <note>Chapter: 10</note>
+            </place>
+            <place xml:id="ASIA1">
+               <placeName>Asiae</placeName>
+               <location>
+                  <geo>37.5, 27.5</geo>
+               </location>
+               <note>Chapter: 10</note>
+            </place>
+            <place xml:id="AEGY1">
+               <placeName>Aegyptus</placeName>
+               <location>
+                  <geo/>
+               </location>
+               <note>Chapter: 11</note>
+            </place>
+            <place xml:id="AFRI1">
+               <placeName>Africa</placeName>
+               <location>
+                  <geo>32.5, 7.5</geo>
+               </location>
+               <note>Chapter: 11</note>
+            </place>
+            <place xml:id="MAUR1">
+               <placeName>duae Mauretania</placeName>
+               <note>Chapter: 11</note>
+            </place>
+            <place xml:id="RAET1">
+               <placeName>Raetia</placeName>
+               <note>Chapter: 11</note>
+            </place>
+            <place xml:id="NORI1">
+               <placeName>Noricum</placeName>
+               <note>Chapter: 11</note>
+            </place>
+            <place xml:id="THRA1">
+               <placeName>Thraecia</placeName>
+               <note>Chapter: 11</note>
+            </place>
+            <place xml:id="BELG1">
+               <placeName>Belgica</placeName>
+               <note>Chapter: 12</note>
+            </place>
+            <place xml:id="GERM3">
+               <placeName>superioris Germaniae</placeName>
+               <note>Chapter: 12</note>
+            </place>
+            <place xml:id="LUSI1">
+               <placeName>Lusitaniam</placeName>
+               <note>Chapter: 13</note>
+            </place>
+            <place xml:id="PALA1">
+               <placeName>Palatium</placeName>
+               <note>Chapter: 17</note>
+            </place>
+            <place xml:id="HISP1">
+               <placeName>Hispania</placeName>
+               <note>Chapter: 22</note>
+            </place>
+            <place xml:id="ACHA1">
+               <placeName>Achaiae</placeName>
+               <note>Chapter: 23</note>
+            </place>
+            <place xml:id="PYRE1">
+               <placeName>Pyrenaeum</placeName>
+               <note>Chapter: 23</note>
+            </place>
+            <place xml:id="ALPE1">
+               <placeName>Alpes</placeName>
+               <note>Chapter: 23</note>
+            </place>
+            <place xml:id="AEDE1">
+               <placeName>aede Apollinis</placeName>
+               <note>Chapter: 27</note>
+            </place>
+            <place xml:id="DOMU1">
+               <placeName>Tiberianam domum</placeName>
+               <note>Chapter: 27</note>
+            </place>
+            <place xml:id="VELA1">
+               <placeName>Velabrum</placeName>
+               <note>Chapter: 27</note>
+            </place>
+            <place xml:id="MILI1">
+               <placeName>miliarium aureum</placeName>
+               <note>Chapter: 27</note>
+            </place>
+            <place xml:id="AEDE2">
+               <placeName>aedem Saturni</placeName>
+               <note>Chapter: 27</note>
+            </place>
+            <place xml:id="PORT1">
+               <placeName>Vipsania in porticu</placeName>
+               <note>Chapter: 31</note>
+            </place>
+            <place xml:id="ALEX1">
+               <placeName>Alexandriam</placeName>
+               <note>Chapter: 31</note>
+            </place>
+            <place xml:id="LACU1">
+               <placeName>Curtii lacum</placeName>
+               <note>Chapter: 41</note>
+            </place>
+            <place xml:id="AEDE3">
+               <placeName>aedem divi Iulii</placeName>
+               <note>Chapter: 42</note>
+            </place>
+            <place xml:id="AEDE4">
+               <placeName>aedem Vestae</placeName>
+               <note>Chapter: 43</note>
+            </place>
+            <place xml:id="HISP2">
+               <placeName>citeriorem Hispaniam</placeName>
+               <note>Chapter: 49</note>
+            </place>
+            <place xml:id="PHAR1">
+               <placeName>Pharsaliam</placeName>
+               <note>Chapter: 50</note>
+            </place>
+            <place xml:id="PHIL1">
+               <placeName>Philippos</placeName>
+               <note>Chapter: 50</note>
+            </place>
+            <place xml:id="PERU1">
+               <placeName>Perusiam</placeName>
+               <note>Chapter: 50</note>
+            </place>
+            <place xml:id="MUTI1">
+               <placeName>Mutinam</placeName>
+               <note>Chapter: 50</note>
+            </place>
+            <place xml:id="RHEN1">
+               <placeName>Rhenum</placeName>
+               <note>Chapter: 51</note>
+            </place>
+            <place xml:id="LUGD1">
+               <placeName>Lugdunensis colonia</placeName>
+               <note>Chapter: 51</note>
+            </place>
+            <place xml:id="BAET1">
+               <placeName>Baetica</placeName>
+               <note>Chapter: 53</note>
+            </place>
+            <place xml:id="LING1">
+               <placeName>Lingonum</placeName>
+               <note>Chapter: 54</note>
+            </place>
+            <place xml:id="COLO1">
+               <placeName>coloniam Agrippinensem</placeName>
+               <note>Chapter: 56</note>
+            </place>
+            <place xml:id="GALL3">
+               <placeName>Lugdunensis Galliae</placeName>
+               <note>Chapter: 59</note>
+            </place>
+            <place xml:id="ALPE2">
+               <placeName>Cottianis Alpibus</placeName>
+               <note>Chapter: 61</note>
+            </place>
+            <place xml:id="POEN1">
+               <placeName>Poeninis iugis</placeName>
+               <note>Chapter: 61</note>
+            </place>
+            <place xml:id="DIVO1">
+               <placeName>Divoduri</placeName>
+               <note>Chapter: 63</note>
+            </place>
+            <place xml:id="LEUC1">
+               <placeName>civitate Leucorum</placeName>
+               <note>Chapter: 64</note>
+            </place>
+            <place xml:id="LUGD2">
+               <placeName>Lugduni</placeName>
+               <note>64</note>
+            </place>
+            <place xml:id="VIEN1">
+               <placeName>Viennensis</placeName>
+               <note>Chapter: 65</note>
+            </place>
+            <place xml:id="LUCO1">
+               <placeName>Luco</placeName>
+               <note>Chapter: 66</note>
+            </place>
+            <place xml:id="VOCE1">
+               <placeName>montem Vocetium</placeName>
+               <note>Chapter: 68</note>
+            </place>
+            <place xml:id="AVEN1">
+               <placeName>Aventicum</placeName>
+               <note>Chapter: 68</note>
+            </place>
+            <place xml:id="PADU1">
+               <placeName>Padum</placeName>
+               <note>Chapter: 70</note>
+            </place>
+            <place xml:id="TRAN1">
+               <placeName>transpadanae regionis</placeName>
+               <note>Chapter: 70</note>
+            </place>
+            <place xml:id="MEDI1">
+               <placeName>Mediolanum</placeName>
+               <note>Chapter: 70</note>
+            </place>
+            <place xml:id="NOVA1">
+               <placeName>Novariam</placeName>
+               <note>Chapter: 70</note>
+            </place>
+            <place xml:id="EPOR1">
+               <placeName>Eporediam</placeName>
+               <note>Chapter: 70</note>
+            </place>
+            <place xml:id="VERC1">
+               <placeName>Vercellas</placeName>
+               <note>Chapter: 70</note>
+            </place>
+            <place xml:id="SINU1">
+               <placeName>Sinuessanas</placeName>
+               <note>Chapter: 72</note>
+            </place>
+            <place xml:id="DALM1">
+               <placeName>Dalmatiae</placeName>
+               <note>Chapter: 76</note>
+            </place>
+            <place xml:id="PANN1">
+               <placeName>Pannoniae</placeName>
+               <note>Chapter: 76</note>
+            </place>
+            <place xml:id="MOES1">
+               <placeName>Moesiae</placeName>
+               <note>Chapter: 76</note>
+            </place>
+            <place xml:id="AQUI1">
+               <placeName>Aquitania</placeName>
+               <note>Chapter: 76</note>
+            </place>
+            <place xml:id="GALL2">
+               <placeName>Narbonensem</placeName>
+               <note>Chapter: 76</note>
+            </place>
+            <place xml:id="HISP3">
+               <placeName>Hispalensibus</placeName>
+               <note>Chapter: 78</note>
+            </place>
+            <place xml:id="EMER1">
+               <placeName>Emeritensibus</placeName>
+               <note>Chapter: 78</note>
+            </place>
+            <place xml:id="CAPP1">
+               <placeName>Cappadociae</placeName>
+               <note>Chapter: 78</note>
+            </place>
+            <place xml:id="RHOX1">
+               <placeName>Rhoxolani</placeName>
+               <note>Chapter: 79</note>
+            </place>
+            <place xml:id="OSTI1">
+               <placeName>Ostiensi</placeName>
+               <note>Chapter: 80</note>
+            </place>
+            <place xml:id="IUNO1">
+               <placeName>cella Iunonis</placeName>
+               <note>Chapter: 86</note>
+            </place>
+            <place xml:id="INSU1">
+               <placeName>insula Tiberini amnis</placeName>
+               <note>Chapter: 86</note>
+            </place>
+            <place xml:id="ETRU1">
+               <placeName>Etruria</placeName>
+               <note>Chapter: 86</note>
+            </place>
+            <place xml:id="TIBE2">
+               <placeName>Tiberis</placeName>
+               <note>Chapter: 86</note>
+            </place>
+            <place xml:id="CAMP2">
+               <placeName>campus Martius</placeName>
+               <note>Chapter: 86</note>
+            </place>
+            <place xml:id="FLAM1">
+               <placeName>via Flaminia</placeName>
+               <note>Chapter: 86</note>
+            </place>
+            <place xml:id="MULV1">
+               <placeName>pontem Mulvium</placeName>
+               <note>Chapter: 87</note>
+            </place>
+            <place xml:id="AQUI2">
+               <placeName>coloniam Aquinatem</placeName>
+               <note>Chapter: 88</note>
+            </place>
+         </listPlace>
+      </body>
+   </text>
+</TEI>
